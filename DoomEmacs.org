@@ -61,18 +61,22 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =C= copy to another window
 - =R= move to another window
 - =dired-do-what-i-mean-target= set to true
-- =i= to edit file/dir name
+- =i= to edit file/dir name, Esc, Z Z to save the modification, Z Q to discard. bd
 * Buffers, Windows and Basic Navigation
 ** Buffers
-- Buffers are a special concept in emacs they can be terminals, files,
-  directories, etc
-- =SPC b b= to open another buffer
+- Buffers are a special concept in emacs they can be terminals, files, directories, etc
+- =SPC b b= to open/switch another buffer
   - workspace buffer
 - =SPC b B= you can see all the buffer
 - =SPC ,= to switch buffers (its an alias)
 - =SPC SHIFT ,= to switch to all buffers
+- =SPC b n/]= next buffer
+- =SPC b p/[= previous buffer
 - =SPC b X= You can create a scratch buffer
 - =SPC b s= to save and name it
+- =SPC b S= to save all buffers
+- =SPC b d/k= to kill the current buffer
+- =SPC b K= to kill all buffers
 ** Windows
 - =SPC w v= window split vertically
 - =SPC w s= window split horizontally
