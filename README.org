@@ -1,7 +1,19 @@
 * Useful Cheatsheets
 
-** Doom Emacs
+Cheatsheets for development, writing, etc.
 
-** Emacs vs Vi
+** [[DoomEmacs.org][Doom Emacs]]
+
+** [[Emacs-vs-Vi.org][Emacs vs Vi]]
+
+** [[][VS Code]]
+
+** [[][PyCharm]]
+
+** [[][CodeLite]]
+
+** [[][Windows]]
+
+** [[][Mac]]
 
 ** Links
