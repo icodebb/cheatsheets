@@ -1,5 +1,7 @@
 #+TITLE: The Ultimate Doom Emacs Cheatsheet
 
+Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-Emacs-Cheat-Sheet]], with my additional keys.
+
 * A few tips for Emacs newbies
 - Use [[https://www.emacswiki.org/emacs/EmacsClient][EmacsClient]] and set up a daemon. Your Emacs experience will improve *a lot* and you will save a lot of time.
 - For better experience, use Emacs's inner file manager.
