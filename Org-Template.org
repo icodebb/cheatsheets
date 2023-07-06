@@ -1,0 +1,83 @@
+#+title: Org Template
+#+options: H:4
+
+* Format
+- /ITALICISED TEXT/
+- *bold text*
+- _underlines text_
+- =literal text=
+- ~code (generally appears the same as literal text)~
+
+* List
+** Ordered
+1. First element
+2. Second element
+   1. Child 1
+   2. Child 2
+** Unordered
+- Level 2-1
+  + child 2-1
+  + Child 2-2
+- Level 2-2
+
+* code
+#+BEGIN_EXAMPLE
+This is the EXAMPLE.
+Done.
+#+END_EXAMPLE
+
+#+BEGIN_QUOTE
+QUOTE block.
+#+END_QUOTE
+
+#+BEGIN_CENTER
+I'm CENTER.
+OK.
+#+END_CENTER
+
+** Shell
+#+BEGIN_SRC sh
+#!/bin/sh
+echo "Hello"
+#+END_SRC
+
+** C
+#+BEGIN_SRC c
+#include <stdio.h>
+
+int main() {}
+#+END_SRC
+** Go
+** Python
+
+* Image
+#+CAPTION: This is the caption.
+#+NAME: doom-emacs.png
+[[images/doom-emacs.png]]
+
+* Table
+| Name  | Phone | Age |
+|-------+-------+-----|
+| Peter |  1234 |  17 |
+| Anna  |  4321 |  25 |
+
+* Plot
+#+PLOT: title:"Citas" ind:1 deps:(3) type:2d with:histograms set:"yrange [0:]"
+| Sede      | Max cites | H-index |
+|-----------+-----------+---------|
+| Chile     |    257.72 |   21.39 |
+| Leeds     |    165.77 |   19.68 |
+| Sao Paolo |     71.00 |   11.50 |
+| Stockholm |    134.19 |   14.33 |
+| Morelia   |    257.56 |   17.67 |
+
+#+PLOT: title:"An evaluation of plaintext document formats" transpose:yes type:radar min:0 max:4
+| Format            | Fine-grained-control | Initial Effort | Syntax simplicity | Editor Support | Integrations | Ease-of-referencing | Versatility |
+|-------------------+----------------------+----------------+-------------------+----------------+--------------+---------------------+-------------|
+| Word              |                    2 |              4 |                 4 |              2 |            3 |                   2 |           2 |
+| LaTeX             |                    4 |              1 |                 1 |              3 |            2 |                   4 |           3 |
+| Org Mode          |                    4 |              2 |               3.5 |              1 |            4 |                   4 |           4 |
+| Markdown          |                    1 |              3 |                 3 |              4 |            3 |                   3 |           1 |
+| Markdown + Pandoc |                  2.5 |            2.5 |               2.5 |              3 |            3 |                   3 |           2 |
+
+* Links

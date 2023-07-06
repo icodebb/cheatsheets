@@ -1,8 +1,8 @@
-#+TITLE Useful Cheatsheets
-
+#+title: Useful Cheatsheets
 Cheatsheets for development, writing, etc.
 
 * [[DoomEmacs.org][Doom Emacs]]
+- [[Org-Template.org][Org Template]]
 
 * [[Emacs-vs-Vi.org][Emacs vs Vi]]
 
