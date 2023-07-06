@@ -8,10 +8,10 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - Get [[https://emacs-lsp.github.io/lsp-mode/][LSP]] up and running. It will turn Emacs into a fully-featured modern IDE. Emacs supports LSP for almost every language.
 - Try to avoid terminal version of Emacs when possible.
 - Use Doom Emacs's built-in helps to understand how things work under the hood and change them to suit your needs.
-  - =SPC h k= tells you how key combinations translate to Emacs commands.
-  - =SPC h w= helps you find keyboard shortcuts for different commands.
-  - =SPC h v= lets you see what's inside variables and change them.
-  - =SPC h f= tells you about functions and where they are defined.
+  + =SPC h k= tells you how key combinations translate to Emacs commands.
+  + =SPC h w= helps you find keyboard shortcuts for different commands.
+  + =SPC h v= lets you see what's inside variables and change them.
+  + =SPC h f= tells you about functions and where they are defined.
 - Github doesn't render org files very well. It's best that you clone this repository and open it in Emacs.
 - See other files in this repository as well. Currently additional instructions for Go, and Python are also offered. If there's anything missing, or you can suggest a better workflow, make sure to contribute.
 
