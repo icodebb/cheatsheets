@@ -1,6 +1,6 @@
 #+TITLE: The Ultimate Doom Emacs Cheatsheet
 
-Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-Emacs-Cheat-Sheet]], with my additional keys.
+Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-Emacs-Cheat-Sheet]], with my additional content.
 
 * A few tips for Emacs newbies
 - Use [[https://www.emacswiki.org/emacs/EmacsClient][EmacsClient]] and set up a daemon. Your Emacs experience will improve *a lot* and you will save a lot of time.
@@ -14,17 +14,23 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
   - =SPC h f= tells you about functions and where they are defined.
 - Github doesn't render org files very well. It's best that you clone this repository and open it in Emacs.
 - See other files in this repository as well. Currently additional instructions for Go, and Python are also offered. If there's anything missing, or you can suggest a better workflow, make sure to contribute.
+
 * Command Abbreviations
+
 - =C= - "Control" key
 - =M= - "Alt" or "Option" key
 - =S= - "Super" or "Command" key
 - =SPC= - "Space" key
+
 * General
+
 - =SPC f s= for saving the current file
 - =SPC := for entering a command
 - =SPC q q= to close Emacs
 - =SPC f D= to delete this file
+
 * Projects with Projectile
+
 - =SPC p p= to open a project
 - =SPC SPC= to open a file in a project
 - =SPC o p= to open the file explorer
@@ -326,13 +332,17 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 - =z k= Previous folded region.
 
 * Sources
+
 ** Documentation
 - [[https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial/#org7ad2452][This org file is mostly from the notes taken from the series above by ianjones.us]]
 - [[https://github.com/doomemacs/doomemacs][Doom Emacs Documentation]]
 - [[https://www.youtube.com/watch?v=s0ed8Da3mjE][Three Huge Mistakes New Emacs Users Make]] (they are included in the tips in the beginning of the file)
+- [[http://www.pirilampo.org/org-mode/syntax/index.html][Org mode syntax example]]
+
 ** YouTube
 - [[https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10][Link:w to the youtube video series]]
 - [[https://www.youtube.com/watch?v=e9Ucb1JHUfQ][Emacs: Org mode basics]]
+
 * What to learn [0/3]
 - [ ] LSP
 - [ ] [[https://www.orgroam.com][Org Roam]]
