@@ -1,19 +1,19 @@
-* Useful Cheatsheets
+#+TITLE Useful Cheatsheets
 
 Cheatsheets for development, writing, etc.
 
-** [[DoomEmacs.org][Doom Emacs]]
+* [[DoomEmacs.org][Doom Emacs]]
 
-** [[Emacs-vs-Vi.org][Emacs vs Vi]]
+* [[Emacs-vs-Vi.org][Emacs vs Vi]]
 
-** [[VS-Code.org][VS Code]]
+* [[VS-Code.org][VS Code]]
 
-** [[PyCharm.org][PyCharm]]
+* [[PyCharm.org][PyCharm]]
 
-** [[CodeLite.org][CodeLite]]
+* [[CodeLite.org][CodeLite]]
 
-** [[Windoes.org][Windows]]
+* [[Windoes.org][Windows]]
 
-** [[Mac.org][Mac]]
+* [[Mac.org][Mac]]
 
-** Links
+* Links

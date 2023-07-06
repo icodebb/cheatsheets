@@ -16,21 +16,18 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - See other files in this repository as well. Currently additional instructions for Go, and Python are also offered. If there's anything missing, or you can suggest a better workflow, make sure to contribute.
 
 * Command Abbreviations
-
 - =C= - "Control" key
 - =M= - "Alt" or "Option" key
 - =S= - "Super" or "Command" key
 - =SPC= - "Space" key
 
 * General
-
 - =SPC f s= for saving the current file
 - =SPC := for entering a command
 - =SPC q q= to close Emacs
 - =SPC f D= to delete this file
 
 * Projects with Projectile
-
 - =SPC p p= to open a project
 - =SPC SPC= to open a file in a project
 - =SPC o p= to open the file explorer
@@ -43,6 +40,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =M-x projectile-discover-projects-in-search-path= to find projects in
   the folder defined by the =projectile-project-search-path= variable
   using Projectile
+
 * Dired
 - Dired (Directory Editor) is how you interfaces with a directory
 - Press =C-x d= to open dired.
@@ -68,6 +66,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =R= move to another window
 - =dired-do-what-i-mean-target= set to true
 - =i= to edit file/dir name, Esc, Z Z to save the modification, Z Q to discard. bd
+
 * Buffers, Windows and Basic Navigation
 ** Buffers
 - Buffers are a special concept in emacs they can be terminals, files, directories, etc
@@ -83,6 +82,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC b S= to save all buffers
 - =SPC b d/k= to kill the current buffer
 - =SPC b K= to kill all buffers
+
 ** Windows
 - =SPC w v= window split vertically
 - =SPC w s= window split horizontally
@@ -92,15 +92,21 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC w >= and =SPC w <= to increase and decrease window width
 - You can use vim motion keys to navigate between open windows for example =SPC w H= moves the window to the left.
 - Windows are panes in your screen
+
 ** Workspaces
+- =SPC TAB TAB= Display tab bar
 - =SPC TAB n= New workspace
-- =SPC TAB N= Newly named workspace
+- =SPC TAB N= New named workspace
 - =SPC TAB [= Previous workspace
 - =SPC TAB ]= Next workspace
 - =SPC TAB d= Remove workspace
 - =SPC TAB R= Restore last session
+- =SPC TAB .= Switch to workspace (display list)
+- =SPC TAB {n}= Switch to workspace {n}
 - =M-1= Switch to workspace 1
 - =M-2= Switch to workspace 2 and so forth.
+- =SPC TAB s= Save workspace to  a file.
+- =SPC TAB l= Load workspace from a file.
 * Installing Packages using org-super-agenda as an example
 - =SPC f p= to open the config.
 - To add a package, add the package to =.doom.d/package.el=
@@ -276,6 +282,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
   - then provide a short description
   - =CTRL c CTRL c= to finish the pull request
 - Now there will be a =pull requests= tab
+
 * LSP-Mode
 ** LSP related
 - =lsp-update-server= select a language server to update.
@@ -297,13 +304,16 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC c x= see all LSP diagnostics
 - =lsp-ui-imenu= to navigate definitions in your code
 - =flycheck-list-errors= to see the errors detected by LSP.
+
 * Terminal
 - Set up vterm in your init.el file.
 - =SPC o T= for opening vterm
 - =SPC o t= for opening vterm in a popup window
+
 * File Tree
 - Set up neotree or treemacs in your init.el file.
 - =SPC o p= for opening neotree or treemacs
+
 * Others
 - =C-c C-z= to insert a note for a heading in org mode.
 :LOGBOOK:
@@ -311,20 +321,21 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
   Like this!
 :END:
 - =C-c C-c= to insert a tag for a heading in org mode.
+
 * Capturing
 - =SPC X= to capture (the new thing gets captured to a single file but that's fine since we can easily refile it.)
 - =SPC m r r= to refile
+
 * Org Roam
 These keybindings only work after installing org-roam. To install org-roam edit your =init.el= file and add =(org +roam2)= in its designated place. Watch [[https://www.youtube.com/watch?v=AyhPmypHDEw][this video]] to understand what org-roam is.
-
 - =SPC n r f= Find an existing node or create a new one.
 - =SPC n r i= Insert a link to another node.
 - =SPC n r r= Toggle backlinks pane 
 - =SPC m m o t= Add a roam tag.
 - =SPC m m o a= Add a roam alias.
+
 * Code Folding
 Code folding helps with code readability. First, make sure =fold= is not commented in your =init.el= file then move your cursor to the definition of a class or a function and try the following:
-
 - =z a= Toggle the fold at point.
 - =z m= Close all the folds.
 - =z r= Open all the folds.
@@ -332,7 +343,6 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 - =z k= Previous folded region.
 
 * Sources
-
 ** Documentation
 - [[https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial/#org7ad2452][This org file is mostly from the notes taken from the series above by ianjones.us]]
 - [[https://github.com/doomemacs/doomemacs][Doom Emacs Documentation]]
@@ -346,7 +356,6 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 - [[https://www.youtube.com/watch?v=e9Ucb1JHUfQ][Emacs: Org mode basics]]
 
 ** Tools
-
 - [[https://pandoc.org/MANUAL.html][Pandoc a universal document converter]]
 
 * What to learn [0/3]
