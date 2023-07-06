@@ -32,8 +32,17 @@ QUOTE block.
 
 #+BEGIN_CENTER
 I'm CENTER.
-OK.
+OK. It didn't work in GitHub.
 #+END_CENTER
+
+#+BEGIN_COMMENT
+I'm a comment.
+No more.
+#+END_COMMENT
+
+#+BEGIN_VERSE
+What does VERSE mean?
+#+END_VERSE
 
 ** Shell
 #+BEGIN_SRC sh
@@ -47,8 +56,37 @@ echo "Hello"
 
 int main() {}
 #+END_SRC
+
 ** Go
+#+BEGIN_SRC golang
+package main
+
+import (
+    "fmt"
+)
+
+func main() {
+    fmt.Println("Hello")
+}
+#+BEGIN_SRC
+
+#+BEGIN_SRC  python
+package main
+
 ** Python
+#+BEGIN_SRC  python
+import json
+
+def is_json_good():
+    return false
+#+BEGIN_SRC
+
+** JSON
+#+BEGIN_SRC  python
+{
+    "Name": "Ice"
+}
+#+BEGIN_SRC
 
 * Image
 #+CAPTION: This is the caption.
