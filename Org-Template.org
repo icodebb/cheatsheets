@@ -68,10 +68,7 @@ import (
 func main() {
     fmt.Println("Hello")
 }
-#+BEGIN_SRC
-
-#+BEGIN_SRC  python
-package main
+#+END_SRC
 
 ** Python
 #+BEGIN_SRC  python
