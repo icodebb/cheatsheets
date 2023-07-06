@@ -6,14 +6,14 @@ Cheatsheets for development, writing, etc.
 
 ** [[Emacs-vs-Vi.org][Emacs vs Vi]]
 
-** [[][VS Code]]
+** [[VS-Code.org][VS Code]]
 
-** [[][PyCharm]]
+** [[PyCharm.org][PyCharm]]
 
-** [[][CodeLite]]
+** [[CodeLite.org][CodeLite]]
 
-** [[][Windows]]
+** [[Windoes.org][Windows]]
 
-** [[][Mac]]
+** [[Mac.org][Mac]]
 
 ** Links
