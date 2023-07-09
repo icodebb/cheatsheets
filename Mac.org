@@ -1,1 +1,14 @@
-#+title: Mac
+#+title: Mac Cheatsheet
+
+* Commands
+- brew
+  + =brew list= to list all the installed packages
+  + =brew deps --tree --installed= to list all installed packages and their dependencies in a tree format
+  + =brew outdated= to list outdated packages
+  + =brew upgrade= to upgrade all outdated packages
+  + =brew install colordiff= to install colordiff package
+  + =brew update= to upgrade brew and cask
+
+* Links
+- [[https://devhints.io/homebrew][Homebrew Cheatsheet]]
+- [[https://dev.to/andremare/homebrew---basics--cheatsheet-3a3n][Homebrew - Basics Commands and Cheatsheet]]
