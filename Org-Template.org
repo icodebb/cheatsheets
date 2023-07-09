@@ -88,6 +88,8 @@ def is_json_good():
 * Image
 #+CAPTION: This is the caption.
 #+NAME: doom-emacs.png
+#+ATTR_ORG: :width 200
+#+ATTR_HTML: width="100px"
 [[images/doom-emacs.png]]
 
 * Table
