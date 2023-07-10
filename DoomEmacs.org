@@ -167,6 +167,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - You can =TAB= a section to fold a subtree (hide it)
 - You can use =SHIFT TAB= to cycle through folded states
 - =CTRL return= to create a headline of the same type
+- =M return= to create a headline at same level
 - =M-arrow up= lets you shift the position of the section
 - =M-h= promotes a headline to the next level
 - =M-l= demotes
