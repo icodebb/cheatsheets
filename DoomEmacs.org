@@ -170,12 +170,12 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =M-arrow up= lets you shift the position of the section
 - =M-h= promotes a headline to the next level
 - =M-l= demotes
+- =M-left/right= to promote or demote a headline
 - You can create lists
   1. one
   2. 2
   3. wooo
   4. 3
-
 ** Links, Hyperlinks and more
 - =SPC m l= to add a link to an org page
 - You can add =::= to specify a heading or a line number
@@ -304,7 +304,8 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC c x= see all LSP diagnostics
 - =lsp-ui-imenu= to navigate definitions in your code
 - =flycheck-list-errors= to see the errors detected by LSP.
-
+* Spell
+-
 * Terminal
 - Set up vterm in your init.el file.
 - =SPC o T= for opening vterm

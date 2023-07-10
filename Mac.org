@@ -1,5 +1,9 @@
 #+title: Mac Cheatsheet
 
+* Setup
+- Spell check
+  + Aspell, install it with brew
+  + Hunspell, need to fix the dictionay problem [[https://stackoverflow.com/questions/8931580/hunspell-cant-open-affix-or-dictionary-files-for-dictionary-named-en-us][Hunspell - Can't open affix or dictionary files for dictionary named en_US]]
 * Commands
 - brew
   + =brew list= to list all the installed packages
@@ -8,6 +12,10 @@
   + =brew upgrade= to upgrade all outdated packages
   + =brew install colordiff= to install colordiff package
   + =brew update= to upgrade brew and cask
+
+* Terminal
+- Tabs
+  - =Home-Shift {/}= move to left/right tab
 
 * Links
 - [[https://devhints.io/homebrew][Homebrew Cheatsheet]]
