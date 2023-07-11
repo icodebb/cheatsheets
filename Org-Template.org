@@ -85,6 +85,12 @@ def is_json_good():
 }
 #+END_SRC
 
+** Code
+~(set q variable value)~
+
+** Verbatim
+=init.el=, =Equal symbol ==, etc.
+
 * Image
 # The size attribute does not work.
 #+CAPTION: This is the caption.
