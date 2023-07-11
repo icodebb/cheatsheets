@@ -254,7 +254,20 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - [X] Task 2
 - You can do this by adding [/] to the heading and pressing =C-c C-c=
 - You can't assign a tag or a priority
-
+** Pretty Bullets
+- [[https://mpas.github.io/posts/2020/10/16/20201016-org-bullets-doom-emacs/][Get pretty org-bullets in Doom Emacs]]
+- ~/.doom.d/init.el
+  #+BEGIN_SRC lisp
+  :lang
+  (org +pretty ) ; organize your plain life in plain text
+  #+END_SRC
+- ~/.doom.d/config.el
+  #+BEGIN_SRC list
+  (setq
+      org-superstar-headline-bullets-list '("⁖" "◉" "○" "✸" "✿")
+  )
+  #+END_SRC
+- [[https://www.nerdfonts.com/font-downloads][Nerd Fonts Download]]
 * Magit
 - Magit is enabled by default in Doom Emacs's init.el
 - =SPC g g= shows Magit status page
