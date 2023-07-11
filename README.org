@@ -11,7 +11,7 @@ Cheatsheets for development, writing, etc.
 * [[PyCharm.org][PyCharm]]
 
 * [[CodeLite.org][CodeLite]]
-
+- [[https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts][107 Shortcuts for CodeLite 10]]
 * [[Windoes.org][Windows]]
 
 * [[Mac.org][Mac]]
