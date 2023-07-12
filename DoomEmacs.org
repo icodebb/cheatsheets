@@ -166,6 +166,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 
 * Org Mode
 ** Basics
+- =M-x hl-line-mode= highlight current line on/off
 - Org mode gives you structure to your document
 - =*= for a h1 =**= for an h2 and so on
 - You can =TAB= a section to fold a subtree (hide it)
