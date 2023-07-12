@@ -1,1 +1,16 @@
 #+title: Emacs Vs Vi
+Convention
+- =Alt= : =M-=
+- =Ctrl= : =C-=
+- =Shift= : =S-=
+- =Home= : =H-=
+- =Space= : =SPC=
+- =ESC= : =ESC=
+- =Enter= : =RET=
+
+* Shortcuts
+| Category |  Command              | Emacs                 | Vi           |
+|----------+-----------------------+-----------------------+--------------|
+| Edit     |                       |                       |              |
+|          | Insert Unicode Char   | M-x insert-char       |              |
+|          | | | |
