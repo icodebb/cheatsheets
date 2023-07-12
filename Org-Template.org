@@ -67,7 +67,7 @@ int main() {}
 #+END_SRC
 
 ** Go
-#+BEGIN_SRC golang
+#+BEGIN_SRC go
 package main
 
 import (
