@@ -78,5 +78,5 @@
 ;; Get pretty org-bullets in Doom Emacs
 (setq
 	;; org-superstar-headline-bullets-list '("⁖" "◉" "○" "✸" "✿")
-        org-superstar-headline-bullets-list '("💀" "🔔" "🌿" "🥯" "🦴")
+        org-superstar-headline-bullets-list '("💀" "🌿" "🥚" "🥯" "🦴")
 )
