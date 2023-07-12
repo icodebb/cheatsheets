@@ -17,3 +17,4 @@ Cheatsheets for development, writing, etc.
 * [[Mac.org][Mac]]
 
 * Links
+- [[https://shortcutworld.com/Shortcuts][Shortcut World]]
