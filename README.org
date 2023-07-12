@@ -1,20 +1,39 @@
 #+title: Useful Cheatsheets
 Cheatsheets for development, writing, etc.
 
-* [[DoomEmacs.org][Doom Emacs]]
-- [[Org-Template.org][Org Template]]
+* Doom Emacs
+- [[DoomEmacs.org][My Doom Emacs]]
+- [[Org-Template.org][My Org Template]]
 
-* [[Emacs-vs-Vi.org][Emacs vs Vi]]
+* Emacs & Vi
+- [[Emacs-vs-Vi.org][My Emacs vs Vi]]
+- [[https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts][59 Shortcuts for Emacs 23.2.1]]
 
-* [[VS-Code.org][VS Code]]
+* VS Code
+- [[VS-Code.org][My VS Code Shortcuts]]
+- [[https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts][123 Shortcuts for Visual Studio Code]]
 
-* [[PyCharm.org][PyCharm]]
+* PyCharm
+- [[PyCharm.org][My PyCharm]]
+- [[https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts][120 Shortcuts for JetBrains PyCharm]]
 
-* [[CodeLite.org][CodeLite]]
+* CodeLite
+- [[CodeLite.org][My CodeLite]]
 - [[https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts][107 Shortcuts for CodeLite 10]]
-* [[Windoes.org][Windows]]
 
-* [[Mac.org][Mac]]
+* Tmux
+- [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]
+
+* Linux
+** Mint
+- [[https://shortcutworld.com/Linux-Mint][82 Shortcuts for Linux Mint]]
+- [[https://shortcutworld.com/Bash][59 Shortcuts for Bash]]
+
+* Windows
+- [[Windoes.org][My Windows]]
+
+* Mac
+- [[Mac.org][My Mac]]
 
 * Links
 - [[https://shortcutworld.com/Shortcuts][Shortcut World]]
