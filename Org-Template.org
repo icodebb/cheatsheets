@@ -2,7 +2,7 @@
 #+options: H:4
 
 * Format
-- /ITALICISED TEXT/
+- /ITALICIZED TEXT/
 - *bold text*
 - _underlines text_
 - =literal text=
