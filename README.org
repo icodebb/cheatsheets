@@ -2,12 +2,12 @@
 Cheatsheets for development, writing, etc.
 
 * Doom Emacs
-- [[DoomEmacs.org][My Doom Emacs]]
+- [[DoomEmacs.org][My Doom Emacs Shortcuts]]
 - [[Org-Template.org][My Org Template]]
 - [[https://orgmode.org/manual/Structure-Editing.html][Structure Edition]] - from orgmode.org.
 
 * Emacs & Vi
-- [[Emacs-vs-Vi.org][My Emacs vs Vi]]
+- [[Emacs-vs-Vi.org][My Emacs vs Vi Shortcuts]]
 - [[https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts][59 Shortcuts for Emacs 23.2.1]]
 
 * VS Code
@@ -15,12 +15,15 @@ Cheatsheets for development, writing, etc.
 - [[https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts][123 Shortcuts for Visual Studio Code]]
 
 * PyCharm
-- [[PyCharm.org][My PyCharm]]
+- [[PyCharm.org][My PyCharm Shortcuts]]
 - [[https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts][120 Shortcuts for JetBrains PyCharm]]
 
 * CodeLite
-- [[CodeLite.org][My CodeLite]]
+- [[CodeLite.org][My CodeLite Shortcuts]]
 - [[https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts][107 Shortcuts for CodeLite 10]]
+
+* Chrome
+- [[Chrome.org][My Chrome Shortbuts]]
 
 * Tmux
 - [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]
@@ -31,10 +34,10 @@ Cheatsheets for development, writing, etc.
 - [[https://shortcutworld.com/Bash][59 Shortcuts for Bash]]
 
 * Windows
-- [[Windoes.org][My Windows]]
+- [[Windoes.org][My Windows Shortcuts]]
 
 * Mac
-- [[Mac.org][My Mac]]
+- [[Mac.org][My Mac Shortcuts]]
 
 * Links
-- [[https://shortcutworld.com/Shortcuts][Shortcut World]]
+- [[https://shortcutworld.com/Shortcuts][Shortcuts World]]
