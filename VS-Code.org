@@ -1,1 +1,19 @@
 #+title: Vs Code
+
+* Extensions
+- Auto Rename Tag
+- Bookmarks
+- Code Spell Checker
+- Colorize
+- GitHi
+- GitLens
+- indent-rainbow
+- Go
+- Markdown All in One
+- Peacock
+- Prettier
+- Tabnine - AI code helper
+- TODO Highlight
+- vscode-icons
+- 
+- [[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]

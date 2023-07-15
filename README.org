@@ -38,6 +38,6 @@ Cheatsheets for development, writing, etc.
 
 * Mac
 - [[Mac.org][My Mac Shortcuts]]
-
+- [[https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac][Keyboard shortcuts in Terminal on Mac]]
 * Links
 - [[https://shortcutworld.com/Shortcuts][Shortcuts World]]
