@@ -1,1 +1,12 @@
 #+title: Windows
+
+* Utilities
+- [[https://learn.microsoft.com/en-us/sysinternals/downloads/][Sysinternals Utilities Index]]
+  + =Process Explorer= Find out what files, registry keys and other objects processes have open, which DLLs they have loaded, and more.
+    This uniquely powerful utility will even show you who owns each process.
+  + =Process Monitor= Monitor file system, Registry, process, thread and DLL activity in real-time.
+  + =PsInfo= Obtain information about a system.
+  + =Strings= Search for ANSI and UNICODE strings in binary images.
+  + =TCPView= Active socket viewer.
+  + =Whois= See who owns an Internet address.
+  + =Zoomit= Presentation utility for zooming and drawing on the screen.
