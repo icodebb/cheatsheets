@@ -99,6 +99,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC TAB TAB= Display tab bar
 - =SPC TAB n= New workspace
 - =SPC TAB N= New named workspace
+- =SPC TAB r= Rename workspace
 - =SPC TAB [= Previous workspace
 - =SPC TAB ]= Next workspace
 - =SPC TAB d= Remove workspace
