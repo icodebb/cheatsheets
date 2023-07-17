@@ -28,6 +28,8 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC f D= to delete this file
 
 * Projects with Projectile
+- =SPC p a= to add a new project
+- =SPC p d= to delete a project from the list
 - =SPC p p= to open a project
 - =SPC SPC= to open a file in a project
 - =SPC o p= to open the file explorer
