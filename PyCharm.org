@@ -1,1 +1,4 @@
-#+title: Py Charm
+#+title: PyCharm
+
+* Spelling
++ =Alt-Enter= Save word to dictionary.
