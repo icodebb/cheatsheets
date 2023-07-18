@@ -1,19 +1,36 @@
 #+title: Vs Code
 
+* Shortcuts
+- =Ctrl-Shift-p= Run command, e.g. =Preference: Open User Settings(JSON)=.
+
 * Extensions
-- Auto Rename Tag
-- Bookmarks
-- Code Spell Checker
-- Colorize
-- GitHi
-- GitLens
-- indent-rainbow
-- Go
-- Markdown All in One
-- Peacock
-- Prettier
-- Tabnine - AI code helper
-- TODO Highlight
-- vscode-icons
-- 
-- [[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]
+- =Auto Rename Tag= Useful for HTML.
+- =Auto Close Tag= Useful for HTML, but maybe be disabled since sometimes I don't want it.
+- =Bookmarks= Useful.
+- =Code Spell Checker=
+- =Colorize= Useful for CSS.
+- =GitHi= What is this?
+- =Git History Diff=
+- =GitLens=
+- =indent-rainbow=
+- =Go=
+- =Markdown All in One=
+- =Markdown Preview GitHub Styling=
+- =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
+- =Prettier=
+- =Tabnine= : AI code helper
+- =TODO= Highlight, I chose =Todo Tree=.
+- =vscode-icons=
+- =Todo Tree= Highlight the TODO items and more.
+- =Org Mode=
+- =org-checkbox= Adds coloring for bullets.
+
+[[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]
+
+* Terminal
+- [[https://code.visualstudio.com/docs/terminal/appearance][Terminal Appearance]] - Set font, set Git Bash, etc.
+
+* Themes
+- Color Theme: =Ayu Mirage Bordered=
+- Icon Theme: =Material Icon Theme=
+- Product Theme: =Fluent Icons=
