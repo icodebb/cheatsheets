@@ -6,16 +6,21 @@
 * Extensions
 - =Auto Rename Tag= Useful for HTML.
 - =Auto Close Tag= Useful for HTML, but maybe be disabled since sometimes I don't want it.
+- =Awesome Emacs Keymap=
+- =Ayu=
 - =Bookmarks= Useful.
 - =Code Spell Checker=
 - =Colorize= Useful for CSS.
-- =GitHi= What is this?
+- =Fluent icons=
+- =Git Graph=
+- =Git History=
 - =Git History Diff=
 - =GitLens=
-- =indent-rainbow=
+- =indent-rainbow= I like it, realized indent is important for me.
 - =Go=
 - =Markdown All in One=
 - =Markdown Preview GitHub Styling=
+- =markdownlint=
 - =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
 - =Prettier=
 - =Tabnine= : AI code helper
