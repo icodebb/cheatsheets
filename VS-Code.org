@@ -1,4 +1,4 @@
-#+title: Vs Code
+#+title: VS Code
 
 * Shortcuts
 - =Ctrl-Shift-p= Run command, e.g. =Preference: Open User Settings(JSON)=.
@@ -6,27 +6,31 @@
 * Extensions
 - =Auto Rename Tag= Useful for HTML.
 - =Auto Close Tag= Useful for HTML, but maybe be disabled since sometimes I don't want it.
-- =Awesome Emacs Keymap=
-- =Ayu=
-- =Bookmarks= Useful.
+- =Awesome Emacs Keymap= Love it.
+- =Ayu= My current theme, Ayu Mirage Bordered.
+- =Bookmarks= Useful for work, convenience.
 - =Code Spell Checker=
 - =Colorize= Useful for CSS.
-- =Fluent icons=
+- =Fluent icons= Sometime you want some difference.
 - =Git Graph=
 - =Git History=
 - =Git History Diff=
 - =GitLens=
-- =indent-rainbow= I like it, realized indent is important for me.
+- =indent-rainbow= I love it! Realized indent is important for me.
+- =Indent one space= =Space= to indent, =Shift+Space= to decrease indent, great!
+- =Indenticator= Visually highlights the current indent depth.
 - =Go=
 - =Markdown All in One=
 - =Markdown Preview GitHub Styling=
 - =markdownlint=
+- =Material Icons Theme= Current one.
 - =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
 - =Prettier=
-- =Tabnine= : AI code helper
-- =TODO= Highlight, I chose =Todo Tree=.
-- =vscode-icons=
-- =Todo Tree= Highlight the TODO items and more.
+- =Python Indent= It's important to Python code.
+- =Tabnine= : AI code helper, but I don't want to sign in.
+- =Todo Tree= Highlight with customized setings.
+- =Todo+= Custom symbols. Toggle with =Todo: cmd=, didn't work for me.
+- =vscode-icons= Prefer Material Icons Theme.
 - =Org Mode=
 - =org-checkbox= Adds coloring for bullets.
 
