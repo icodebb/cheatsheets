@@ -6,33 +6,42 @@
 * Extensions
 - =Auto Rename Tag= Useful for HTML.
 - =Auto Close Tag= Useful for HTML, but maybe be disabled since sometimes I don't want it.
-- =Awesome Emacs Keymap= Love it.
-- =Ayu= My current theme, Ayu Mirage Bordered.
-- =Bookmarks= Useful for work, convenience.
-- =Code Spell Checker=
-- =Colorize= Useful for CSS.
-- =Fluent icons= Sometime you want some difference.
-- =Git Graph=
-- =Git History=
-- =Git History Diff=
-- =GitLens=
-- =indent-rainbow= I love it! Realized indent is important for me.
-- =Indent one space= =Space= to indent, =Shift+Space= to decrease indent, great!
-- =Indenticator= Visually highlights the current indent depth.
-- =Go=
-- =Markdown All in One=
-- =Markdown Preview GitHub Styling=
-- =markdownlint=
-- =Material Icons Theme= Current one.
-- =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
-- =Prettier=
-- =Python Indent= It's important to Python code.
-- =Tabnine= : AI code helper, but I don't want to sign in.
-- =Todo Tree= Highlight with customized setings.
-- =Todo+= Custom symbols. Toggle with =Todo: cmd=, didn't work for me.
-- =vscode-icons= Prefer Material Icons Theme.
-- =Org Mode=
-- =org-checkbox= Adds coloring for bullets.
+- Keymaps
+  - =Awesome Emacs Keymap= Love it.
+- Themes
+  - =Ayu= My current theme, Ayu Mirage Bordered.
+  - =Material Icons Theme= Current one.
+  - =Fluent icons= Sometime you want some difference.
+  - =vscode-icons= Prefer Material Icons Theme.
+  - =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
+- Git
+  + =Git=
+  + =Git Graph=
+  + =Git History=
+  + =Git History Diff=
+  + =GitLens=
+- Indent
+  - =indent-rainbow= I love it! Realized indent is important for me.
+  - =Indent one space= =Space= to indent, =Shift+Space= to decrease indent, great!
+  - =Indenticator= Visually highlights the current indent depth.
+- Markdown
+  - =Markdown All in One=
+  - =Markdown Preview GitHub Styling=
+  - =markdownlint=
+- Programming
+  - =Prettier=
+  - =Go=
+  - =Python Indent= It's important to Python code.
+  - =Tabnine= AI code helper, but I don't want to sign in.
+  - =IntelliCode=
+  - =Code Spell Checker=
+  - =Colorize= Useful for CSS.
+- Productivity
+  - =Bookmarks= Useful for work, convenience.
+  - =Todo Tree= Highlight with customized setings.
+  - =Todo+= Custom symbols. Toggle with =Todo: cmd=, didn't work for me.
+  - =Org Mode=
+  - =org-checkbox= Adds coloring for bullets.
 
 [[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]
 
@@ -41,5 +50,5 @@
 
 * Themes
 - Color Theme: =Ayu Mirage Bordered=
-- Icon Theme: =Material Icon Theme=
+- Icon Theme: =VSCode Icons=
 - Product Theme: =Fluent Icons=
