@@ -1,7 +1,10 @@
 #+title: VS Code
 
 * Shortcuts
-- =Ctrl-Shift-p= Run command, e.g. =Preference: Open User Settings(JSON)=.
+- General
+  - =Ctrl-Shift-p= Run command, e.g. =Preference: Open User Settings(JSON)=.
+- Awesome Emacs
+  - ==
 
 * Extensions
 - =Auto Rename Tag= Useful for HTML.
