@@ -30,6 +30,7 @@
 + =Shit TAB=: Move the selected block to left.
 + =Ctrl+Shift+U=: Toggle upper/lower case.
 + =Ctrl+Shift+j=: Join line, get next line append to th end of current line.
++ =Alt+D= =Alt+Backspace=: Delete forward/backward in Emacs mode.
 
 * Git
 + =Alt+`=: VCS operations popup
@@ -41,7 +42,7 @@
 + =Alt+->=: Move to right tab.
 + =Alt+<-=: Move to left tab.
 + =Ctrl+E=: Go to recent file.
-+ =Ctrl+Shift+N=: Go to file.
++ =Ctrl+Shift+N=: Go to file, =Ctrl+x Ctrl+f= with Emacs keymap.
 
 * Python
 It was 3.8 previously, I updated it to 3.10.
@@ -59,3 +60,9 @@ It was 3.8 previously, I updated it to 3.10.
 + Tools
   - Key Promoter X
   - String Manipulation
+
+* Pros & Cons
++ Pros
+  - Tab can be collapsed/expanded.
++ Cons
+  - HTML code format doesn't work well, i.e. on the indent.
