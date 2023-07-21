@@ -1,5 +1,6 @@
 #+title: Emacs Vs Vi
-Convention
+
+* Convention
 - =Alt= : =M-=
 - =Ctrl= : =C-=
 - =Shift= : =S-=
@@ -13,4 +14,5 @@ Convention
 |----------+-----------------------+-----------------------+--------------|
 | Edit     |                       |                       |              |
 |          | Insert Unicode Char   | M-x insert-char       |              |
-|          | | | |
+|          | Undo                  | C-x u                 | u            |
+|          | Switch case           | M-u M-l M-c           | ~            |

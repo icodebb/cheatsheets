@@ -16,16 +16,32 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - See other files in this repository as well. Currently additional instructions for Go, and Python are also offered. If there's anything missing, or you can suggest a better workflow, make sure to contribute.
 
 * Command Abbreviations
-- =C= - "Control" key
-- =M= - "Alt" or "Option" key
-- =S= - "Super" or "Command" key
-- =SPC= - "Space" key
+- =C= "Control" key
+- =M= "Alt" or "Option" key
+- =S= "Super" or "Command" key
+- =SPC= "Space" key
 
 * General
 - =SPC f s= for saving the current file
 - =SPC := for entering a command
 - =SPC q q= to close Emacs
 - =SPC f D= to delete this file
+
+* Motion
+- =g g= move to beginning of the document
+- =C-f= move forward/page down
+- =C-b= move backward/page up
+- =Shift-g= move to the end of the document
+- =C-c C-n/p= move the next/previous heading
+
+* Edit
+- =C-RET= insert new heading after subtree(does not work as expected)
+- =M-x org-insert-heading= insert headline at current line
+- =M-RET= append new heading/item at current level
+- =C-c -= change the current level items type between =-, +, 1, 1), a, A, a), A)=.
+- =C-c *= change the item into headline(same level)
+- =C-x u= undo in Emacs way, one step, Vim does a lot, cannot live with it.
+- =M-x evil-redo= redo, since Vim undo too much
 
 * Projects with Projectile
 - =SPC p a= to add a new project
@@ -67,44 +83,44 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =C= copy to another window
 - =R= move to another window
 - =dired-do-what-i-mean-target= set to true
-- =i= to edit file/dir name, Esc, Z Z to save the modification, Z Q to discard. bd
+- =i= to edit file/dir name, =Esc Z Z= to save the modification, =Esc Z Q= to discard.
 
 * Buffers, Windows and Basic Navigation
-** Buffers
-- Buffers are a special concept in emacs they can be terminals, files, directories, etc
+** Buffers and Files
+Buffers are a special concept in emacs they can be terminals, files, directories, etc.
 - =SPC b b= to open/switch another buffer
   - workspace buffer
-- =SPC b B= you can see all the buffer
-- =SPC ,= to switch buffers (its an alias)
+- =SPC b B= list all the buffer
+- =SPC ,= to switch buffers (it's an alias)
 - =SPC SHIFT ,= to switch to all buffers
 - =SPC b n/]= next buffer
 - =SPC b p/[= previous buffer
-- =SPC b X= You can create a scratch buffer
-- =SPC b s= to save and name it
+- =SPC b X= You can create a scratch buffer.
+- =SPC SPC= or =SPC f f= Open a file from project.
+- =SPC .= Create of find a file.
+- =SPC b s= to save and name the buffer
 - =SPC b S= to save all buffers
 - =SPC b d/k= to kill the current buffer
 - =SPC b K= to kill all buffers
-
 ** Windows
+Windows are panes in your screen
 - =SPC w v= window split vertically
 - =SPC w s= window split horizontally
 - =SPC w w= to switch windows
-- =SPC w q= to close window, frame, quit EMACS if last frame
+- =SPC w q= to close window, frame, quit EMACS if it's the last frame
 - =SPC w += and =SPC w -= to increase and decrease window height
 - =SPC w >= and =SPC w <= to increase and decrease window width
 - You can use vim motion keys to navigate between open windows for example =SPC w H= moves the window to the left.
-- Windows are panes in your screen
-
 ** Workspaces
-- =SPC TAB TAB= Display tab bar
-- =SPC TAB n= New workspace
-- =SPC TAB N= New named workspace
-- =SPC TAB r= Rename workspace
-- =SPC TAB [= Previous workspace
-- =SPC TAB ]= Next workspace
-- =SPC TAB d= Remove workspace
-- =SPC TAB R= Restore last session
-- =SPC TAB .= Switch to workspace (display list)
+- =SPC TAB TAB= display tab bar
+- =SPC TAB n= new workspace
+- =SPC TAB N= new named workspace
+- =SPC TAB r= rename current workspace
+- =SPC TAB [= previous workspace
+- =SPC TAB ]= next workspace
+- =SPC TAB d= remove workspace
+- =SPC TAB R= restore last session
+- =SPC TAB .= switch to workspace (display list)
 - =SPC TAB {n}= Switch to workspace {n}
 - =M-1= Switch to workspace 1
 - =M-2= Switch to workspace 2 and so forth.
@@ -186,6 +202,9 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
   3. wooo
   4. 3
 ** Links, Hyperlinks and more
+- =C-x C-o= open a link, same to RET while cursor in on the link
+- =SPC m l t= =M-x org-toggle-link-display= to show the link as plain text
+- =M-x font-lock-mode= switch to normal text mode and decorated form, sometimes rich mode messed up
 - =SPC m l= to add a link to an org page
 - You can add =::= to specify a heading or a line number
 - You can paste http links as well
@@ -224,11 +243,9 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =SPC o a t= to open the agenda -> todo list
 - =q= to quit
 - =org-agenda-files= is a variable you can set to filter which files agenda searches for todos in.
-
 *** Priorities for Tasks
 - =SHIFT up= and =SHIFT down= will toggle the priority of tasks
 - =org-fancy-priorities= gives you fancy looking priorities
-
 *** Marking Tasks with Tags
 - Tags can be attached to any headlines
 - =SPC m q= to tag a headline
@@ -238,7 +255,6 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
   parent header tag
 - =org-tag-sparce-tree= will search for headings that only have a specific
   tag
-
 *** Setting a property for a task/headline
 - =SPC m o= is used for setting a property.
 **** Marking Headlines with Categories
@@ -272,6 +288,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
   )
   #+END_SRC
 - [[https://www.nerdfonts.com/font-downloads][Nerd Fonts Download]]
+
 * Magit
 - Magit is enabled by default in Doom Emacs's init.el
 - =SPC g g= shows Magit status page
@@ -381,11 +398,9 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 - [[https://irreal.org/blog/?p=11123][Code vs. Verbatim in Org Mode]]
 - [[https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/][My Doom Emacs configuration, with commentary]]
 - [[https://gitlab.com/h-cheung/doom-emacs-config/-/blob/master/init.el][gitlab.com/h-cheung/doom-emacs-config/-/blob/master/init.el]] lots of "+"s in org line.
-
 ** YouTube
 - [[https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10][Link:w to the youtube video series]]
 - [[https://www.youtube.com/watch?v=e9Ucb1JHUfQ][Emacs: Org mode basics]]
-
 ** Tools
 - [[https://pandoc.org/MANUAL.html][Pandoc a universal document converter]]
 
