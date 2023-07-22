@@ -57,9 +57,12 @@ It was 3.8 previously, I updated it to 3.10.
 + Lang
   - Org4Idea
   - Vlang
+  - Go Template
 + Tools
   - Key Promoter X
   - String Manipulation
+  - emacsIDEAs
+  - Rainbow Bracket
 
 * Pros & Cons
 + Pros

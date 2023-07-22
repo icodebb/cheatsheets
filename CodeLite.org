@@ -31,6 +31,9 @@
 - =Ctrl+Shift+F=: Find in files.
 - =Ctrl+Shift+R=: Find resources/Go to file.
 
+* Themes
+- =monokai_charcol= [[https://github.com/alacritty/alacritty-theme][Alacritty Themes Repo]] download then import into CodeLite.
+
 * Links
 - [[https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts][107 Shortcuts for CodeLite 10]], listed as buttons, good!
 - [[https://tutorialtactic.com/keyboard-shortcuts/codelite-shortcuts/][105 Codelite Keyboard Shortcuts list – CodeLite 10]], Listed in tables, Very Good!
