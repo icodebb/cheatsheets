@@ -88,10 +88,18 @@ def is_json_good():
 #+END_SRC
 
 ** JSON
-#+BEGIN_SRC  python
+#+BEGIN_SRC json
 {
     "Name": "Ice"
 }
+#+END_SRC
+
+** lisp
+#+BEGIN_SRC emacs-lisp
+(setq
+        ;; org-superstar-headline-bullets-list '("⁖" "◉" "○" "✸" "✿")
+        org-superstar-headline-bullets-list '("🧅" "🌿" "🥚" "⚓" "🪁")
+)
 #+END_SRC
 
 ** Code
