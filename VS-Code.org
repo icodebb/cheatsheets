@@ -1,37 +1,48 @@
 #+title: VS Code
 
 * Shortcuts
-- General
-  - =Ctrl-Shift-p= Run command, e.g. =Preference: Open User Settings(JSON)=.
-- Awesome Emacs
-  - ==
++ General
+  - =Ctrl Shift p= Run command, e.g. =Preference: Open User Settings(JSON)=.
++ Awesome Emacs Keymap
+  - Edit
+    + =Alt c= Capitalize the word.
+    + =Alt u= Upper case the word.
+    + =Alt l= Lower case the word.
+    + =Alt w= Copy selection.
+    + =Ctrl w= Cut selection.
+    + =Ctrl y= Paste.
+  - Motion
+    + =Ctrl a= Move to the begin of the line.
+    + =Ctrl k= Delete current line
+    + =Ctrl v= Page down.
+    + =Alt v= Page up.
 
 * Extensions
-- =Auto Rename Tag= Useful for HTML.
-- =Auto Close Tag= Useful for HTML, but maybe be disabled since sometimes I don't want it.
-- Keymaps
++ =Auto Rename Tag= Useful for HTML.
++ =Auto Close Tag= Useful for HTML, but maybe be disabled since sometimes I don't want it.
++ Keymaps
   - =Awesome Emacs Keymap= Love it.
-- Themes
++ Themes
   - =Ayu= My current theme, Ayu Mirage Bordered.
   - =Material Icons Theme= Current one.
   - =Fluent icons= Sometime you want some difference.
   - =vscode-icons= Prefer Material Icons Theme.
   - =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
-- Git
-  + =Git=
-  + =Git Graph=
-  + =Git History=
-  + =Git History Diff=
-  + =GitLens=
-- Indent
++ Git
+  - =Git=
+  - =Git Graph=
+  - =Git History=
+  - =Git History Diff=
+  - =GitLens=
++ Indent
   - =indent-rainbow= I love it! Realized indent is important for me.
   - =Indent one space= =Space= to indent, =Shift+Space= to decrease indent, great!
   - =Indenticator= Visually highlights the current indent depth.
-- Markdown
++ Markdown
   - =Markdown All in One=
   - =Markdown Preview GitHub Styling=
   - =markdownlint=
-- Programming
++ Programming
   - =Prettier=
   - =Go=
   - =Python Indent= It's important to Python code.
@@ -39,7 +50,7 @@
   - =IntelliCode=
   - =Code Spell Checker=
   - =Colorize= Useful for CSS.
-- Productivity
++ Productivity
   - =Bookmarks= Useful for work, convenience.
   - =Todo Tree= Highlight with customized setings.
   - =Todo+= Custom symbols. Toggle with =Todo: cmd=, didn't work for me.
@@ -49,9 +60,9 @@
 [[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]
 
 * Terminal
-- [[https://code.visualstudio.com/docs/terminal/appearance][Terminal Appearance]] - Set font, set Git Bash, etc.
++ [[https://code.visualstudio.com/docs/terminal/appearance][Terminal Appearance]] - Set font, set Git Bash, etc.
 
 * Themes
-- Color Theme: =Ayu Mirage Bordered=
-- Icon Theme: =VSCode Icons=
-- Product Theme: =Fluent Icons=
++ Color Theme: =Ayu Mirage Bordered=
++ Icon Theme: =VSCode Icons=
++ Product Theme: =Fluent Icons=
