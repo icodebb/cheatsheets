@@ -1,0 +1,9 @@
+#+TITLE Cevelop Tips
+
+*  View
+- =Bookmark= It's not easy to find the Bookmark, Windows->Show View->General->Bookmark(need to search).
+- =Minimap= Windows->Show View->General->Minimap
+- =Terminal= GitBash by default.
+- =Call Hierarchy= Select a function then right click then Open Call Hierarchy.
+- =Type Hierarchy=
+- =Perspective= After selected all above Views, I save to Iceman Perspective for next time open.
