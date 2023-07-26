@@ -404,6 +404,9 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 ** Tools
 - [[https://pandoc.org/MANUAL.html][Pandoc a universal document converter]]
 
+* Known Issues
+- =hl-todo-mode= Does not work.
+
 * What to learn [0/3]
 - [ ] LSP
 - [ ] [[https://www.orgroam.com][Org Roam]]

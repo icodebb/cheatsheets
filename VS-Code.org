@@ -16,6 +16,9 @@
     + =Ctrl k= Delete current line
     + =Ctrl v= Page down.
     + =Alt v= Page up.
++ Org Mode
+  - Edit
+    + =<s= Insert =BEGIN_SRC= block.
 
 * Extensions
 + =Auto Rename Tag= Useful for HTML.
