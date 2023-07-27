@@ -53,12 +53,24 @@
   - =IntelliCode=
   - =Code Spell Checker=
   - =Colorize= Useful for CSS.
+  - =bitbake=
+  - =C++=
+  - =Docker=
+  - =Expect=
+  - =HTML CSS Support=
 + Productivity
   - =Bookmarks= Useful for work, convenience.
   - =Todo Tree= Highlight with customized setings.
   - =Todo+= Custom symbols. Toggle with =Todo: cmd=, didn't work for me.
   - =Org Mode=
   - =org-checkbox= Adds coloring for bullets.
+  - =change-case=
+  - =diff=
+  - =Hex Editor=
++ Color
+  - Color Highlight
+  - colorize
+  -
 
 [[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]
 
