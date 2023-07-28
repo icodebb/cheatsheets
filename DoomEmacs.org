@@ -406,6 +406,7 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 
 * Known Issues
 - =hl-todo-mode= Does not work.
+- Don't know how to paste content from Windows via Putty, it's not in 'doom run', but with 'emacs file-name'.
 
 * What to learn [0/3]
 - [ ] LSP

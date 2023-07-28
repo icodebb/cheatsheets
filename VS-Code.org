@@ -41,6 +41,7 @@
   - =indent-rainbow= I love it! Realized indent is important for me.
   - =Indent one space= =Space= to indent, =Shift+Space= to decrease indent, great!
   - =Indenticator= Visually highlights the current indent depth.
+  - =Text Tables=
 + Markdown
   - =Markdown All in One=
   - =Markdown Preview GitHub Styling=
@@ -58,6 +59,9 @@
   - =Docker=
   - =Expect=
   - =HTML CSS Support=
+  - =vscode-proto3=
+  - =YAML=
+  - =JSON=
 + Productivity
   - =Bookmarks= Useful for work, convenience.
   - =Todo Tree= Highlight with customized setings.
@@ -67,6 +71,8 @@
   - =change-case=
   - =diff=
   - =Hex Editor=
+  - =Path Intellisense=
+  - =shell-format=
 + Color
   - Color Highlight
   - colorize
