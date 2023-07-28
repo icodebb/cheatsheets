@@ -50,3 +50,4 @@
   + =TCPView= Active socket viewer.
   + =Whois= See who owns an Internet address.
   + =Zoomit= Presentation utility for zooming and drawing on the screen.
+  + =Clipchamp= Video edit tool.
