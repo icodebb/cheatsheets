@@ -360,7 +360,7 @@ __ quickref.html#directives
 To include an image in your document, you use the the ``image`` directive__.
 For example::
 
-  .. image:: images/biohazard.png
+  .. image:: ../images/RST.jpg
 
 results in:
 
