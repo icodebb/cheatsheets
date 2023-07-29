@@ -364,7 +364,7 @@ For example::
 
 results in:
 
-.. image:: images/biohazard.png
+.. image:: ../images/RST.jpg
 
 The ``images/biohazard.png`` part indicates the filename of the image
 you wish to appear in the document. There's no restriction placed on
