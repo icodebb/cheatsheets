@@ -28,6 +28,9 @@ Cheatsheets for development, writing, etc.
 * Tmux
 - [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]
 
+* RST
+- [[https://sphinx-tutorial.readthedocs.io/cheatsheet/][The syntax for RST & Sphinx programs.]]
+
 * Linux
 ** Mint
 - [[https://shortcutworld.com/Linux-Mint][82 Shortcuts for Linux Mint]]
