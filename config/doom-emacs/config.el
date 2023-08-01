@@ -81,8 +81,8 @@
         ;; org-superstar-headline-bullets-list '("🧅" "🌿" "🥚" "⚓" "🪁")
         ;; Alian Monster, Two Logical Or; Three Lines Right; Four Dot Makr; Five Dot
         ;; org-superstar-headline-bullets-list '("👾" "⨈" "⚞" "⁛" "⁙")
-        org-superstar-headline-bullets-list '("✿" "⨈" "⁖" "⁛" "⁙")
-)
+        org-superstar-headline-bullets-list '("✿" "☛" "⁖" "⁛" "⁙")
+ )
 
 ;; Disable the highlight line mode, doesn't work well for Doom
 (setq global-hl-line-modes nil)
