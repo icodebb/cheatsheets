@@ -1,0 +1,19 @@
+#+TITLE Oh My Bash
+
+Install and configure.
+
+* Install
+
+#+BEGIN_SRC shell
+sudo apt install curl git
+sudo apt install powerline
+
+# Replace/append following into ~/.bashrc
+OSH_THEME="powerline"
+powerline-daemon -q
+POWERLINE_BASH_CONTINUATION=1
+POWERLINE_BASH_SELECT=1
+source /usr/share/powerline/bindings/bash/powerline.sh
+
+upgrade_oh_mybash
+#+END_SRC
