@@ -29,8 +29,8 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 
 * Motion
 - =g g= move to beginning of the document
-- =C-f= move forward/page down
-- =C-b= move backward/page up
+- =C-f= =fn-shift-down= move forward/page down
+- =C-b= =fn-shift-up= move backward/page up
 - =Shift-g= move to the end of the document
 - =C-c C-n/p= move the next/previous heading
 
