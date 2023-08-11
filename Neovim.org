@@ -12,4 +12,5 @@
 #+END_EXAMPLE
 
 * Plug-ins
+- [[https://github.com/nvim-neorg/neorg][Neorg]]
 - [[https://github.com/jceb/vim-orgmode][Vim-OrgMode]] - No more maintain?
