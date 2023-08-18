@@ -86,8 +86,10 @@
         ;; Following one works great for my LinuxMint.
         ;; org-superstar-headline-bullets-list '("🟍" "☛" "⁖" "⁘" "⁙")
         ;; Following one is for hsv-tor3 Ubuntu 18.04.6 server.
-        ;; Ethiopic Section; Ethiopic Digital Two; Three dots; Four dots, Heart.
-        org-superstar-headline-bullets-list '("፠" "፪" "⠕" "᠅" "♥")
+        ;; ETHIOPIC SECTION MARK; ETHIOPIC DIGIT TWO; BRAILLE PATTERN DOTS-135; MONGOLIAN FOUR DOTS,BLACK HEART SUIT 
+        ;; org-superstar-headline-bullets-list '("፠" "፪" "⠕" "᠅" "♥")
+        ;; ,BENGALI DIGIT TWO,,,BRAILLE PATTERN DOTS-12346
+        org-superstar-headline-bullets-list '("፠" "২" "⠕" "᠅" "⠯")
  )
 
 ;; Disable the highlight line mode, doesn't work well for Doom
