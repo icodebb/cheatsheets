@@ -31,12 +31,14 @@ Cheatsheets for development, writing, etc.
 * ASCIIDOC
 - [[https://powerman.name/doc/asciidoc][AsciiDoc Cheatsheet]]
 - [[https://www.asciidocfx.com/][AsciidocFX]]
-
-  In order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
+  + UML Diagram, works well on Windows 10, though it doesn't work in GitHub, but auto generated picture can be used.
+  + Mermaid, in order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
   #+begin_src shell
   npm install -g @mermaid-js/mermaid-cli
   #+end_src
   It didn't work on my Windows 10 due to Error: unable to get local issuer certificate.
+  + Ditaa, same to UML diagram.
+  + Files Tree New, same to UML Diagram and Ditaa.
 
 * RST
 - [[https://sphinx-tutorial.readthedocs.io/cheatsheet/][The syntax for RST & Sphinx programs.]]
