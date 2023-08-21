@@ -31,6 +31,7 @@ Cheatsheets for development, writing, etc.
 * ASCIIDOC
 - [[https://powerman.name/doc/asciidoc][AsciiDoc Cheatsheet]]
 - [[https://www.asciidocfx.com/][AsciidocFX]]
+
   In order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
   #+begin_src shell
   npm install -g @mermaid-js/mermaid-cli
