@@ -31,11 +31,11 @@ Cheatsheets for development, writing, etc.
 * ASCIIDOC
 - [[https://powerman.name/doc/asciidoc][AsciiDoc Cheatsheet]]
 - [[https://www.asciidocfx.com/][AsciidocFX]]
-In order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
-```
-npm install -g @mermaid-js/mermaid-cli
-```
-It didn't work on my Windows 10 due to Error: unable to get local issuer certificate.
+  In order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
+  #+begin_src shell
+  npm install -g @mermaid-js/mermaid-cli
+  #+end_src
+  It didn't work on my Windows 10 due to Error: unable to get local issuer certificate.
 
 * RST
 - [[https://sphinx-tutorial.readthedocs.io/cheatsheet/][The syntax for RST & Sphinx programs.]]
