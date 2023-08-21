@@ -1,0 +1,261 @@
+= My ASCIIDOC Template
+:author: Ice Liu
+:email: ice.liu@vertiv.com
+:revnumber: v1.0
+:revdate: 8/18/2023
+:revremark: First draft
+
+== Level 1 Section Title
+
+=== Text
+
+==== Format
+* *BOLD*
+* **B**old
+* _italic_
+* `monospace`
+// A single-line comment.
+
+////
+A multi-line comment.
+
+End.
+////
+
+==== Description List
+First term:: The description can be placed on the same line
+as the term.
+Second term::
+Description of the second term.
+The description can also start on its own line.
+
+==== Q & A
+[qanda]
+What is the answer?::
+This is the answer.
+Additional if there is.
+
+Are cameras allowed?::
+Are backpacks allowed?::
+No.
+
+==== Mixed
+Operating Systems::
+  Linux:::
+    . Fedora
+      * Desktop
+    . Ubuntu
+      * Desktop
+      * Server
+  BSD:::
+    . FreeBSD
+    . NetBSD
+
+Cloud Providers::
+  PaaS:::
+    . OpenShift
+    . CloudBees
+  IaaS:::
+    . Amazon EC2
+    . Rackspace
+
+=== Lists
+
+==== Unordered
+* List item 1
+** Nested list item
+*** Deeper nested list item
+* List item 2
+** Another nested list item
+* List item 3
+
+==== Ordered
+. Step 1
+. Step 2
+.. Step 2a
+.. Step 2b
+. Step 3
+
+=== Checklist
+
+* [*] checked
+* [x] also checked
+* [ ] not checked
+* normal list item
+
+=== Code
+
+==== Block
+.Gemfile.lock
+----
+GEM
+  remote: https://rubygems.org/
+  specs:
+    asciidoctor (2.0.15)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  asciidoctor (~> 2.0.15)
+----
+
+==== Ruby
+[source,ruby]
+----
+require 'sinatra'
+
+get '/hi' do
+  "Hello World!"
+end
+----
+
+==== Shell
+[source, shell]
+----
+#!/bin/bash
+
+echo "Hello"
+
+exit 0
+----
+
+==== C/C++
+[source, c++]
+----
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	return 0;
+}
+----
+
+=== Go
+// Markdown compatible.
+```go
+package main
+
+import (
+	"flag"
+	"fmt"
+	"os"
+)
+
+func main() {
+}
+```
+
+== Tables
+.Table Title
+|===
+|Column 1, Header Row |Column 2, Header Row 
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+== Diagrams
+
+=== UML
+
+.UML Diagram Example
+[plantuml,target="uml-example"]
+--
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+  Object[] elementData
+  size()
+}
+
+enum TimeUnit {
+  DAYS
+  HOURS
+  MINUTES
+}
+
+annotation SuppressWarnings
+--
+
+=== Mermaid
+
+[mermaid,target="mermaid-graph"]
+--
+graph TD
+    A[Start] --> B{Is it?};
+    B -- Yes --> C[OK];
+    C --> D[Rethink];
+    D --> B;
+    B -- No ----> E[End];
+--
+
+=== Ditaa
+
+.ditaa Diagram Example
+[ditaa,target="ditaa-example"]
+--
+    +--------+   +-------+    +-------+
+    |        |---+ ditaa +--->|       |
+    |  Text  |   +-------+    |diagram|
+    |Document|   |!magic!|    |       |
+    |     {d}|   |       |    |       |
+    +---+----+   +-------+    +-------+
+        :                         ^
+        |       Lots of work      |
+        +-------------------------+
+--
+
+=== Files Tree New
+
+[tree,target="tree-view-new"]
+--
+root
+|-- photos
+|   |-- camp.gif
+|   |-- festival.png
+|   `-- balloon.jpg
+|-- videos
+|   |-- car-video.avi
+|   |-- dance.mp4
+|   |-- dance01.mpg
+|   |-- another video.divx
+|   `-- school videos
+|       `-- firstday.flv
+|-- documents
+|   |-- jsfile.js
+|   |-- powerpoint.ppt
+|   |-- chapter-01.asc
+|   |-- archive-db.zip
+|   |-- .gitignore
+|   |-- README
+|   `-- configuration.conf
+`-- etc.
+--
+
+== Links
+
+=== References
+* https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
+* https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
+
+=== IDEs
+* 
+
+=== Comparison
+* https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[
+Compare AsciiDoc to Markdown]

@@ -46,6 +46,8 @@
   - =Markdown All in One=
   - =Markdown Preview GitHub Styling=
   - =markdownlint=
++ ASCII-Doc
+  - =AsciiDoc= There more popular ones, but didn't work well for me.
 + Programming
   - =Prettier=
   - =Go=
@@ -64,7 +66,7 @@
   - =JSON=
 + Productivity
   - =Bookmarks= Useful for work, convenience.
-  - =Todo Tree= Highlight with customized setings.
+  - =Todo Tree= Highlight with customized settings.
   - =Todo+= Custom symbols. Toggle with =Todo: cmd=, didn't work for me.
   - =Org Mode=
   - =org-checkbox= Adds coloring for bullets.
@@ -73,10 +75,10 @@
   - =Hex Editor=
   - =Path Intellisense=
   - =shell-format=
+  - =PlantUML= Rich PlantUML support for Code.
 + Color
-  - Color Highlight
-  - colorize
-  -
+  - =Color Highlight=
+  - =colorize= Removed lately, seems disabled to most of my files.
 
 [[https://hackr.io/blog/best-vscode-extensions][The 30 Best VSCode Extensions You Need to Use in 2023]]
 
