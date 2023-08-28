@@ -32,25 +32,7 @@ Cheatsheets for development, writing, etc.
 - [[Chrome.org][My Chrome Shortbuts]]
 
 * Sublime Text
-- Packages/Extensions
-  + Package Control
-  + A File Icon
-  + Alignment let's programmers quickly align their code(including PHP, Javascript, and CSS).
-  + Asciidoctor
-  + Emmet allows programmers to write HTML and CSS much faster via snippets.
-  + HTMLBeautify
-  + orgmode
-  + org_agenda
-  + SublimeGit
-  + Terminal allows developers to open terminals directly inside the current file.
-- Font "Fira Code", Size 12.
-- Settings
-  #+begin_example
-  // Terminal Package Settings - User
-  {
-    "terminal": "C:/Program Files/Git/bin/bash.exe"
-  }
-  #+end_example
+See [[Sublime.org][Sublime.org]]
 
 * Tmux
 - [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]

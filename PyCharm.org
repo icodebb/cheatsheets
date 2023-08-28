@@ -52,6 +52,7 @@ It was 3.8 previously, I updated it to 3.10.
 * Extensions Plugins
 + Themes
   - Hiberbee is my favorite dark theme for PyCharm.
+  - Monokai Pro Theme
 + Icons
   - Extra ToolWindow Colorful Icons
 + Lang
@@ -59,11 +60,18 @@ It was 3.8 previously, I updated it to 3.10.
   - Org4Idea
   - Vlang
   - Go Template
+  - Markdown
+  - Shell Script
+  - YAML
 + Tools
   - Key Promoter X
   - String Manipulation
   - emacsIDEAs
-  - Rainbow Bracket
+  - Rainbow Bracket (bugy)
+  - HTML Entity
+  - HTML Tools
+  - Git
+  - GitHub
 
 * Pros & Cons
 + Pros

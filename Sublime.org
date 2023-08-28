@@ -1,0 +1,21 @@
+#+title Sublime
+* Packages/Extensions
+  + Package Control [[https://packagecontrol.io/installation][Installation]]
+  + A File Icon
+  + Alignment let's programmers quickly align their code(including PHP, Javascript, and CSS).
+  + Asciidoctor
+  + Emmet allows programmers to write HTML and CSS much faster via snippets.
+  + HTMLBeautify
+  + orgmode
+  + org_agenda
+  + SublimeGit
+  + Terminal allows developers to open terminals directly inside the current file.
+* Settings
+- Terminal
+  #+begin_example
+  // Terminal Package Settings - User
+  {
+    "terminal": "C:/Program Files/Git/bin/bash.exe"
+  }
+  #+end_example
+- Font "Fira Code", Size 12.
