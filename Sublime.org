@@ -1,4 +1,8 @@
 #+title Sublime
+* Edit
+** Motion
+- =C-]= Move block to the right.
+- =C-[= Move block to the left.
 * Packages/Extensions
   + Package Control [[https://packagecontrol.io/installation][Installation]]
   + A File Icon
