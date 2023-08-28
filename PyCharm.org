@@ -55,6 +55,7 @@ It was 3.8 previously, I updated it to 3.10.
 + Icons
   - Extra ToolWindow Colorful Icons
 + Lang
+  - AsciiDoc
   - Org4Idea
   - Vlang
   - Go Template
