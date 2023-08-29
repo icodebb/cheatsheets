@@ -1,4 +1,4 @@
- #+title: Emacs Vs Vi
+#+title: Emacs Vs Vi
 
 * Convention
 - =Alt= : =M-=
@@ -10,11 +10,13 @@
 - =Enter= : =RET=
 
 * Shortcuts
-| Category |  Command              | Emacs                 | Vi(Doom)     |
-|----------+-----------------------+-----------------------+--------------|
-| Edit     |                       |                       |              |
-|          | Insert Unicode Char   | M-x insert-char       |              |
-|          | Undo                  | C-x u                 | u            |
-|          | Switch case           | M-u M-l M-c           | ~            |
-|          | Copy                  |                       | C-SPC, A-w   |
-|          | Paste                 |                       | p            |
+| Category |  Command              | Emacs                    | Vi(Doom)          |
+|----------+-----------------------+--------------------------+-------------------|
+| Edit     |                       |                          |                   |
+|          | Insert Unicode Char   | M-x insert-char          |                   |
+|          | Undo                  | C-x u                    | u                 |
+|          | Switch case           | M-u M-l M-c              | ~                 |
+|          | Copy                  |                          | C-SPC, A-w        |
+|          | Paste                 |                          | p                 |
+| Display  |                       |                          |                   |
+|          | Line number           | M-x global-linum-mode    | set nu(mber)/nonu |
