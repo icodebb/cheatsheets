@@ -1,4 +1,7 @@
 #+title Sublime
+
+Suzblime Text 4 doesn't support Chinese characters.
+
 * Edit
 ** Motion
 - =C-]= Move block to the right.
