@@ -2,15 +2,16 @@
 :author: Ice Liu
 :email: ice.liu@vertiv.com
 :revnumber: v1.0
+:revision: v1.0.1
 :revdate: 8/18/2023
 :revremark: First draft
+:myname: Iceman
 
 == Attributes
 
 Author is {author} +
 Version is {revision} +  
-:My name: Iceman +
-My name is {myname} +  
+My name is {myname} +
 
 Line with bad attribute {qwe} will be deleted? +
 Line deleted?
