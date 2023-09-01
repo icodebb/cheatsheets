@@ -5,7 +5,7 @@
 - /ITALICIZED TEXT/
 - *bold text*
 - _underlines text_
-- =literal text=
+- =literal text= is also =verbatim=
 - ~code (generally appears the same as literal text)~
 
 * Headline 1

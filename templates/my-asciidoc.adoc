@@ -5,7 +5,17 @@
 :revdate: 8/18/2023
 :revremark: First draft
 
-== Level 1 Section Title
+== Attributes
+
+Author is {author} +
+Version is {revision} +  
+:My name: Iceman +
+My name is {myname} +  
+
+Line with bad attribute {qwe} will be deleted? +
+Line deleted?
+
+Escaped: \{qwe} and +++{qwe}+++
 
 === Text
 
@@ -14,6 +24,18 @@
 * **B**old
 * _italic_
 * `monospace`
+* +mono+
+* ^super^
+* ~sub~
+* Command: `git status`
+* Color & Size
+** [red]#red text# 
+** [yellow-background]#on yellow#
+** [big]#large# 
+** [red yellow-background big]*all bold*
+** Chars: n__i__**b**++m++[red]##r##
+* (C) (R) (TM) -- ... -> <- => <= &#182;
+
 // A single-line comment.
 
 ////
@@ -23,16 +45,15 @@ End.
 ////
 
 ==== Description List
-First term:: The description can be placed on the same line
-as the term.
+First term:: The description can be placed on the same line as the term.
 Second term::
-Description of the second term.
+Description of the second term. +
 The description can also start on its own line.
 
 ==== Q & A
 [qanda]
 What is the answer?::
-This is the answer.
+This is the answer. +
 Additional if there is.
 
 Are cameras allowed?::
@@ -45,8 +66,12 @@ Operating Systems::
     . Fedora
       * Desktop
     . Ubuntu
-      * Desktop
+      * Desktop +
+        18.04
       * Server
+    . LinuxMint +
+      My current OS. +
+      Home, and Work.
   BSD:::
     . FreeBSD
     . NetBSD
@@ -70,11 +95,37 @@ Cloud Providers::
 * List item 3
 
 ==== Ordered
-. Step 1
+. Step 1 +
+Normal.
 . Step 2
-.. Step 2a
+.. Step 2a +
+Embedded text.
 .. Step 2b
 . Step 3
+
+==== Paragraphs
+
+.P Title
+First line. +
+Second Line.
+
+.NOTE Example 1
+NOTE: I'm a simple note.
+
+.NOTE Example 2
+[NOTE]
+Still a note. +
+Done.
+
+TIP: This is a tip.
+
+IMPORTANT: Something important.
+
+WARNING: This is a warning.
+
+CAUTION: Caution!
+
+
 
 === Checklist
 
@@ -147,7 +198,7 @@ func main() {
 ```
 
 == Tables
-.Table Title
+.Simple
 |===
 |Column 1, Header Row |Column 2, Header Row 
 
@@ -157,6 +208,49 @@ func main() {
 |Cell in column 1, row 2
 |Cell in column 2, row 2
 |===
+
+.Table with Header and Footer
+[options="header,footer"]
+|=======================
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|6    |Three items|d
+|=======================
+
+.CSV data, 15% each column
+[format="csv",width="60%",cols="4"]
+[frame="topbot",grid="none"]
+|======
+1,2,3,4
+a,b,c,d
+A,B,C,D
+|======
+
+[grid="rows",format="csv"]
+[options="header",cols="^,<,<s,<,>m"]
+|===========================
+ID,FName,LName,Address,Phone
+1,Vasya,Pupkin,London,+123
+2,X,Y,"A,B",45678
+|===========================
+
+.Multiline cells, row/col span
+|====
+|Date |Duration |Avg HR |Notes
+
+|22-Aug-08 .2+^.^|10:24 | 157 |
+Worked out MSHR (max sustainable
+heart rate) by going hard
+for this interval.
+
+|22-Aug-08 | 152 |
+Back-to-back with previous interval.
+
+|24-Aug-08 3+^|none
+
+|====
 
 == Diagrams
 
@@ -246,15 +340,18 @@ root
 `-- etc.
 --
 
+''''
+
 == Links
 
 === References
+* https://powerman.name/doc/asciidoc[Powerman AsciiDoc cheatsheet]
 * https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
 * https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
 
 === IDEs
-* 
+* AscuudicFX
 
 === Comparison
 * https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[
