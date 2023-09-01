@@ -1,5 +1,10 @@
 #+title: PyCharm Shortcuts Keymaps
-=NOTE=: Usually I set Keymap to Emacs.
+
+My favorite editor despite the TODO feature, if TODO extention does good job, then it'll be dream comes true.
+
+* NOTE
++ Sometime I set Keymap to Emacs, but not any more, tired when switching between different editors.
++ DO NOT use formatter on HTML code, the result is not expected, mainly the indentions.
 
 * General
 + =Ctrl+Shift+A=: Entry for all commands.

@@ -1,4 +1,7 @@
 #+title Sublime
+
+Suzblime Text 4 doesn't support Chinese characters.
+
 * Edit
 ** Motion
 - =C-]= Move block to the right.
@@ -22,4 +25,20 @@
     "terminal": "C:/Program Files/Git/bin/bash.exe"
   }
   #+end_example
-- Font "Fira Code", Size 12.
+- Font for Edit Panel
+  "Fira Code", Size 12.
+- Font for Folders Panel
+  Via Preferences/Customize Theme:
+  #+begin_src
+  {
+    "variables": {},
+    "rules":
+    [
+      {
+        "font_face": "Deja Sans Mono",
+        "class": "sidebar_label",
+        "font.size": 16
+      },
+    ]
+  }
+  #+end_src
