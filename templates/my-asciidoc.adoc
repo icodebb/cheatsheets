@@ -126,8 +126,6 @@ WARNING: This is a warning.
 
 CAUTION: Caution!
 
-
-
 === Checklist
 
 * [*] checked
@@ -343,6 +341,27 @@ root
 
 ''''
 
+== Editors & Browsers
+
+=== Editors
+* AsciidocFX Used on Windows, rich feature, especially for NOTES and Charts.
+* VS Code, preview extension.
+* PyCharm, Asciidoc extension and preview available.
+* GitLab editor, it's VS Code plugin.
+
+=== Browsers
+* GitLab, best support, with color, NOTES, etc.
+* GitHub, good support.
+* Bat command, convenance on Linux.
+* HTML, to view in HTML from Web browser.
+[source, shell]
+----
+asciidoc the-asciidoc-file.adoc
+python3 -m http.server 8080
+
+# Then view it via http://your-linux-server-ip-address:8080
+----
+
 == Links
 
 === References
@@ -350,9 +369,6 @@ root
 * https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
 * https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
-
-=== IDEs
-* AscuudicFX
 
 === Comparison
 * https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[
