@@ -4,7 +4,7 @@
 :revnumber: v1.0
 :revision: v1.0.1
 :revdate: 8/18/2023
-:revremark: First draft
+:revremark: Paragraphs
 :myname: Iceman
 
 == Attributes
@@ -14,7 +14,7 @@ Version is {revision} +
 My name is {myname} +
 
 Line with bad attribute {qwe} will be deleted? +
-Line deleted?
+Line deleted? No.
 
 Escaped: \{qwe} and +++{qwe}+++
 
@@ -311,6 +311,24 @@ graph TD
         |       Lots of work      |
         +-------------------------+
 --
+
+.ditaa 1 to 1 NAT
+[ditaa,target="1-to-1-NAT"]
+--
++---------------------------+   +-------------+   +----+   +------------+   +--------------+
+|Service listens on 3212    |<--|192.168.10.99|<--|NAT |<--|192.168.10.1|<--|192.168.10.101|   
++---------------------------+   |Host IP      |   +----+   |VPP IP      |   |Linux         |
+                                +-------------+            +------------+   +--------------+
++---------------+   +------------+   +---+    +--------------+
+|Service on Host|-->|192.168.10.1|-->|NAT|--> |192.168.10.101|   
++---------------+   |VPP IP      |   +---+    |Listens 3211  |
+                    +------------+            +--------------+
+--
+* Serivce in Host: `python3 -m http.server 3213`
+* Command on target: `wget http://192.168.10.1:3213`
+* Service on target: `python3 -m http.server 3211`
+* Command on TOR as client: `wget http://192.168.10.101:3211`
+
 
 === Files Tree New
 
