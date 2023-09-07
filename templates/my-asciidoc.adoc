@@ -286,6 +286,11 @@ annotation SuppressWarnings
 
 === Mermaid
 
+`mmdc` command doesn't work on my Windows 10. +
+https://www.npmjs.com/package/@mermaid-js/mermaid-cli[mermaid-cli error] 
+ doesn't help on my Window 10 or Linux Mint.
+
+////
 [mermaid,target="mermaid-graph"]
 --
 graph TD
@@ -295,6 +300,7 @@ graph TD
     D --> B;
     B -- No ----> E[End];
 --
+////
 
 === Ditaa
 
@@ -312,7 +318,7 @@ graph TD
         +-------------------------+
 --
 
-.ditaa 1 to 1 NAT
+.ditaa 1 to 1 NAT examples
 [ditaa,target="1-to-1-NAT"]
 --
 +---------------------------+   +-------------+   +----+   +------------+   +--------------+
@@ -324,9 +330,11 @@ graph TD
 +---------------+   |VPP IP      |   +---+    |Listens 3211  |
                     +------------+            +--------------+
 --
-* Serivce in Host: `python3 -m http.server 3213`
-* Command on target: `wget http://192.168.10.1:3213`
-* Service on target: `python3 -m http.server 3211`
+
+Commands for above examples: +
+* Serivce in Host: `python3 -m http.server 3213` +
+* Command on target: `wget http://192.168.10.1:3213` +
+* Service on target: `python3 -m http.server 3211` +
 * Command on TOR as client: `wget http://192.168.10.101:3211`
 
 
