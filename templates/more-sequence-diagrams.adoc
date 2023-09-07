@@ -5,6 +5,8 @@
 :revdate: 9/7/2023
 :revremark: Sequence Diagrams
 
+View or edit in AsciidocFX.
+
 == Diagrams
 
 === Basic

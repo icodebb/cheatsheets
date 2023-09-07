@@ -5,6 +5,8 @@
 :revdate: 9/7/2023
 :revremark: Diagrams
 
+View or edit in AsciidocFX.
+
 == Diagrams
 
 === PlantUML
