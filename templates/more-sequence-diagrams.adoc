@@ -1,0 +1,170 @@
+= More Sequence Diagrams
+:author: Ice Liu
+:email: ice.liu@vertiv.com
+:revision: v0.1
+:revdate: 9/7/2023
+:revremark: Sequence Diagrams
+
+== Diagrams
+
+=== Basic
+
+.Basic
+[plantuml, target=basic, format=png] 
+--
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+--
+
+=== Participant
+
+.Participant
+[plantuml,target="participant"]
+--
+@startuml
+participant Participant as Foo
+actor       Actor       as Foo1
+boundary    Boundary    as Foo2
+control     Control     as Foo3
+entity      Entity      as Foo4
+database    Database    as Foo5
+collections Collections as Foo6
+queue       Queue       as Foo7
+Foo -> Foo1 : To actor 
+Foo -> Foo2 : To boundary
+Foo -> Foo3 : To control
+Foo -> Foo4 : To entity
+Foo -> Foo5 : To database
+Foo -> Foo6 : To collections
+Foo -> Foo7: To queue
+@enduml
+--
+
+=== Color Actor
+
+.Color Actor
+[plantuml,target="color-actor"]
+--
+@startuml
+actor Bob #red
+' The only difference between actor
+'and participant is the drawing
+participant Alice
+participant "I have a really\nlong name" as L #99FF99
+/' You can also declare:
+   participant L as "I have a really\nlong name"  #99FF99
+  '/
+
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Log transaction
+@enduml
+--
+
+=== Lifeline Activation and Destruction
+
+The vertical block stands for lifeline.
+
+.Lifeline Example
+[plantuml,target="lifeline-example"]
+--
+@startuml
+autoactivate on
+alice -> bob : hello
+bob -> bob : self call
+bill -> bob #005500 : hello from thread 2
+bob -> george ** : create
+return done in thread 2
+return rc
+bob -> george !! : delete
+return success
+
+@enduml
+--
+
+=== Encompass
+
+.Encompass
+[plantuml,target="encompass-example"]
+--
+@startuml
+
+!pragma teoz true
+box "Internal Service" #LightBlue
+participant Bob
+box "Subteam"
+participant Alice
+participant John
+end box
+
+end box
+participant Other
+
+Bob -> Alice : hello
+Alice -> John : hello
+John -> Other: Hello
+
+@enduml
+--
+
+=== Skinparam
+
+.Skinparam
+[plantuml,target="skinparam-color-font"]
+--
+@startuml
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+
+skinparam sequence {
+ArrowColor DeepSkyBlue
+ActorBorderColor DeepSkyBlue
+LifeLineBorderColor blue
+LifeLineBackgroundColor #A9DCDF
+
+ParticipantBorderColor DeepSkyBlue
+ParticipantBackgroundColor DodgerBlue
+ParticipantFontName Impact
+ParticipantFontSize 17
+ParticipantFontColor #A9DCDF
+
+ActorBackgroundColor aqua
+ActorFontColor DeepSkyBlue
+ActorFontSize 17
+ActorFontName Aapex
+}
+
+actor User
+participant "First Class" as A
+participant "Second Class" as B
+participant "Last Class" as C
+
+User -> A: DoWork
+activate A
+
+A -> B: Create Request
+activate B
+
+B -> C: DoWork
+activate C
+C --> B: WorkDone
+destroy C
+
+B --> A: Request Created
+deactivate B
+
+A --> User: Done
+deactivate A
+
+@enduml
+--
+
+== Links
+
+* https://bcouetil.gitlab.io/academy/diagrams-examples.html[Zenika Example Diagrams]
+* https://plantuml.com/sequence-diagram[PlantUML Sequence Diagram]
