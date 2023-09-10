@@ -50,7 +50,20 @@ See [[Sublime.org][Sublime.org]]
   + Files Tree New, same to UML Diagram and Ditaa.
   + [[https://plantuml.com/][plantuml.com]] UML diagrams.
   + [[https://docs.asciidoctor.org/asciidoctor/latest/tooling/][Ascidoc Tools]]
-
+  + [[https://dojofive.com/blog/ditaa-color-codes-for-diagrams/][Use Color To Help Separate Items In DITAA Diagrams]]
+  + [[https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf][Dojo Color Chart(PDF)]]
+- Mac
+It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
+So I use =brew= commands instead:
+#+BEGIN_SRC bash
+brew install asciidoctor
+brew install ditaa
+brew install graphviz (for plantuml)
+cp /opt/homebrew/bin/dot /opt/local/bin/dot (for planuml)
+brew install asciidocfx (It fetches the AsciidocFX_Mac_M1.dmg.)
+#+END_SRC
+- Comparison
+  + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
 * RST
 - [[https://sphinx-tutorial.readthedocs.io/cheatsheet/][The syntax for RST & Sphinx programs.]]
 

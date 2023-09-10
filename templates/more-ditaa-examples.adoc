@@ -11,7 +11,7 @@ View or edit in AsciidocFX.
 
 === PlantUML
 
-[plantuml, target=diagram-classes, format=png]   
+[plantuml,target="diagram-classes",type=png]   
 ....
 class BlockProcessor
 class DiagramBlock
@@ -165,7 +165,8 @@ Color codes
                           |             |
                           +-------------+
                                  |
-                          lambda |                                                       |   
+                          lambda |
+                                 |   
                                  v
 +-------------+           +-------------+           +-------------+
 |             |   tau     |             |   lambda  |             |
