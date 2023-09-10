@@ -1,6 +1,6 @@
 = My ASCIIDOC Template
 :author: Ice Liu
-:email: ice.liu@vertiv.com
+:email: im.tunglau@gmail.com
 :revnumber: v1.0
 :revision: v1.0.1
 :revdate: 8/18/2023

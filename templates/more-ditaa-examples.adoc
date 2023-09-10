@@ -1,6 +1,6 @@
 = More Ditta Examples
 :author: Ice Liu
-:email: ice.liu@vertiv.com
+:email: im.tunglau@gmail.com
 :revision: v0.1
 :revdate: 9/7/2023
 :revremark: Diagrams
