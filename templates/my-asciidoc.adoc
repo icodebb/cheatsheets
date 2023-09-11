@@ -1,6 +1,6 @@
 = My ASCIIDOC Template
 :author: Ice Liu
-:email: im.tunglau@gmail.com
+:email: ice.liu@vertiv.com
 :revnumber: v1.0
 :revision: v1.0.1
 :revdate: 8/18/2023
@@ -63,6 +63,7 @@ No.
 
 ==== Mixed
 Operating Systems::
+How many?
   Linux:::
     . Fedora
       * Desktop
@@ -73,9 +74,12 @@ Operating Systems::
     . LinuxMint +
       My current OS. +
       Home, and Work.
-  BSD:::
-    . FreeBSD
-    . NetBSD
+      
+    BSD::::
+      * FreeBSD
+      * NetBSD
+  Windows:::
+    . Win 10
 
 Cloud Providers::
   PaaS:::
@@ -84,13 +88,20 @@ Cloud Providers::
   IaaS:::
     . Amazon EC2
     . Rackspace
+    
+All OS.
 
 === Lists
 
 ==== Unordered
-* List item 1
-** Nested list item
-*** Deeper nested list item
+* List item 1 +
+  Text of item 1, +
+  second line.
+** Nested list item +
+   I'm nested.
+*** Deeper nested list item +
+    Deepest? +
+    Yes.
 * List item 2
 ** Another nested list item
 * List item 3
@@ -151,17 +162,24 @@ DEPENDENCIES
 ----
 
 ==== Ruby
+
 [source,ruby]
 ----
 require 'sinatra'
 
 get '/hi' do
-  "Hello World!"
+"Hello World!"
 end
 ----
 
+==== Console
+[source,console,options="nowrap"]
+--
+$ curl GET -u admin:password http://your-ip-address/buckets
+--
+
 ==== Shell
-[source, shell]
+[source,bash]
 ----
 #!/bin/bash
 
@@ -181,7 +199,7 @@ int main() {
 }
 ----
 
-=== Go
+==== Go
 // Markdown compatible.
 ```go
 package main
@@ -195,6 +213,61 @@ import (
 func main() {
 }
 ```
+
+==== SQL
+[source,sql]
+--
+SELECT country FROM `travel-sample` WHERE name = "Excel Airways";
+--
+
+==== Grouped
+====
+[source,n1ql]
+----
+SELECT CONTAINS("N1QL is awesome", "N1QL") as n1ql,
+       CONTAINS("N1QL is awesome", "SQL") as no_sql;
+----
+
+[source,json]
+----
+{
+    "results": [
+        {
+            "n1ql": true,
+            "no_sql": false
+        }
+    ]
+}
+----
+====
+
+==== Callout Numbers
+[source,javascript]
+----
+function OnUpdate(doc, meta) {
+  var strong = 70;
+  var stmt =
+    SELECT *                  // <1>
+    FROM `beer-samples`       // <2>
+    WHERE abv > $strong;
+  for (var beer of stmt) {    // <3>
+    break;                    // <4>
+  }
+}
+----
+<1> N1QL queries are embedded directly.
+<2> Token escaping is standard N1QL style.
+<3> Stream results using 'for' iterator.
+<4> Cancel streaming query by breaking out.
+
+==== Include Directive
+.Query result
+[source,json]
+----
+include::cantacts.json[][tag=read-only]
+----
+
+* https://docs.couchbase.com/home/contribute/code-blocks.html[Code Blocks]
 
 == Tables
 .Simple
@@ -250,6 +323,20 @@ Back-to-back with previous interval.
 |24-Aug-08 3+^|none
 
 |====
+
+== Image
+* Image from relative path.
+
+:imagesdir: ./images
+image:text.png[Text,,]
+
+* Block image with an URL target.
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
+
+* Inline image with an URL target.
+
+You can find image:https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Linux,25,35] everywhere these days.
 
 == Diagrams
 
@@ -380,7 +467,7 @@ root
 * GitHub, good support.
 * Bat command, convenance on Linux.
 * HTML, to view in HTML from Web browser.
-[source, shell]
+[source,bash]
 ----
 asciidoc the-asciidoc-file.adoc
 python3 -m http.server 8080
