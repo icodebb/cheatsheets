@@ -39,6 +39,7 @@ See [[Sublime.org][Sublime.org]]
 
 * ASCIIDOC
 - [[https://powerman.name/doc/asciidoc][AsciiDoc Cheatsheet]]
+  =:toc:= - Table Of Content s
 - [[https://www.asciidocfx.com/][AsciidocFX]]
   + UML Diagram, works well on Windows 10, though it doesn't work in GitHub, but auto generated picture can be used.
   + Mermaid, in order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
