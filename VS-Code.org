@@ -3,6 +3,9 @@
 * Shortcuts
 + General
   - =Ctrl Shift p= Run command, e.g. =Preference: Open User Settings(JSON)=.
+  - =Ctrl Home= Move to the begin of the file.
+  - =Ctrl End= Move to the end of the file.
+  - =Ctrl `= Open/close terminal window.
 + Awesome Emacs Keymap
   - Edit
     + =Alt c= Capitalize the word.

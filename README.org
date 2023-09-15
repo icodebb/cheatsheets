@@ -49,10 +49,12 @@ See [[Sublime.org][Sublime.org]]
     It didn't work on my Windows 10 due to Error: unable to get local issuer certificate.
   + Ditaa, same to UML diagram.
   + Files Tree New, same to UML Diagram and Ditaa.
+  + I will use asciidoc in GitLab as my preference, but for those big files like logs, will keep using Org mode .
   + [[https://plantuml.com/][plantuml.com]] UML diagrams.
   + [[https://docs.asciidoctor.org/asciidoctor/latest/tooling/][Ascidoc Tools]]
   + [[https://dojofive.com/blog/ditaa-color-codes-for-diagrams/][Use Color To Help Separate Items In DITAA Diagrams]]
   + [[https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf][Dojo Color Chart(PDF)]]
+  + [[https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/#anonymous1-wrote][Asciidoc + Antora]]
 - Mac
 It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
 So I use =brew= commands instead:

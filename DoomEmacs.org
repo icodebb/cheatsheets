@@ -19,7 +19,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =C= "Control" key
 - =M= "Alt" or "Option" key
 - =S= "Super" or "Command" key
-- =SPC= "Space" key
+  =SPC= "Space" key
 
 * General
 - =SPC f s= for saving the current file
@@ -347,6 +347,7 @@ Windows are panes in your screen
 * Spell
 - =z == Check word, choose suggestions or save to dictionary
 - =M-x flyspell-mode/M-SPC t s= Enable the flyzspell mode
+- =${HOME}/.ispell_default= Edit the default user dictionary file to remove unwanted entries.
 
 * Terminal
 - Set up vterm in your init.el file.
