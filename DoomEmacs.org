@@ -106,8 +106,9 @@ Buffers are a special concept in emacs they can be terminals, files, directories
 Windows are panes in your screen
 - =SPC w v= window split vertically
 - =SPC w s= window split horizontally
-- =SPC w w= to switch windows
-- =SPC w q= to close window, frame, quit EMACS if it's the last frame
+- =SPC w w= =C-x o= to switch windows
+- =SPC w q= =SPC w c= =C-x 0= to close window, frame, quit EMACS if it's the last frame.
+- =C-x 1= to close all other windows, this is Emacs command.
 - =SPC w += and =SPC w -= to increase and decrease window height
 - =SPC w >= and =SPC w <= to increase and decrease window width
 - You can use vim motion keys to navigate between open windows for example =SPC w H= moves the window to the left.
@@ -388,7 +389,7 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 - =z j= Next folded region.
 - =z k= Previous folded region.
 
-* Sources
+* Resources
 ** Documentation
 - [[https://www.ianjones.us/zaiste-programming-doom-emacs-tutorial/#org7ad2452][This org file is mostly from the notes taken from the series above by ianjones.us]]
 - [[https://github.com/doomemacs/doomemacs][Doom Emacs Documentation]]
@@ -399,6 +400,7 @@ Code folding helps with code readability. First, make sure =fold= is not comment
 - [[https://irreal.org/blog/?p=11123][Code vs. Verbatim in Org Mode]]
 - [[https://zzamboni.org/post/my-doom-emacs-configuration-with-commentary/][My Doom Emacs configuration, with commentary]]
 - [[https://gitlab.com/h-cheung/doom-emacs-config/-/blob/master/init.el][gitlab.com/h-cheung/doom-emacs-config/-/blob/master/init.el]] lots of "+"s in org line.
+- [[https://ethanaa.com/blog/switching-to-doom-emacs/#why-the-switch][Switching from Spacemacs to Doom Emcas]]
 ** YouTube
 - [[https://www.youtube.com/watch?v=BRqjaN4-gGQ&list=PLhXZp00uXBk4np17N39WvB80zgxlZfVwj&index=10][Link:w to the youtube video series]]
 - [[https://www.youtube.com/watch?v=e9Ucb1JHUfQ][Emacs: Org mode basics]]
