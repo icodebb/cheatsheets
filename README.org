@@ -55,6 +55,7 @@ See [[Sublime.org][Sublime.org]]
   + [[https://dojofive.com/blog/ditaa-color-codes-for-diagrams/][Use Color To Help Separate Items In DITAA Diagrams]]
   + [[https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf][Dojo Color Chart(PDF)]]
   + [[https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/#anonymous1-wrote][Asciidoc + Antora]]
+  + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
 - Mac
 It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
 So I use =brew= commands instead:
