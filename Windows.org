@@ -42,6 +42,25 @@
 
 * Windows Terminal
 + [[https://ohmyposh.dev/doc/installation/prompt][Oh My Posh Change the Prompt]] I like the way of looks like Oh My Bash.
+  Use alias to set up commands such as /ls/, /find/, /tig/, etc.
+  C:\Users\iliu\.config\powershell\user_profile.ps1:
+  #+BEGIN_EXAMPLE
+  Set-Alias vim nvim
+  Set-Alias ll ls
+  Set-Alias grep findstr
+  Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+  Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
+  #+END_EXAMPLE
+  =nvim $PROFILE.CurrentUserCurrentHost= then append =nvim $PROFILE.CurrentUserCurrentHost=
+  NOTE: Above line reports errors, so I switch to manually Importing aliases.
+  C:\Users\iliu\.config\powershell\aliases.ps1:
+  #+BEGIN_EXAMPLE
+  "ll","ls","","AllScope"
+  "grep","findstr","","AllScope"
+  "tig","C:\Program Files\Git\usr\bin\tig.exe","","AllScope"
+  "less","C:\Program Files\Git\usr\bin\less.exe","","AllScope"
+  #+END_EXAMPLE
+  Then run =Import-Alias .\aliases.ps1= to import them.
 
 * Utilities
 + [[https://learn.microsoft.com/en-us/sysinternals/downloads/][Sysinternals Utilities Index]]

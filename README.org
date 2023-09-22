@@ -55,19 +55,20 @@ See [[Sublime.org][Sublime.org]]
   + [[https://dojofive.com/blog/ditaa-color-codes-for-diagrams/][Use Color To Help Separate Items In DITAA Diagrams]]
   + [[https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf][Dojo Color Chart(PDF)]]
   + [[https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/#anonymous1-wrote][Asciidoc + Antora]]
-  + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
 - Mac
-It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
-So I use =brew= commands instead:
-#+BEGIN_SRC bash
-brew install asciidoctor
-brew install ditaa
-brew install graphviz (for plantuml)
-cp /opt/homebrew/bin/dot /opt/local/bin/dot (for planuml)
-brew install asciidocfx (It fetches the AsciidocFX_Mac_M1.dmg.)
-#+END_SRC
+  It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
+  So I use =brew= commands instead:
+  #+BEGIN_SRC bash
+  brew install asciidoctor
+  brew install ditaa
+  brew install graphviz (for plantuml)
+  cp /opt/homebrew/bin/dot /opt/local/bin/dot (for planuml)
+  brew install asciidocfx (It fetches the AsciidocFX_Mac_M1.dmg.)
+  #+END_SRC
 - Comparison
   + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
+  + [[https://hyperpolyglot.org/lightweight-markup][Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode]]
+  + [[https://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages][Supported languages(150+)]]
 * RST
 - [[https://sphinx-tutorial.readthedocs.io/cheatsheet/][The syntax for RST & Sphinx programs.]]
 
