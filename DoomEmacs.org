@@ -42,6 +42,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =C-c *= change the item into headline(same level)
 - =C-x u= undo in Emacs way, one step, Vim does a lot, cannot live with it.
 - =M-x evil-redo= redo, since Vim undo too much
+- Use =mRemoteNG= with Putty to run Doom, to copy from Windows and paste with right mouse.
 
 * Projects with Projectile
 - =SPC p a= to add a new project
