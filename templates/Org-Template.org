@@ -114,7 +114,7 @@ def is_json_good():
 #+NAME: doom-emacs.png
 #+ATTR_ORG: :width 200
 #+ATTR_HTML: width="100px"
-[[images/doom-emacs.png]]
+[[../images/doom-emacs.png]]
 
 * Table
 | Name  | Phone | Age |
