@@ -1,26 +1,40 @@
-= My ASCIIDOC Template
+= My AsciiDoc Template: Text
 :author: Ice Liu
 :email: ice.liu@vertiv.com
-:revnumber: v1.0
-:revision: v1.0.1
-:revdate: 8/18/2023
-:revremark: Paragraphs
-:myname: Iceman
+:sectnums:
+:doctype: book
+:revnumber: v0.5
+:revision: v0.5
+:revdate: 9/26/2023
+:revremark: Attributes
+:toc: preamble
+:toclevels: 5
+:toc-title: My Content
+:description: AsciiDoc Template Text Version without Diagrams
+:keywords: AsciiDoc Template
+:homepage:
+:imagesdir: ./images
+:title-page-background-image:
+:page-background-image: image:Absctract.jpg[position=top]
+:experimental:
+:font:
+
+// Background image doesn't work in AsciidocFX.
 
 == Attributes
 
 Author is {author} +
-Version is {revision} +  
-My name is {myname} +
-
+Version is {revision} +
+My name is {firstname} {lastname} +
+ +
 Line with bad attribute {qwe} will be deleted? +
-Line deleted? No.
+Line deleted? No. +
+ +
+Escaped: \{qwe} and +++{qwe}+++, doesn't work.
 
-Escaped: \{qwe} and +++{qwe}+++
+== Text
 
-=== Text
-
-==== Format
+=== Format
 * *BOLD*
 * **B**old
 * _italic_
@@ -37,7 +51,11 @@ Escaped: \{qwe} and +++{qwe}+++
 ** Chars: n__i__**b**++m++[red]##r##
 * (C) (R) (TM) -- ... -> <- => <= &#182;
 
-// A single-line comment.
+=== Comments
+
+Comments only exist in source code view, not preview mode.
+
+// A single-line comment. Need empty line around it for highlight.
 
 ////
 A multi-line comment.
@@ -45,13 +63,81 @@ A multi-line comment.
 End.
 ////
 
-==== Description List
+=== Hints
+
+.NOTE Example 1
+NOTE: I'm a simple note.
+
+.NOTE Example 2
+[NOTE]
+Still a note. +
+Done.
+
+TIP: This is a tip.
+
+IMPORTANT: Something important.
+
+WARNING: This is a warning.
+
+CAUTION: Caution!
+
+=== Block quotes
+
+[quote, Ben Parker, Spiderman Movie]
+____
+With great power comes great responsibility.
+____
+
+=== Collapsible block
+
+.Name of the menu
+[%collapsible]
+====
+This is the content. +
+Second line. +
+End.
+====
+
+== Lists
+
+=== Unordered
+* List item 1 +
+  Text of item 1, +
+  second line.
+  ** Nested list item +
+     I'm nested.
+     *** Deeper nested list item +
+       Deepest? +
+       Yes.
+* List item 2
+  ** Another nested list item
+* List item 3
+
+=== Ordered
+. Step 1 +
+  Normal.
+. Step 2
+  .. Step 2a +
+    Embedded text.
+  .. Step 2b
+    ... Bottom
+      Details +
+      and more.
+. Step 3
+
+=== Paragraphs
+
+.P Title
+First line. +
+Second Line.
+
+=== Description List
 First term:: The description can be placed on the same line as the term.
 Second term::
 Description of the second term. +
 The description can also start on its own line.
 
-==== Q & A
+=== Q & A
 [qanda]
 What is the answer?::
 This is the answer. +
@@ -61,7 +147,7 @@ Are cameras allowed?::
 Are backpacks allowed?::
 No.
 
-==== Mixed
+=== Mixed
 Operating Systems::
 How many?
   Linux:::
@@ -91,62 +177,17 @@ Cloud Providers::
     
 All OS.
 
-=== Lists
-
-==== Unordered
-* List item 1 +
-  Text of item 1, +
-  second line.
-** Nested list item +
-   I'm nested.
-*** Deeper nested list item +
-    Deepest? +
-    Yes.
-* List item 2
-** Another nested list item
-* List item 3
-
-==== Ordered
-. Step 1 +
-Normal.
-. Step 2
-.. Step 2a +
-Embedded text.
-.. Step 2b
-. Step 3
-
-==== Paragraphs
-
-.P Title
-First line. +
-Second Line.
-
-.NOTE Example 1
-NOTE: I'm a simple note.
-
-.NOTE Example 2
-[NOTE]
-Still a note. +
-Done.
-
-TIP: This is a tip.
-
-IMPORTANT: Something important.
-
-WARNING: This is a warning.
-
-CAUTION: Caution!
-
-=== Checklist
+== Checklist
 
 * [*] checked
 * [x] also checked
 * [ ] not checked
+  ** [x] Child checked
 * normal list item
 
-=== Code
+== Code
 
-==== Block
+=== Block
 .Gemfile.lock
 ----
 GEM
@@ -161,7 +202,7 @@ DEPENDENCIES
   asciidoctor (~> 2.0.15)
 ----
 
-==== Ruby
+=== Ruby
 
 [source,ruby]
 ----
@@ -172,13 +213,13 @@ get '/hi' do
 end
 ----
 
-==== Console
+=== Console
 [source,console,options="nowrap"]
 --
 $ curl GET -u admin:password http://your-ip-address/buckets
 --
 
-==== Shell
+=== Shell
 [source,bash]
 ----
 #!/bin/bash
@@ -188,7 +229,7 @@ echo "Hello"
 exit 0
 ----
 
-==== C/C++
+=== C/C++
 [source, c++]
 ----
 #include <stdio.h>
@@ -199,7 +240,7 @@ int main() {
 }
 ----
 
-==== Go
+=== Go
 // Markdown compatible.
 ```go
 package main
@@ -214,13 +255,13 @@ func main() {
 }
 ```
 
-==== SQL
+=== SQL
 [source,sql]
 --
 SELECT country FROM `travel-sample` WHERE name = "Excel Airways";
 --
 
-==== Grouped
+=== Grouped
 ====
 [source,n1ql]
 ----
@@ -241,7 +282,7 @@ SELECT CONTAINS("N1QL is awesome", "N1QL") as n1ql,
 ----
 ====
 
-==== Callout Numbers
+=== Callout Numbers
 [source,javascript]
 ----
 function OnUpdate(doc, meta) {
@@ -260,11 +301,11 @@ function OnUpdate(doc, meta) {
 <3> Stream results using 'for' iterator.
 <4> Cancel streaming query by breaking out.
 
-==== Include Directive
-.Query result
+=== Include Directive
+.Include a JSON file
 [source,json]
 ----
-include::cantacts.json[][tag=read-only]
+include::contacts.json[][tag=read-only]
 ----
 
 * https://docs.couchbase.com/home/contribute/code-blocks.html[Code Blocks]
@@ -327,7 +368,7 @@ Back-to-back with previous interval.
 == Image
 * Image from relative path.
 
-:imagesdir: ./images
+// :imagesdir: ./images (defined globally)
 image:text.png[Text,,]
 
 * Block image with an URL target.
@@ -337,6 +378,24 @@ image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
 * Inline image with an URL target.
 
 You can find image:https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Linux,25,35] everywhere these days.
+
+== Menus, Buttons and Keyboard
+
+Need to set `:experimental` attribute in order to use Menu and Button. +
+ +
+menu:View[Zoom > Reset] +
+Press the btn:[OK] button when you are finished. +
+ +
+Keyboard shortcuts +
+kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
+
+== Inline Icons
+
+icon:comment[] This is a comment icon
+
+icon:file[] And a file icon
+
+icon:battery-full[] And a battery icon
 
 == Diagrams
 
@@ -373,7 +432,7 @@ annotation SuppressWarnings
 
 === Mermaid
 
-`mmdc` command doesn't work on my Windows 10. +
+`mmdc` command doesn't work on my WiLinkndows 10. +
 https://www.npmjs.com/package/@mermaid-js/mermaid-cli[mermaid-cli error] 
  doesn't help on my Window 10 or Linux Mint.
 
@@ -404,26 +463,6 @@ graph TD
         |       Lots of work      |
         +-------------------------+
 --
-
-.ditaa 1 to 1 NAT examples
-[ditaa,target="1-to-1-NAT"]
---
-+---------------------------+   +-------------+   +----+   +------------+   +--------------+
-|Service listens on 3212    |<--|192.168.10.99|<--|NAT |<--|192.168.10.1|<--|192.168.10.101|   
-+---------------------------+   |Host IP      |   +----+   |VPP IP      |   |Linux         |
-                                +-------------+            +------------+   +--------------+
-+---------------+   +------------+   +---+    +--------------+
-|Service on Host|-->|192.168.10.1|-->|NAT|--> |192.168.10.101|   
-+---------------+   |VPP IP      |   +---+    |Listens 3211  |
-                    +------------+            +--------------+
---
-
-Commands for above examples: +
-* Serivce in Host: `python3 -m http.server 3213` +
-* Command on target: `wget http://192.168.10.1:3213` +
-* Service on target: `python3 -m http.server 3211` +
-* Command on TOR as client: `wget http://192.168.10.101:3211`
-
 
 === Files Tree New
 
@@ -477,12 +516,17 @@ python3 -m http.server 8080
 
 == Links
 
+=== Local
+* link:more-ditta-examples.adoc[More DITAA Examples]
+* link:more-sequence-diagrams.adoc[More Sequence Diagrams]
+* link:network-diagrams.adoc[Network Diagrams]
+
 === References
 * https://powerman.name/doc/asciidoc[Powerman AsciiDoc cheatsheet]
 * https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
 * https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
+* https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
 
 === Comparison
-* https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[
-Compare AsciiDoc to Markdown]
+* https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[Compare AsciiDoc to Markdown]
