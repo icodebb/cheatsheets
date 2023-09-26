@@ -3,10 +3,10 @@
 :email: ice.liu@vertiv.com
 :sectnums:
 :doctype: book
-:revnumber: v0.5
-:revision: v0.5
+:revnumber: v1.0
+:revision: v1.0
 :revdate: 9/26/2023
-:revremark: Attributes
+:revremark: Release
 :toc: preamble
 :toclevels: 5
 :toc-title: My Content
@@ -159,9 +159,8 @@ How many?
       * Server
     . LinuxMint +
       My current OS. +
-      Home, and Work.
-      
-    BSD::::
+      Home, and Work.      
+    . BSD
       * FreeBSD
       * NetBSD
   Windows:::
