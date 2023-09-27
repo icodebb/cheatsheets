@@ -43,6 +43,7 @@ Forked from [[https://github.com/niyumard/Doom-Emacs-Cheat-Sheet][niyumard/Doom-
 - =C-x u= undo in Emacs way, one step, Vim does a lot, cannot live with it.
 - =M-x evil-redo= redo, since Vim undo too much
 - Use =mRemoteNG= with Putty to run Doom, to copy from Windows and paste with right mouse.
+- Use =Shift= + Mouse Right Click to paste in Doom Emacs when using Putty to remote Linux
 
 * Projects with Projectile
 - =SPC p a= to add a new project

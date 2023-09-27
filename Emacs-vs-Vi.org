@@ -20,3 +20,13 @@
 |          | Paste                 |                          | p                 |
 | Display  |                       |                          |                   |
 |          | Line number           | M-x global-linum-mode    | set nu(mber)/nonu |
+
+* Vi Plug-ins
+** Vim Voom
+- [[https://vim-voom.github.io/][vim-voom.github.io]]
+- Install on Linux
+  #+BEGIN_SRC bash
+  sudo apt install vim-voom
+  #+END_SRC
+- Keymaps
+  + =TAB= to switch between left and right(main) panels.
