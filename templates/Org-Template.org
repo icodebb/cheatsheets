@@ -9,12 +9,14 @@
 - ~code (generally appears the same as literal text)~
 
 * Paragraph
-This is the first line with =\\= as line break at the end.\\
-The second line with =\= at the end.(Didn't work for GitHub) \\
+This is the first line with double slash as line break at the end.\\
+The second line with single slash at the end won't work, and double slash seems a one time thing,
+Had to use a empty line for following parts.
+
 And third line first half,
-end of third line without new line break at first half break.(Didn't work, Doom Emacs stripped off the spaces) \\
-The last line, there are two spaces at the end of previous line.\\
-(If the last character is =)=), there must be a space before it.
+end of third line without new line break at first half break.
+
+The last line, Doom Emacs strips off spaces at the end of line automatically.
 
 * Headline 1
 ** Headline 2-1
