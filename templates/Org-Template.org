@@ -10,9 +10,9 @@
 
 * Paragraph
 This is the first line with =\\= as line break at the end.\\
-The second line with =\= at the end.\
+The second line with =\= at the end.(Didn't work for GitHub)\\
 And third line first half,
-end of third line without new line break at first half break.
+end of third line without new line break at first half break.(Didn't work, Doom Emacs stripped off the spaces)\\
 The last line, there are two spaces at the end of previous line.
 
 * Headline 1
