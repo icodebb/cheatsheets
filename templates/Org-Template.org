@@ -9,9 +9,11 @@
 - ~code (generally appears the same as literal text)~
 
 * Paragraph
-This is the first line.\\
-And second line,
-end of second line without new line break.
+This is the first line with =\\= as line break at the end.\\
+The second line with =\= at the end.\
+And third line first half,
+end of third line without new line break at first half break.
+The last line, there are two spaces at the end of previous line.
 
 * Headline 1
 ** Headline 2-1
