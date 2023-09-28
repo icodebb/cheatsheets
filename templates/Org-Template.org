@@ -18,6 +18,24 @@ end of third line without new line break at first half break.
 
 The last line, Doom Emacs strips off spaces at the end of line automatically.
 
+#+BEGIN_VERSE
+ Great clouds overhead
+ Tiny black birds rise and fall
+ Snow covers Emacs
+
+    ---AlexSchroeder
+#+END_VERSE
+
+#+BEGIN_QUOTE
+Everything should be made as simple as possible,
+but not any simpler ---Albert Einstein
+#+END_QUOTE
+
+#+BEGIN_CENTER
+Everything should be made as simple as possible, \\
+but not any simpler
+#+END_CENTER
+
 * Headline 1
 ** Headline 2-1
 *** Headline 3-1
