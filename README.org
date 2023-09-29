@@ -38,9 +38,10 @@ See [[Sublime.org][Sublime.org]]
 - [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]
 
 * ASCIIDOC
-- [[https://powerman.name/doc/asciidoc][AsciiDoc Cheatsheet]]
-  =:toc:= - Table Of Content s
-- [[https://www.asciidocfx.com/][AsciidocFX]]
+- [[https://powerman.name/doc/asciidoc][AsciiDoc Cheatsheet]]  
+  * =:toc:= - Table Of Contents  
+  * =:sectnums:= - Use n.n.n format on section titles
+- [[https://www.asciidocfx.com/][AsciidocFX]]  
   + UML Diagram, works well on Windows 10, though it doesn't work in GitHub, but auto generated picture can be used.
   + Mermaid, in order to support Mermaid in AsciidocFX, need to install mmdc command line tool on Windows.
     #+begin_src shell
@@ -55,7 +56,8 @@ See [[Sublime.org][Sublime.org]]
   + [[https://dojofive.com/blog/ditaa-color-codes-for-diagrams/][Use Color To Help Separate Items In DITAA Diagrams]]
   + [[https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf][Dojo Color Chart(PDF)]]
   + [[https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/#anonymous1-wrote][Asciidoc + Antora]]
-- Mac
+- Mac  
+
   It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
   So I use =brew= commands instead:
   #+BEGIN_SRC bash
@@ -65,7 +67,7 @@ See [[Sublime.org][Sublime.org]]
   cp /opt/homebrew/bin/dot /opt/local/bin/dot (for planuml)
   brew install asciidocfx (It fetches the AsciidocFX_Mac_M1.dmg.)
   #+END_SRC
-- Comparison
+- Comparison  
   + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
   + [[https://hyperpolyglot.org/lightweight-markup][Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode]]
   + [[https://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages][Supported languages(150+)]]
@@ -77,10 +79,10 @@ See [[Sublime.org][Sublime.org]]
 - [[https://shortcutworld.com/Linux-Mint][82 Shortcuts for Linux Mint]]
 - [[https://shortcutworld.com/Bash][59 Shortcuts for Bash]]
 
-* Windows
+* Windows  
 - [[Windoes.org][My Windows Shortcuts]]
 
-* Mac
+* Mac  
 - [[Mac.org][My Mac Shortcuts]]
 - [[https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac][Keyboard shortcuts in Terminal on Mac]]
 * Links
