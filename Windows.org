@@ -41,9 +41,9 @@
   - [[https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad][Keyboard shortcuts in Microsoft Edge]]
 
 * Windows Terminal
-+ [[https://ohmyposh.dev/doc/installation/prompt][Oh My Posh Change the Prompt]] I like the way of looks like Oh My Bash.\\
-  Use alias to set up commands such as /ls/, /find/, /tig/, etc.\\
++ [[https://ohmyposh.dev/doc/installation/prompt][Oh My Posh Change the Prompt]] I like the way of looks like Oh My Bash.
 
+  Use alias to set up commands such as /ls/, /find/, /tig/, etc. \\
   C:\Users\my_user_name\\.config\powershell\user_profile.ps1:
   #+BEGIN_EXAMPLE
   Set-Alias vim nvim
@@ -52,9 +52,9 @@
   Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
   Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
   #+END_EXAMPLE
-  =nvim $PROFILE.CurrentUserCurrentHost= then append =nvim $PROFILE.CurrentUserCurrentHost=\\
-  NOTE: Above line reports errors, so I switch to manually Importing aliases.\\
+  =nvim $PROFILE.CurrentUserCurrentHost= then append =nvim $PROFILE.CurrentUserCurrentHost=
 
+  NOTE: Above line reports errors, so I switch to manually Importing aliases.\\
   C:\Users\my_user_name\\.config\powershell\aliases.ps1:
   #+BEGIN_EXAMPLE
   "ll","ls","","AllScope"
@@ -62,7 +62,8 @@
   "tig","C:\Program Files\Git\usr\bin\tig.exe","","AllScope"
   "less","C:\Program Files\Git\usr\bin\less.exe","","AllScope"
   #+END_EXAMPLE
-  Then run =Import-Alias .\aliases.ps1= to import them.
+  Then run =Import-Alias .\aliases.ps1= to import them.\\
+  E.g. My aliases are saved in C:\Workspace\my-aliases.ps1.
 + Git Bash
   - [[https://dev.to/blikoor/customize-git-bash-shell-498l][Customize Git Bash shell]] - Thanks, very good, exactly what I need.\\
     Following are my customized scripts:
