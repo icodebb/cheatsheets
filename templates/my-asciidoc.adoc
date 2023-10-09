@@ -2,34 +2,53 @@
 :author: Ice Liu
 :email: ice.liu@vertiv.com
 :sectnums:
-:doctype: book
-:revnumber: v1.0
-:revision: v1.0
+:doctype: article
+:encoding: utf-8
+:lang: en
+:revnumber: v0.5
+:revision: v0.5
 :revdate: 9/26/2023
-:revremark: Release
-:toc: preamble
+:revremark: Attributes
+//:toc: preamble (Content won't show with it)
+:toc: left
 :toclevels: 5
 :toc-title: My Content
 :description: AsciiDoc Template Text Version without Diagrams
 :keywords: AsciiDoc Template
 :homepage:
+:numbered:
 :imagesdir: ./images
 :title-page-background-image:
 :page-background-image: image:Absctract.jpg[position=top]
 :experimental:
 :font:
-
 // Background image doesn't work in AsciidocFX.
+
+// Document Title
+// ==============
+
+////
+// Have to comment these section out, or the following will be taken as comment in Kate editor.
+Section Header
+--------------
+subsection header
+~~~~~~~~~~~~~~~~~
+subsubsection header
+^^^^^^^^^^^^^^^^^^^^
+////
 
 == Attributes
 
-Author is {author} +
-Version is {revision} +
-My name is {firstname} {lastname} +
- +
-Line with bad attribute {qwe} will be deleted? +
-Line deleted? No. +
- +
+// So '+' at end is not needed.
+
+[%hardbreaks]
+Author is {author}
+Version is {revision}
+My name is {firstname} {lastname}
+
+Line with bad attribute {qwe} will be deleted?
+Line deleted? No.
+
 Escaped: \{qwe} and +++{qwe}+++, doesn't work.
 
 == Text
@@ -37,18 +56,26 @@ Escaped: \{qwe} and +++{qwe}+++, doesn't work.
 === Format
 * *BOLD*
 * **B**old
-* _italic_
-* `monospace`
+* _italic_, That's fan__freakin__tastic!
+* That *_really_* has to go. Beatle**__mania__**!
+* `monospace`,``Object``s
 * +mono+
-* ^super^
-* ~sub~
+* ^super^script
+* ~sub~script
+* [underline]#Underscore#
 * Command: `git status`
+* Highlight, underline, strikethrough, and custom role
+  **  Mark my words, #automation is essential#.
+  ** ##Mark##up refers to text that contains formatting ##mark##s.
+  ** Where did all the [.underline]#cores# go?
+  ** We need [.line-through]#ten# twenty VMs.
+  ** A [.myrole]#custom role# must be fulfilled by the theme.
 * Color & Size
-** [red]#red text# 
-** [yellow-background]#on yellow#
-** [big]#large# 
-** [red yellow-background big]*all bold*
-** Chars: n__i__**b**++m++[red]##r##
+  ** [red]#red text#
+  ** [yellow-background]#on yellow#
+  ** [big]#large#
+  ** [red yellow-background big]*all bold*
+  ** Chars: n__i__**b**++m++[red]##r##
 * (C) (R) (TM) -- ... -> <- => <= &#182;
 
 === Comments
@@ -62,6 +89,16 @@ A multi-line comment.
 
 End.
 ////
+
+=== Indent
+
+  $ whoami
+  iceman
+
+....
+$ ifconfig
+  192.168.1.1
+....
 
 === Hints
 
@@ -98,6 +135,48 @@ Second line. +
 End.
 ====
 
+=== Paragraphs
+
+.P Title
+First line. +
+Second Line.
+
+****
+Four score and twenty +
+years ago…
+****
+
+.Lightweight Markup Title
+****
+Writing languages that let you type less and express more.
+****
+
+.Grocery list
+* Milk
+* Eggs
+* Bread
+
+.Continuation
+- bullet
+continuation
+. number
+  continuation
+* bullet
+
+  literal continuation
+
+.. letter
++
+Non-literal continuation.
++
+----
+any block can be
+
+included in list
+----
++
+Last continuation.
+
 == Lists
 
 === Unordered
@@ -124,12 +203,6 @@ End.
       Details +
       and more.
 . Step 3
-
-=== Paragraphs
-
-.P Title
-First line. +
-Second Line.
 
 === Description List
 First term:: The description can be placed on the same line as the term.
@@ -159,7 +232,7 @@ How many?
       * Server
     . LinuxMint +
       My current OS. +
-      Home, and Work.      
+      Home, and Work.
     . BSD
       * FreeBSD
       * NetBSD
@@ -240,7 +313,23 @@ int main() {
 ----
 
 === Go
-// Markdown compatible.
+
+[source,go]
+----
+package main
+
+import (
+	"flag"
+	"fmt"
+	"os"
+)
+
+func main() {
+}
+----
+
+////
+// Markdown compatible, but not Kate compatible.
 ```go
 package main
 
@@ -253,6 +342,7 @@ import (
 func main() {
 }
 ```
+////
 
 === SQL
 [source,sql]
@@ -310,6 +400,7 @@ include::contacts.json[][tag=read-only]
 * https://docs.couchbase.com/home/contribute/code-blocks.html[Code Blocks]
 
 == Tables
+
 .Simple
 |===
 |Column 1, Header Row |Column 2, Header Row 
@@ -361,7 +452,6 @@ for this interval.
 Back-to-back with previous interval.
 
 |24-Aug-08 3+^|none
-
 |====
 
 == Image
@@ -382,7 +472,7 @@ You can find image:https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[L
 
 Need to set `:experimental` attribute in order to use Menu and Button. +
  +
-menu:View[Zoom > Reset] +
+menu:View[Zoom > Reset] + 
 Press the btn:[OK] button when you are finished. +
  +
 Keyboard shortcuts +
@@ -395,6 +485,18 @@ icon:comment[] This is a comment icon
 icon:file[] And a file icon
 
 icon:battery-full[] And a battery icon
+
+== Math
+
+.LaTeX Math
+latexmath:[C = \alpha + \beta Y^{\gamma} + \epsilon]
+
+.MathJax
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+\(x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\)
+
+.LaTeXMathML
+latexmath:[\sum_{n=1}^\infty \frac{1}{2^n}]
 
 == Diagrams
 
@@ -463,9 +565,137 @@ graph TD
         +-------------------------+
 --
 
-=== Files Tree New
+=== Charts
 
-[tree,target="tree-view-new"]
+==== Pie Chart
+
+[chart,pie,target="secim-2014-pie",opt="title=LOCAL ELECTION RESULTS"]
+--
+AKP,  45.6, orange
+CHP,  27.8,red
+MHP,  15.2
+BDP,  4.2
+SP,  2
+--
+
+==== Line Chart
+
+[chart,line,file="secim-2014-line",opt="title=Line Chart,title-color=blue"]
+--
+//April
+1,  4
+3,  10
+6,  15
+9,  8
+12, 5
+
+//May
+1,  20
+3,  15
+6,  13
+9,  12
+12, 14
+--
+
+==== Area Chart
+
+[chart,area,target="area-chart"]
+--
+//April
+1,  4
+3,  10
+6,  15
+9,  8
+12, 5
+
+//May
+1,  20
+3,  15
+6,  13
+9,  12
+12, 14
+--
+
+==== Bar Chart
+
+[chart,bar,file="bar-chart",opt="legend=left"]
+--
+//AKP
+1,  45.6, orange
+//CHP
+2,  27.8,red
+//MHP
+3,  15.2
+//BDP
+4,  4.2
+//SP
+5, 2
+--
+
+==== Stacked Area Chart
+
+[chart,"stacked-area",file="stacked-area-chart.png"]
+--
+//April
+1,  4
+3,  10
+6,  15
+9,  8
+12, 5
+
+//May
+1,  10
+3,  6
+6,  3
+9,  8
+12, 14
+--
+
+==== Stacked Bar Chart
+
+[chart,"stacked-bar",file="stacked-bar-chart"]
+--
+//April
+1,  4
+3,  10
+6,  15
+9,  8
+12, 5
+
+//May
+1,  20
+3,  15
+6,  13
+9,  12
+12, 14
+--
+
+=== Files Tree
+
+==== Basic Tree
+
+.Filesystem Tree
+[tree,target="filesystem-tree-viewer",width=300]
+--
+#booksample
+##asciidoctor.css
+##book.adoc
+##chapter-01.adoc
+##chapter-02.adoc
+##chapter-03.adoc
+##chapter-04.adoc
+##chapter-05.adoc
+##chapter-06.adoc
+##images
+###kodcu.png
+###mathml-formula.png
+###tex-formula.png
+###uml-diagram.png
+--
+
+==== Linked Tree
+
+[tree,target="tree-view-new",width=300]
 --
 root
 |-- photos
@@ -521,7 +751,11 @@ python3 -m http.server 8080
 * link:network-diagrams.adoc[Network Diagrams]
 
 === References
+* https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
 * https://powerman.name/doc/asciidoc[Powerman AsciiDoc cheatsheet]
+* https://github.com/asciidocfx/Asciidoc-Cheatsheet.git[Asciidoc-Cheatsheet - github.com/asciidocfx]
+* https://github.com/asciidocfx/AsciidocFX/wiki/Chart-Extension[Chart Extension]
+* https://github.com/asciidocfx/Asciidoc-Book-Demo.git[Asciidoc Book Demo]
 * https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
 * https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
