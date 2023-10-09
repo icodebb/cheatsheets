@@ -1,6 +1,6 @@
 = My AsciiDoc Template: Text
 :author: Ice Liu
-:email: ice.liu@vertiv.com
+:email: im.tlau@yahoo.com
 :sectnums:
 :doctype: article
 :encoding: utf-8
