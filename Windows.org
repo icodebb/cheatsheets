@@ -24,6 +24,7 @@
   - =Ctrl+click= Open link in a new tab
   - =Ctrl+Shift+click= Open link in a new tab and switch to it
   - =Alt+Shift+click= Open link in a new window
+  - =Detach/Reattach Browser Tabs= Left mouse button select the tab-name to move, =Ctrl= to select multiple tabs.
 + Bookmarks
   - =Ctrl+D= Add current site to favorites
   - =Ctrl+Shift+B= Toggle favorites bar
