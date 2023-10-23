@@ -3,7 +3,7 @@ Cheatsheets for development, writing, etc.
 
 * Doom Emacs
 - [[DoomEmacs.org][My Doom Emacs Shortcuts]]
-- [[Org-Template.org][My Org Template]]
+- [[templates/Org-Template.org][My Org Template]]
 - [[https://orgmode.org/manual/Structure-Editing.html][Structure Edition]] - from orgmode.org.
 
 * Emacs & Vi
