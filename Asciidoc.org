@@ -21,7 +21,7 @@
   + [[https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf][Dojo Color Chart(PDF)]]
   + [[https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/#anonymous1-wrote][Asciidoc + Antora]]
   + [[https://www.alexdico.com/asciidoctor/2022/03/08/efficient-writing-with-asciidoctor.html][Efficient Writing with Asciidoctor]]
-- Kate
+- Kate \\
   Use Kate as text editor and AsciidocFX as Previewer with two monitors, work good for me.
 * OS
 - Mac
@@ -37,4 +37,5 @@
 * Comparison
   + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
   + [[https://hyperpolyglot.org/lightweight-markup][Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode]]
+* Languages
   + [[https://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages][Supported languages(150+)]]
