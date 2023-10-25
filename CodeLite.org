@@ -2,7 +2,8 @@
 
 * View
 - =Ctrl+`=: Toggle the output pane.
-- =Ctrl+m=: Toggle all the panes (Love this! It only show the text editor area.)
+- =Ctrl+m=: Toggle all the panes. \\
+  Love this feature. It only show the text editor area. But it's buggy, cannot bring the panes back, need to use menu View/Workspace Pane to toggle.
 - =Ctrl+Tab=: Activate the next open file, select from the list.
 
 * Text
