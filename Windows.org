@@ -41,6 +41,10 @@
   - [[https://shortcutworld.com/Edge/win/Best-of-Microsoft-Edge-Browser-Keyboard-Shortcuts][Best of Microsoft Edge Browser Keyboard Shortcuts]]
   - [[https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad][Keyboard shortcuts in Microsoft Edge]]
 
+* Firefox
++ Application Menu/More tools/Customize toolbar \\
+  Drag the icons to the toolbar.
+
 * Windows Terminal
 + [[https://ohmyposh.dev/doc/installation/prompt][Oh My Posh Change the Prompt]] I like the way of looks like Oh My Bash.
 
