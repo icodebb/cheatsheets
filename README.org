@@ -1,41 +1,38 @@
 #+title: Useful Cheatsheets
 Cheatsheets for development, writing, etc.
 
-* Doom Emacs
+* IDEs
+** Doom Emacs
 - [[DoomEmacs.org][My Doom Emacs Shortcuts]]
 - [[templates/Org-Template.org][My Org Template]]
 - [[https://orgmode.org/manual/Structure-Editing.html][Structure Edition]] - from orgmode.org.
 
-* Emacs & Vi
+** Emacs & Vi
 - [[Emacs-vs-Vi.org][My Emacs vs Vi Shortcuts]]
 - [[https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts][59 Shortcuts for Emacs 23.2.1]]
 
-* VS Code
+** VS Code
 - [[VS-Code.org][My VS Code Shortcuts]]
 - [[https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts][123 Shortcuts for Visual Studio Code]]
 
-* PyCharm
+** CodeLite
+- [[CodeLite.org][My CodeLite Shortcuts]]
+- [[https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts][107 Shortcuts for CodeLite 10]]
+
+** Kate
+
+** PyCharm
 - [[PyCharm.org][My PyCharm Shortcuts]]
 - [[https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts][120 Shortcuts for JetBrains PyCharm]]
 
-* IntelliJ IDEA (Community Edition)
+** IntelliJ IDEA (Community Edition)
 - Font: Fira Code, Size:14  Line Height: 1.3
 - Extensions
   + Python Community Edition
 - Java and Kotlin IDE, won't continue to use it.
 
-* CodeLite
-- [[CodeLite.org][My CodeLite Shortcuts]]
-- [[https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts][107 Shortcuts for CodeLite 10]]
-
-* Chrome
-- [[Chrome.org][My Chrome Shortbuts]]
-
 * Sublime Text
 See [[Sublime.org][Sublime.org]]
-
-* Tmux
-- [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]
 
 * ASCIIDOC
 See [[Asciidoc.org][Asciidoc file]].
@@ -47,9 +44,15 @@ See [[Asciidoc.org][Asciidoc file]].
 ** Mint
 - [[https://shortcutworld.com/Linux-Mint][82 Shortcuts for Linux Mint]]
 - [[https://shortcutworld.com/Bash][59 Shortcuts for Bash]]
+** Tmux
+- [[https://shortcutworld.com/tmux][23 Shortcuts for tmux]]
+
 
 * Windows  
 - [[Windoes.org][My Windows Shortcuts]]
+** Chrome
+- [[Chrome.org][My Chrome Shortbuts]]
+
 
 * Mac  
 - [[Mac.org][My Mac Shortcuts]]
