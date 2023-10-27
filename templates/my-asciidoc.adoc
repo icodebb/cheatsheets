@@ -143,7 +143,7 @@ Second Line.
 
 ****
 Four score and twenty +
-years ago…
+years ago …
 ****
 
 .Lightweight Markup Title
@@ -233,6 +233,19 @@ How many?
     . LinuxMint +
       My current OS. +
       Home, and Work.
++
+--
+Bash:
+[source,bash]
+----
+#!/bin/bash
+echo "Hello"
+----
+----
+= Document Title
+----
+NOTE: Checkout the following BDD index, it continues.
+--
     . BSD
       * FreeBSD
       * NetBSD
@@ -480,11 +493,16 @@ kbd:[Alt+F11] - Toggle Full Screen Mode in the Eclipse IDE
 
 == Inline Icons
 
-icon:comment[] This is a comment icon
-
-icon:file[] And a file icon
-
-icon:battery-full[] And a battery icon
+* icon:comment[] : a comment icon
+* icon:file[] : a file icon
+* icon:battery-full[] : a battery icon
+* icon:arrow-right[]
+* icon:check[]
+* icon:xmark[]
+* icon:arrow-up[]
+* icon:bell[]
+* icon:plus[]
+* icon:minus[]
 
 == Math
 
@@ -759,7 +777,11 @@ python3 -m http.server 8080
 * https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
 * https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/[Syntax Quick Reference]
 * https://asciidoctor.org/docs/asciidoc-writers-guide/[AsciiDoc Writer’s Guide]
-* https://www.vogella.com/tutorials/AsciiDoc/article.html[Using AsciiDoc and Asciidoctor to write documentation - Tutorial]
+* https://docs.asciidoctor.org/asciidoc/latest/lists/continuation/[Complex List Items(Attach blocks(e.g. source code) using a list continuation)]
+* https://leanpub.com/awesomeasciidoctornotebook/read[Awesome Asciidoctor Notebook]
+
+=== Icons
+* https://docs.asciidoctor.org/pdf-converter/latest/icons/#font[Font and Image Icons]
 
 === Comparison
 * https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[Compare AsciiDoc to Markdown]
