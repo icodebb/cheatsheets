@@ -43,7 +43,7 @@
 
 * Firefox
 + Application Menu/More tools/Customize toolbar \\
-  Drag the icons to the toolbar.
+  Drag the icons to the toolbar, e.g. the Web developer tools icon.
 
 * Windows Terminal
 + [[https://ohmyposh.dev/doc/installation/prompt][Oh My Posh Change the Prompt]] I like the way of looks like Oh My Bash.
