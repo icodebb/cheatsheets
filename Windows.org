@@ -17,7 +17,7 @@
 + Window/Tab Control
   - =Ctrl+Shift+PageUp= Move the tab to the left in the tab row (Behavior changed, it just switchs)
   - =Ctrl+Shift+PageDown= Move the tab to the right (same above, but now you can use mouse to move the tabs)
-  - =Ctrl+shift+,= Enable/disable vertical tabs.
+  - =Ctrl+shift+,.= Enable/disable vertical tabs(NOTE, no '.', use it just for format).
   - =Ctrl+N= Open a new window
   - =Ctrl+Shift+P= Open a new In-Private Browsing window
   - =Ctrl+T= Open a new tab
