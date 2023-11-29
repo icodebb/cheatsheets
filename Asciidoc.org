@@ -23,6 +23,8 @@
   + [[https://www.alexdico.com/asciidoctor/2022/03/08/efficient-writing-with-asciidoctor.html][Efficient Writing with Asciidoctor]]
 - Kate \\
   Use Kate as text editor and AsciidocFX as Previewer with two monitors, work good for me.
+- Emacs \\
+  [[https://github.com/bbatsov/adoc-mode][adoc-mode]], don't like the color theme.
 * OS
 - Mac
   It crashes if I use the downloaded version of AsciidocFX_Mac.dmg.
