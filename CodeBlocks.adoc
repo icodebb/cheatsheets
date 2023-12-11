@@ -36,6 +36,8 @@ Edit::
 * `Alt + PgDown` Goto next bookmark
 * `F12` Toggle current block folding
 * `Shift + F12` Toggle all folds
+* `Tab` Move selection right
+* `Shift Tab` Move selection left
 
 Search::
 * `Ctrl G` Goto line
