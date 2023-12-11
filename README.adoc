@@ -1,14 +1,19 @@
 = Useful Cheatsheets
 :author: Ice Liu
+:toc: left
+:toclevels: 5
 :sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
 :doctype: article
 :encoding: utf-8
 :lang: en
-:toc: left
-:toclevels: 5
-:numbered:
 :imagesdir: ./images
+:icons: font
+:icon-set: fas
 :experimental:
+:keywords:
 
 Cheatsheets for development, writing, etc.
 

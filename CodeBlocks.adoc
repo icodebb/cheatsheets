@@ -1,0 +1,45 @@
+= CodeBlocks
+:author: Ice Liu
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: ./images
+:icons: font
+:icon-set: fas
+:experimental:
+:keywords:
+
+== Shortcuts
+
+View::
+* `F2` Show/hide the Messages panel, include Search results, Build log etc.
+* `Shift F2` Show/hide Management pane.
+
+Edit::
+* `Ctrl + Z` Undo last action
+* `Ctrl + Shift + Z` Redo last action
+* `F11` Swap header / source, interesting!
+* `Ctrl + Shift + C` Comment highlighted code
+* `Ctrl + Shift + X` Uncomment highlighted code
+* `Ctrl + D` Duplicate line caret is on, it's like a copy paste
+* `Ctrl + Space / Ctrl + J` Auto-complete / Abbreviations, ?
+* `Ctrl + Shift + Space` Show call tip, doesn't work?
+* `Ctrl + T` Swap line caret is on with line above it
+* `Ctrl + B` Toggle bookmark
+* `Alt + PgUp` Goto previous bookmark
+* `Alt + PgDown` Goto next bookmark
+* `F12` Toggle current block folding
+* `Shift + F12` Toggle all folds
+
+Search::
+* `Ctrl G` Goto line
+* `Ctrl Alt .` Open include file
+
+More::
+* https://wiki.codeblocks.org/index.php/Keyboard_Shortcuts[Keyboard Shortcuts]
