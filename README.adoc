@@ -35,6 +35,9 @@ Cheatsheets for development, writing, etc.
 * link:CodeLite.org[My CodeLite Shortcuts]
 * link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
 
+=== CodeBlock
+* link:CodeBlocks.adoc[My CodeBlocks Shortcuts]
+
 === Kate
 
 === PyCharm
