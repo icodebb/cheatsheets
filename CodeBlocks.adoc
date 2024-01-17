@@ -43,5 +43,9 @@ Search::
 * `Ctrl G` Goto line
 * `Ctrl Alt .` Open include file
 
+Motion::
+* `Jump back` Go to previous place using the left arrow from tools icon.
+* `Jump forward` Go to next with the right arrow.
+
 More::
 * https://wiki.codeblocks.org/index.php/Keyboard_Shortcuts[Keyboard Shortcuts]
