@@ -53,10 +53,14 @@ Cheatsheets for development, writing, etc.
 === Sublime Text
 See link:Sublime.org[Sublime.org]
 
-== ASCIIDOC
+== Doc
+=== ASCIIDOC
 See link:Asciidoc.org[Asciidoc file].
 
-== RST
+== Markdown
+* https://www.markdownguide.org/extended-syntax/[Markdown Extended Syntax]
+
+=== RST
 * https://sphinx-tutorial.readthedocs.io/cheatsheet/[The syntax for RST & Sphinx programs.]
 
 == Linux
