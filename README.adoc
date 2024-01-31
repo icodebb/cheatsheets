@@ -57,7 +57,7 @@ See link:Sublime.org[Sublime.org]
 === ASCIIDOC
 See link:Asciidoc.org[Asciidoc file].
 
-== Markdown
+=== Markdown
 * https://www.markdownguide.org/extended-syntax/[Markdown Extended Syntax]
 
 === RST
