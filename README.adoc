@@ -40,6 +40,10 @@ Cheatsheets for development, writing, etc.
 
 === Kate
 
+=== KDevelop
+
+* https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
+
 === PyCharm
 * link:PyCharm.org[My PyCharm Shortcuts]
 * link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
