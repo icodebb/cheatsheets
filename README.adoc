@@ -18,6 +18,34 @@
 Cheatsheets for development, writing, etc.
 
 == IDEs
+
+=== VS Code
+* link:VS-Code.org[My VS Code Shortcuts]
+* https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts[123 Shortcuts for Visual Studio Code]
+
+=== KDevelop
+Love the hints and Code Browser features. +
+* https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
+
+=== CodeBlock
+* link:CodeBlocks.adoc[My CodeBlocks Shortcuts]
+
+=== PyCharm
+* link:PyCharm.org[My PyCharm Shortcuts]
+* link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
+
+=== Kate
+
+=== CodeLite
+* link:CodeLite.org[My CodeLite Shortcuts]
+* link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
+
+== Netbeans
+I use it for my HTML project.
+
+== Visual Studio
+Community version is free.
+
 === Doom Emacs
 * link:DoomEmacs.org[My Doom Emacs Shortcuts]
 * link:templates/Org-Template.org[My Org Template]
@@ -26,27 +54,6 @@ Cheatsheets for development, writing, etc.
 === Emacs & Vi
 * link:Emacs-vs-Vi.org[My Emacs vs Vi Shortcuts]
 * https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts[59 Shortcuts for Emacs 23.2.1]
-
-=== VS Code
-* link:VS-Code.org[My VS Code Shortcuts]
-* https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts[123 Shortcuts for Visual Studio Code]
-
-=== CodeLite
-* link:CodeLite.org[My CodeLite Shortcuts]
-* link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
-
-=== CodeBlock
-* link:CodeBlocks.adoc[My CodeBlocks Shortcuts]
-
-=== Kate
-
-=== KDevelop
-
-* https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
-
-=== PyCharm
-* link:PyCharm.org[My PyCharm Shortcuts]
-* link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
 
 === IntelliJ IDEA (Community Edition)
 * Font: Fira Code, Size:14  Line Height: 1.3
@@ -71,12 +78,14 @@ See link:Asciidoc.org[Asciidoc file].
 === Mint
 * https://shortcutworld.com/Linux-Mint[82 Shortcuts for Linux Mint]
 * https://shortcutworld.com/Bash[59 Shortcuts for Bash]
+
 === Tmux
 * https://shortcutworld.com/tmux[23 Shortcuts for tmux]
 
 
 == Windows
 * link:Windoes.org[My Windows Shortcuts]
+
 === Chrome
 * link:Chrome.org[My Chrome Shortbuts]
 
