@@ -40,10 +40,10 @@ Love the hints and Code Browser features. +
 * link:CodeLite.org[My CodeLite Shortcuts]
 * link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
 
-== Netbeans
+=== Netbeans
 I use it for my HTML project.
 
-== Visual Studio
+=== Visual Studio
 Community version is free.
 
 === Doom Emacs
