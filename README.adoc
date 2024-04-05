@@ -15,7 +15,7 @@
 :experimental:
 :keywords:
 
-Cheatsheets for development, writing, etc.
+Cheatsheet for development, writing, etc.
 
 == IDEs
 
