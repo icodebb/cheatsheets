@@ -96,3 +96,5 @@ See link:Asciidoc.org[Asciidoc file].
 
 == Links
 * https://shortcutworld.com/Shortcuts[Shortcuts World]
+* https://www.cheat-sheets.org/[Cheat-Sheets.org]
+* https://github.com/cheat/cheat[cheat/cheat]
