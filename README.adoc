@@ -17,7 +17,7 @@
 
 Cheatsheet for development, writing, etc.
 
-== IDEs
+== IDEs & Editors
 
 === VS Code
 * link:VS-Code.org[My VS Code Shortcuts]

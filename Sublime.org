@@ -22,6 +22,8 @@ Suzblime Text 4 doesn't support Chinese characters.
   + Golang Build, the official package for Go build system integration.
   + LSP + gopls, didn't try yet.
   + [[https://lsp.sublimetext.io/language_servers/][LSP for Sublime Text ]]
+  + Install Package (Linux)
+    - Ctrl+Shift+P or Tools/Command Palette/Install Package
 
 * Settings
 - Terminal
