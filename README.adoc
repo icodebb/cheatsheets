@@ -1,4 +1,4 @@
-= Useful Cheatsheets
+= Useful Cheatsheet
 :author: Ice Liu
 :toc: left
 :toclevels: 5
