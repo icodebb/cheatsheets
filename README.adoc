@@ -24,13 +24,15 @@ Cheatsheet for development, writing, etc.
 * https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts[123 Shortcuts for Visual Studio Code]
 
 === KDevelop
-Love the hints and Code Browser features. +
+* Love the hints and Code Browser features.
 * https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
 
 === CodeBlock
 * link:CodeBlocks.adoc[My CodeBlocks Shortcuts]
 
 === PyCharm
+* Nice Markdown Split Editor and Markdown Editor, although the Markdown Editor is buggy.
+* Nice table editing feature on automatic align.
 * link:PyCharm.org[My PyCharm Shortcuts]
 * link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
 
@@ -41,7 +43,7 @@ Love the hints and Code Browser features. +
 * link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
 
 === Netbeans
-I use it for my HTML project.
+I used it for my HTML project.
 
 === Visual Studio
 Community version is free.
