@@ -1,4 +1,0 @@
-#+TITLE Chrome shortcuts
-
-*  TAB
-- =C-TAB= Switch between tabs.

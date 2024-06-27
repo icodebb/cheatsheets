@@ -1,0 +1,11 @@
+= TITLE Chrome shortcuts
+
+==  TAB
+* `Ctrl-Tab` Switch between tabs forward.
+* `Ctrl-Shift-Tab` Switch between tabs backward.
+* `Ctrl-Shift-T` Reopen your last closed tab.
+
+== Links
+* https://www.google.com/chrome/tips/[Chrome Tips]
+* https://support.google.com/chrome/answer/157179?sjid=11174886976191181392-AP[Chrome keyboard shortcuts]
+* https://shortcutworld.com/Chrome/win/Google-Chrome_Shortcuts[50 Shortcuts for Google Chrome]
