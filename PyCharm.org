@@ -1,6 +1,6 @@
 #+title: PyCharm Shortcuts Keymaps
 
-My favorite editor despite the TODO feature, if TODO extention does good job, then it'll be dream comes true.
+My favorite editor despite the TODO feature, if TODO extention does good job, then it'll be a dream come true.
 
 * NOTE
 + Sometime I set Keymap to Emacs, but not any more, tired when switching between different editors.
@@ -36,6 +36,8 @@ My favorite editor despite the TODO feature, if TODO extention does good job, th
 + =Ctrl+Shift+U=: Toggle upper/lower case.
 + =Ctrl+Shift+j=: Join line, get next line append to th end of current line.
 + =Alt+D= =Alt+Backspace=: Delete forward/backward in Emacs mode.
++ =Clt /=: For single line comments (//...)
++ =Ctrl+Shift+D=: For multi line comments (/*... */)
 
 * Git
 + =Alt+`=: VCS operations popup
