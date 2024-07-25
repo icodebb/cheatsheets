@@ -41,6 +41,9 @@
   + [[https://hyperpolyglot.org/lightweight-markup][Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode]]
 * Tools
 - pandoc
-  + e.g. `pandoc index.md -o index.adoc`
+  + e.g. convert markdown to ascciidoc
+  #+BEGIN_SRC bash
+  pandoc index.md -o index.adoc
+  #+END_SRC
 * Languages
   + [[https://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages][Supported languages(150+)]]
