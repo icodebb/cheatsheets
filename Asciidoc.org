@@ -39,5 +39,8 @@
 * Comparison
   + [[https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/][Asciidoc vs Markdown]]
   + [[https://hyperpolyglot.org/lightweight-markup][Markdown, reStructuredText, MediaWiki, AsciiDoc, Org-mode]]
+* Tools
+- pandoc
+  + e.g. `pandoc index.md -o index.adoc`
 * Languages
   + [[https://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages][Supported languages(150+)]]
