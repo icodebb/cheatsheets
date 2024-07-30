@@ -87,7 +87,7 @@
 
 * Settings
 + Tree Indent
-  Go to File > Preference > Settings and choose:
+  Go to File > Preference > Settings and choose: \\
   Workbench > Tree: Indent
   #+OPTIONS: line-break:t
   Set it from 8 to 12
