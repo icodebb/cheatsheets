@@ -87,16 +87,16 @@
 
 * Settings
 + Tree Indent
-Go to File > Preference > Settings and choose:
-  Workbench > Tree: Indent
-  Set it from 8 to 12
-Or `Ctrl-Shift-P` -> Go to Preferences: Open Settings (JSON)
+  Go to File > Preference > Settings and choose:  
+  Workbench > Tree: Indent  
+  Set it from 8 to 12  
 
-#+BEGIN_SRC JSON
-{
-  "workbench.tree.indent": 18,
-}
-#+END_SRC
+  Or `Ctrl-Shift-P` -> Go to Preferences: Open Settings (JSON)  
+  #+BEGIN_SRC JSON
+  {
+    "workbench.tree.indent": 18,
+  }
+  #+END_SRC
 
 * Terminal
 + [[https://code.visualstudio.com/docs/terminal/appearance][Terminal Appearance]] - Set font, set Git Bash, etc.
