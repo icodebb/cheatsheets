@@ -88,9 +88,10 @@
 * Settings
 + Tree Indent
   Go to File > Preference > Settings and choose: \\
-  Workbench > Tree: Indent \\
-  Set it from 8 to 12 \\
-  \\
+  Workbench > Tree: Indent #+OPTIONS: line-break:t
+  Set it from 8 to 12 #+OPTIONS: line-break:t
+  #+OPTIONS: line-break:t
+  
   Or `Ctrl-Shift-P` -> Go to Preferences: Open Settings (JSON) 
   #+BEGIN_SRC JSON
   {
