@@ -6,6 +6,7 @@
   - =Ctrl Home= Move to the begin of the file.
   - =Ctrl End= Move to the end of the file.
   - =Ctrl `= Open/close terminal window.
+  - =Ctrl Tab= To view a list of all files open in an editor group, use Up/Down arrow to move.
 + Awesome Emacs Keymap
   - Edit
     + =Alt c= Capitalize the word.
