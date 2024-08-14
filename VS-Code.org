@@ -30,11 +30,12 @@
 + Keymaps
   - =Awesome Emacs Keymap= Love it.
 + Themes
-  - =Ayu= My current theme, Ayu Mirage Bordered.
+  - =Ayu= Ayu Mirage Bordered.
   - =Material Icons Theme= Current one.
   - =Fluent icons= Sometime you want some difference.
   - =vscode-icons= Prefer Material Icons Theme.
   - =Peacock= Color my workspaces. Use =Ctrl-Shift-p= then =Peacock: Enter a color=.
+  - =Sapphire Theme= A a vibrant blue theme.
 + Git
   - =Git=
   - =Git Graph=
