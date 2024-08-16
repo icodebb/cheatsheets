@@ -24,6 +24,7 @@ Cheatsheet for development, writing, etc.
 * https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts[123 Shortcuts for Visual Studio Code]
 
 === PyCharm
+* Great support for Asciidoc editing, nice Preview feature.
 * Nice Markdown Split Editor and Markdown Editor, although the Markdown Editor is buggy.
 * Nice table editing feature on automatic align.
 * link:IDEs/PyCharm.org[My PyCharm Shortcuts]
@@ -43,7 +44,7 @@ Cheatsheet for development, writing, etc.
 * Love the hints and Code Browser features.
 * https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
 
-=== Kate
+=== Kate & Kwrite
 
 === Sublime Text
 See link:IDEs/Sublime.org[Sublime.org]
