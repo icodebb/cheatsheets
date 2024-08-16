@@ -1,0 +1,22 @@
+= PowerShell
+:author: Ice Liu
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: ./images
+:icons: font
+:icon-set: fas
+:experimental:
+:keywords:
+
+== Links
+* https://github.com/ab14jain/PowerShell[PowerShell for beginners]
+* https://www.stationx.net/powershell-cheat-sheet/[The Most Helpful PowerShell Cheat Sheet You’ll Ever Find]
+* https://gist.github.com/pcgeek86/336e08d1a09e3dd1a8f0a30a9fe61c8a[ @pcgeek86pcgeek86/cheatsheet.ps1]
+* https://github.com/PrateekKumarSingh/CheatSheets/tree/master/Powershell[PDF Files For PowerShell]

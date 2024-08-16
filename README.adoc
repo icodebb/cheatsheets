@@ -20,7 +20,7 @@ Cheatsheet for development, writing, etc.
 == IDEs & Editors
 
 === VS Code
-* link:VS-Code.org[My VS Code Shortcuts]
+* link:IDEs/VS-Code.org[My VS Code Shortcuts]
 * https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts[123 Shortcuts for Visual Studio Code]
 
 === KDevelop
@@ -28,18 +28,18 @@ Cheatsheet for development, writing, etc.
 * https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
 
 === CodeBlock
-* link:CodeBlocks.adoc[My CodeBlocks Shortcuts]
+* link:IDEs/CodeBlocks.adoc[My CodeBlocks Shortcuts]
 
 === PyCharm
 * Nice Markdown Split Editor and Markdown Editor, although the Markdown Editor is buggy.
 * Nice table editing feature on automatic align.
-* link:PyCharm.org[My PyCharm Shortcuts]
+* link:IDEs/PyCharm.org[My PyCharm Shortcuts]
 * link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
 
 === Kate
 
 === CodeLite
-* link:CodeLite.org[My CodeLite Shortcuts]
+* link:IDEs/CodeLite.org[My CodeLite Shortcuts]
 * link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
 
 === Netbeans
@@ -68,7 +68,7 @@ Community version is free.
     *** `Alt <-` Move to left tab
 
 === Sublime Text
-See link:Sublime.org[Sublime.org]
+See link:IDEs/Sublime.org[Sublime.org]
 
 == Doc
 === ASCIIDOC
@@ -88,19 +88,18 @@ See link:Asciidoc.org[Asciidoc file].
 === Tmux
 * https://shortcutworld.com/tmux[23 Shortcuts for tmux]
 
-
 == Windows
-* link:Windoes.org[My Windows Shortcuts]
+* link:Windows/Windows.org[My Windows Shortcuts]
 
 === Chrome
-* link:Chrome.org[My Chrome Shortbuts]
-
+* link:Windows/Chrome.org[My Chrome Shortcuts]
 
 == Mac
-* link:Mac.org[My Mac Shortcuts]
+* link:Mac/Mac.org[My Mac Shortcuts]
 * https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac[Keyboard shortcuts in Terminal on Mac]
 
 == Links
 * https://shortcutworld.com/Shortcuts[Shortcuts World]
 * https://www.cheat-sheets.org/[Cheat-Sheets.org]
 * https://github.com/cheat/cheat[cheat/cheat]
+* https://github.com/PrateekKumarSingh/CheatSheets[PrateekKumarSingh/CheatSheets(PDFs)]
