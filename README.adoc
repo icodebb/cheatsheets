@@ -23,39 +23,11 @@ Cheatsheet for development, writing, etc.
 * link:IDEs/VS-Code.org[My VS Code Shortcuts]
 * https://shortcutworld.com/VSCode/win/Visual-Studio-Code_Shortcuts[123 Shortcuts for Visual Studio Code]
 
-=== KDevelop
-* Love the hints and Code Browser features.
-* https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
-
-=== CodeBlock
-* link:IDEs/CodeBlocks.adoc[My CodeBlocks Shortcuts]
-
 === PyCharm
 * Nice Markdown Split Editor and Markdown Editor, although the Markdown Editor is buggy.
 * Nice table editing feature on automatic align.
 * link:IDEs/PyCharm.org[My PyCharm Shortcuts]
 * link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
-
-=== Kate
-
-=== CodeLite
-* link:IDEs/CodeLite.org[My CodeLite Shortcuts]
-* link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
-
-=== Netbeans
-I used it for my HTML project.
-
-=== Visual Studio
-Community version is free.
-
-=== Doom Emacs
-* link:DoomEmacs.org[My Doom Emacs Shortcuts]
-* link:templates/Org-Template.org[My Org Template]
-* https://orgmode.org/manual/Structure-Editing.html[Structure Edition] - from orgmode.org.
-
-=== Emacs & Vi
-* link:Emacs-vs-Vi.org[My Emacs vs Vi Shortcuts]
-* https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts[59 Shortcuts for Emacs 23.2.1]
 
 === IntelliJ IDEA (Community Edition)
 * Use it as default HTML editor.
@@ -67,8 +39,40 @@ Community version is free.
     *** `Alt ->` Move to right tab
     *** `Alt <-` Move to left tab
 
+=== KDevelop
+* Love the hints and Code Browser features.
+* https://userbase.kde.org/KDevelop4/Manual/Working_with_source_code[Working with source code]
+
+=== Kate
+
 === Sublime Text
 See link:IDEs/Sublime.org[Sublime.org]
+
+=== CodeBlock
+* link:IDEs/CodeBlocks.adoc[My CodeBlocks Shortcuts]
+
+=== link:IDEs/Cevelop.org[Cevelop]
+
+=== CodeLite
+* link:IDEs/CodeLite.org[My CodeLite Shortcuts]
+* link:https://shortcutworld.com/CodeLite/win/CodeLite_10_Shortcuts[107 Shortcuts for CodeLite 10]
+
+=== link:IDEs/Eclipse.adoc[Eclipse]
+
+=== Netbeans
+I used it for my HTML project.
+
+=== Visual Studio
+Community version is free.
+
+=== Emacs & Vi
+* link:Emacs-vs-Vi.org[My Emacs vs Vi Shortcuts]
+* https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts[59 Shortcuts for Emacs 23.2.1]
+
+=== Doom Emacs
+* link:DoomEmacs.org[My Doom Emacs Shortcuts]
+* link:templates/Org-Template.org[My Org Template]
+* https://orgmode.org/manual/Structure-Editing.html[Structure Edition] - from orgmode.org.
 
 == Doc
 === ASCIIDOC
