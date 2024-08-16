@@ -59,7 +59,7 @@ See link:IDEs/Sublime.org[Sublime.org]
 
 === link:IDEs/Eclipse.adoc[Eclipse]
 
-=== Netbeans
+=== link:IDEs/Netbeans.adoc[Netbeans]
 I used it for my HTML project.
 
 === Visual Studio
