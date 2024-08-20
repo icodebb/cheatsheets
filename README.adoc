@@ -113,3 +113,4 @@ See link:Asciidoc.org[Asciidoc file].
 * https://www.cheat-sheets.org/[Cheat-Sheets.org]
 * https://github.com/cheat/cheat[cheat/cheat]
 * https://github.com/PrateekKumarSingh/CheatSheets[PrateekKumarSingh/CheatSheets(PDFs)]
+* https://cheatography.com/explore/[Explore Cheatography]
