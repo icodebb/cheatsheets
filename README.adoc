@@ -27,7 +27,7 @@ Cheatsheet for development, writing, etc.
 * Great support for Asciidoc editing, nice Preview feature.
 * Nice Markdown Split Editor and Markdown Editor, although the Markdown Editor is buggy.
 * Nice table editing feature on automatic align.
-* link:IDEs/PyCharm.org[My PyCharm Shortcuts]
+* link:IDEs/PyCharm.adoc[My PyCharm Shortcuts]
 * link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
 
 === IntelliJ IDEA (Community Edition)
@@ -106,6 +106,9 @@ See link:Asciidoc.org[Asciidoc file].
 === RST
 * https://sphinx-tutorial.readthedocs.io/cheatsheet/[The syntax for RST & Sphinx programs.]
 
+=== pandoc
+* Use link:Tools/pandoc.adoc[pandoc] to convert files.
+
 == Linux
 === Mint
 * https://shortcutworld.com/Linux-Mint[82 Shortcuts for Linux Mint]
@@ -123,6 +126,9 @@ See link:Asciidoc.org[Asciidoc file].
 == Mac
 * link:Mac/Mac.org[My Mac Shortcuts]
 * https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac[Keyboard shortcuts in Terminal on Mac]
+
+== Tools
+* link:Tools/rg.adoc[rg] - recursively search the current directory for lines matching a pattern
 
 == Links
 * https://shortcutworld.com/Shortcuts[Shortcuts World]

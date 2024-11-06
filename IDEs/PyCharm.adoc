@@ -1,4 +1,20 @@
-My favorite editor despite the TODO feature, if TODO extention does good
+= PyCharm IDE
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: ./images
+:icons: font
+:icon-set: fas
+:experimental:
+:keywords:
+
+My favorite editor despite the TODO feature, if TODO extension does good
 job, then it'll be a dream come true.
 
 == NOTE
@@ -11,6 +27,8 @@ the indentions.
 == General
 
 * `+Ctrl+Shift+A+`: Entry for all commands.
+* `Alt+F1`: Show/hide Project panel
+* `Alt+F12`: Show/hide Terminal (didn't work for me)
 
 == Spelling
 
