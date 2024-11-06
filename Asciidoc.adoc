@@ -1,0 +1,94 @@
+= Asciidoc
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: ./images
+:icons: font
+:icon-set: fas
+:experimental:
+:keywords:
+
+== Cheatsheet
+
+* https://powerman.name/doc/asciidoc[AsciiDoc Cheatsheet]
+** `+:toc:+` - Table Of Contents
+** `+:sectnums:+` - Use n.n.n format on section titles
+
+== Editors
+
+* https://www.asciidocfx.com/[AsciidocFX]
+** UML Diagram, works well on Windows 10, though it doesn't work in
+GitHub, but auto generated picture can be used.
+** Mermaid, in order to support Mermaid in AsciidocFX, need to install
+mmdc command line tool on Windows.
++
+[source,shell]
+----
+npm install -g @mermaid-js/mermaid-cli
+----
++
+It didn't work on my Windows 10 due to Error: unable to get local issuer
+certificate.
+** Ditaa, same to UML diagram.
+** Files Tree New, same to UML Diagram and Ditaa.
+** I will use asciidoc in GitLab as my preference, but for those big
+files like logs, will keep using Org mode .
+** https://plantuml.com/[plantuml.com] UML diagrams.
+** https://docs.asciidoctor.org/asciidoctor/latest/tooling/[Ascidoc
+Tools]
+** https://dojofive.com/blog/ditaa-color-codes-for-diagrams/[Use Color
+To Help Separate Items In DITAA Diagrams]
+** https://dojofive.com/wp-content/uploads/2023/06/dojo-five-ditaa-color-chart.pdf[Dojo
+Color Chart(PDF)]
+** https://www.dewanahmed.com/markdown-asciidoc-restructuredtext/#anonymous1-wrote[Asciidoc
++ Antora]
+** https://www.alexdico.com/asciidoctor/2022/03/08/efficient-writing-with-asciidoctor.html[Efficient
+Writing with Asciidoctor]
+* Kate +
+Use Kate as text editor and AsciidocFX as Previewer with two monitors,
+work good for me.
+* Emacs +
+https://github.com/bbatsov/adoc-mode[adoc-mode], don't like the color
+theme.
+
+== OS
+
+* Mac It crashes if I use the downloaded version of AsciidocFX~Mac~.dmg.
+So I use `+brew+` commands instead:
++
+[source,bash]
+----
+brew install asciidoctor
+brew install ditaa
+brew install graphviz (for plantuml)
+cp /opt/homebrew/bin/dot /opt/local/bin/dot (for planuml)
+brew install asciidocfx (It fetches the AsciidocFX_Mac_M1.dmg.)
+----
+
+== Comparison
+
+* https://docs.asciidoctor.org/asciidoc/latest/asciidoc-vs-markdown/[Asciidoc
+vs Markdown]
+* https://hyperpolyglot.org/lightweight-markup[Markdown&#44;
+reStructuredText&#44; MediaWiki&#44; AsciiDoc&#44; Org-mode]
+
+== Tools
+
+* pandoc
+** e.g. convert markdown to ascciidoc
++
+[source,bash]
+----
+pandoc index.md -o index.adoc
+----
+
+== Languages
+
+* https://www.gnu.org/software/src-highlite/source-highlight.html#Supported-languages[Supported
+languages(150+)]
