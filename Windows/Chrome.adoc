@@ -1,9 +1,28 @@
-= TITLE Chrome shortcuts
+= Chrome Shortcuts
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: ./images
+:icons: font
+:icon-set: fas
+:experimental:
+:keywords:
 
 ==  TAB
-* `Ctrl-Tab` Switch between tabs forward.
-* `Ctrl-Shift-Tab` Switch between tabs backward.
-* `Ctrl-Shift-T` Reopen your last closed tab.
+* `Ctrl` + `Tab` Switch between tabs forward.
+* `Ctrl` + `Shift` +`Tab` Switch between tabs backward.
+* `Ctrl` + `Shift` + `T` Reopen your last closed tab.
+
+== Zoom
+* `Ctrl` +`0` Reset to 100%
+* `Ctrl` + `+` Zoom In
+* `Ctrl` + `-` Zoom Out
 
 == Links
 * https://www.google.com/chrome/tips/[Chrome Tips]
