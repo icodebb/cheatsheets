@@ -1,0 +1,22 @@
+= Microsoft Visual Studio Community 2022
+:toc: left
+:toclevels: 5
+:sectnums:
+:sectnumlevels: 5
+:sectlinks:
+:numbered:
+:doctype: article
+:encoding: utf-8
+:lang: en
+:imagesdir: ./images
+:icons: font
+:icon-set: fas
+:experimental:
+:keywords:
+
+== Build Errors
+
+* https://stackoverflow.com/questions/22450423/how-to-use-crt-secure-no-warnings[error C4996: 'strncpy']
+
+image:VisualStudio-Configuration-NO_WARN.png[]
+
