@@ -14,8 +14,7 @@
 :experimental:
 :keywords:
 
-My favorite editor despite the TODO feature, if TODO extension does good
-job, then it'll be a dream come true.
+My favorite editor despite the TODO feature, if TODO extension does good job, then it'll be a dream come true.
 
 == NOTE
 
@@ -83,40 +82,45 @@ line.
 
 == Python
 
-It was 3.8 previously, I updated it to 3.10.
-
-* 3.8 C:.exe
-* 3.10 C:.exe
+It was 3.8 previously, I updated it to 3.10 for work, co-exist with 3.12.
 
 == Extensions Plugins
 
 * Themes
-** Hiberbee is my favorite dark theme for PyCharm.
-** Monokai Pro Theme
+  ** The default Dark theme is the one I'm using, good background color for Asciidoc source code block.
+  ** Hiberbee is a nice dark theme for PyCharm.
+  ** Monokai Pro Theme
 * Icons
-** Extra ToolWindow Colorful Icons
+  ** Atom File Icon
+  ** Extra ToolWindow Colorful Icons
 * Lang
-** AsciiDoc
-** Org4Idea
-** Vlang
-** Go Template
-** Markdown
-** Shell Script
-** YAML
-** WebCalm: JavaScript and CSS
+  ** AsciiDoc
+  ** Org4Idea
+  ** Vlang
+  ** Go Template
+  ** Markdown
+  ** Shell Script
+  ** YAML
+  ** WebCalm: JavaScript and CSS
 * Tools
-** Key Promoter X
-** String Manipulation
-** emacsIDEAs
-** Rainbow Bracket (bugy)
-** HTML Entity
-** HTML Tools
-** Git
-** GitHub
+  ** Key Promoter X
+  ** String Manipulation
+  ** emacsIDEAs
+  ** Rainbow Bracket (buggy)
+  ** HTML Entity
+  ** HTML Tools
+  ** Git
+  ** GitHub
+* Font
+  ** `SourceCodePro Nerd Font Mono` for Editor
+  ** `SpaceMono Nerd Font Mono` for General
 
 == Pros & Cons
 
 * Pros
-** Tab can be collapsed/expanded.
+  ** Tab can be collapsed/expanded.
+  ** Asciidoc support is good.
+  ** Code block syntax highlighting.
+  ** It's free.
 * Cons
-** HTML code format doesn't work well, i.e. on the indent.
+  ** HTML code format doesn't work well, i.e. on the indent.
