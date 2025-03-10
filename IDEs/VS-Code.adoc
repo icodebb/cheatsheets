@@ -49,7 +49,9 @@ Up/Down arrow to move.
 * Keymaps
   ** `+Awesome Emacs Keymap+` Love it.
 * Themes
+  ** Palenight Theme. Good for Linux Mint environment.
   ** `+Ayu+` Ayu Mirage Bordered.
+    *** `Ayu Dark` is my current color theme on Windows 11.
   ** `+Material Icons Theme+` Current one.
   ** `+Fluent icons+` Sometime you want some difference.
   ** `+vscode-icons+` Prefer Material Icons Theme.
