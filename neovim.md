@@ -103,3 +103,4 @@ Sidebar would need to be focused. If accidentally closed, run `:NvimTreeOpen`
 ## Links
 
 * [Vim Cheat Sheet](https://vim.rtorr.com/)
+* [Simple Neovim Cheatsheet](https://www.shortcutfoo.com/app/dojos/neovim/cheatsheet)
