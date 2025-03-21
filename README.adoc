@@ -30,7 +30,7 @@ Cheatsheet for development, writing, etc.
 * link:IDEs/PyCharm.adoc[My PyCharm Shortcuts]
 * link:https://shortcutworld.com/PyCharm/win/JetBrains-PyCharm_Shortcuts[120 Shortcuts for JetBrains PyCharm]
 
-=== IntelliJ IDEA (Community Edition)
+=== IntelliJ IDEA Family
 * Use it as default HTML editor for my Cookbook.
 * Theme: Material Deep Ocean
 * Font: Menlo, Size:15  Line Height: 1.3
@@ -55,6 +55,9 @@ Cheatsheet for development, writing, etc.
   ** Tabs
     *** `Alt ->` Move to right tab
     *** `Alt <-` Move to left tab
+* Cheatsheet
+  ** https://quickref.me/webstorm.html[WebStorm cheatsheet]
+  ** https://quickref.me/idea[Intellij IDEA cheatsheet]
 
 === KDevelop
 * Love the hints and Code Browser features.
