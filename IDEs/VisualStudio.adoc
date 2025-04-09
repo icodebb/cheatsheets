@@ -12,7 +12,22 @@
 :icons: font
 :icon-set: fas
 :experimental:
-:keywords:
+:keywords: Visual Studio Bookmarks
+
+== Shortcuts
+
+=== Bookmark
+
+[cols=",",options="header",]
+|===
+|Action |Shortcut (Default)
+|Toggle Bookmark |`+Ctrl + K+`, `+Ctrl + K+`
+|Next Bookmark |`+Ctrl + K+`, `+Ctrl + N+`
+|Previous Bookmark |`+Ctrl + K+`, `+Ctrl + P+`
+|Clear All Bookmarks |`+Ctrl + K+`, `+Ctrl + L+`
+|Enable/Disable Bookmarks |`+Ctrl + K+`, `+Ctrl + X+`
+|Show Bookmark Window |`+Ctrl + K+`, `+Ctrl + W+`
+|===
 
 == Build Errors
 
