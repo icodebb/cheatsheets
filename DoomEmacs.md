@@ -10,13 +10,13 @@ Forked from [niyumard/Doom-Emacs-Cheat-Sheet](https://github.com/niyumard/Doom-E
 -   Try to avoid terminal version of Emacs when possible.
 -   Use Doom Emacs\'s built-in helps to understand how things work under
     the hood and change them to suit your needs.
-    -   `SPC h k`{.verbatim} tells you how key combinations translate to
+    -   `SPC h k` tells you how key combinations translate to
         Emacs commands.
-    -   `SPC h w`{.verbatim} helps you find keyboard shortcuts for
+    -   `SPC h w` helps you find keyboard shortcuts for
         different commands.
-    -   `SPC h v`{.verbatim} lets you see what\'s inside variables and
+    -   `SPC h v` lets you see what\'s inside variables and
         change them.
-    -   `SPC h f`{.verbatim} tells you about functions and where they
+    -   `SPC h f` tells you about functions and where they
         are defined.
 -   Github doesn\'t render org files very well. It\'s best that you
     clone this repository and open it in Emacs.
@@ -27,93 +27,93 @@ Forked from [niyumard/Doom-Emacs-Cheat-Sheet](https://github.com/niyumard/Doom-E
 
 # Command Abbreviations
 
--   `C`{.verbatim} \"Control\" key
--   `M`{.verbatim} \"Alt\" or \"Option\" key
--   `S`{.verbatim} \"Super\" or \"Command\" key `SPC`{.verbatim}
+-   `C` \"Control\" key
+-   `M` \"Alt\" or \"Option\" key
+-   `S` \"Super\" or \"Command\" key `SPC`
     \"Space\" key
 
 # General
 
--   `SPC f s`{.verbatim} for saving the current file
--   `SPC :`{.verbatim} for entering a command
--   `SPC q q`{.verbatim} to close Emacs
--   `SPC f D`{.verbatim} to delete this file
+-   `SPC f s` for saving the current file
+-   `SPC :` for entering a command
+-   `SPC q q` to close Emacs
+-   `SPC f D` to delete this file
 
 # Motion
 
--   `g g`{.verbatim} move to beginning of the document
--   `C-f`{.verbatim} `fn-shift-down`{.verbatim} move forward/page down
--   `C-b`{.verbatim} `fn-shift-up`{.verbatim} move backward/page up
--   `Shift-g`{.verbatim} move to the end of the document
--   `C-c C-n/p`{.verbatim} move the next/previous heading
+-   `g g` move to beginning of the document
+-   `C-f` `fn-shift-down` move forward/page down
+-   `C-b` `fn-shift-up` move backward/page up
+-   `Shift-g` move to the end of the document
+-   `C-c C-n/p` move the next/previous heading
 
 # Edit
 
--   `C-RET`{.verbatim} insert new heading after subtree(does not work as
+-   `C-RET` insert new heading after subtree(does not work as
     expected)
--   `M-x org-insert-heading`{.verbatim} insert headline at current line
--   `M-RET`{.verbatim} append new heading/item at current level
--   `C-c -`{.verbatim} change the current level items type between
-    `-, +, 1, 1), a, A, a), A)`{.verbatim}.
--   `C-c *`{.verbatim} change the item into headline(same level)
--   `C-x u`{.verbatim} undo in Emacs way, one step, Vim does a lot,
+-   `M-x org-insert-heading` insert headline at current line
+-   `M-RET` append new heading/item at current level
+-   `C-c -` change the current level items type between
+    `-, +, 1, 1), a, A, a), A)`.
+-   `C-c *` change the item into headline(same level)
+-   `C-x u` undo in Emacs way, one step, Vim does a lot,
     cannot live with it.
--   `M-x evil-redo`{.verbatim} redo, since Vim undo too much
--   Use `mRemoteNG`{.verbatim} with Putty to run Doom, to copy from
+-   `M-x evil-redo` redo, since Vim undo too much
+-   Use `mRemoteNG` with Putty to run Doom, to copy from
     Windows and paste with right mouse.
--   Use `Shift`{.verbatim} + Mouse Right Click to paste in Doom Emacs
+-   Use `Shift` + Mouse Right Click to paste in Doom Emacs
     when using Putty to remote Linux
 
 # Projects with Projectile
 
--   `SPC p a`{.verbatim} to add a new project
--   `SPC p d`{.verbatim} to delete a project from the list
--   `SPC p p`{.verbatim} to open a project
--   `SPC SPC`{.verbatim} to open a file in a project
--   `SPC o p`{.verbatim} to open the file explorer
--   `SPC o E`{.verbatim} to open the shell (eshell) in fullscreen
--   `SPC o e`{.verbatim} to open the shell (eshell) in a popup window
--   `SPC f r`{.verbatim} recently visited files
--   `SPC p r`{.verbatim} recently visited files in a project
--   `M-x projectile-discover-projects-in-directory`{.verbatim} to find
+-   `SPC p a` to add a new project
+-   `SPC p d` to delete a project from the list
+-   `SPC p p` to open a project
+-   `SPC SPC` to open a file in a project
+-   `SPC o p` to open the file explorer
+-   `SPC o E` to open the shell (eshell) in fullscreen
+-   `SPC o e` to open the shell (eshell) in a popup window
+-   `SPC f r` recently visited files
+-   `SPC p r` recently visited files in a project
+-   `M-x projectile-discover-projects-in-directory` to find
     projects within given folder using Projectile
--   `M-x projectile-discover-projects-in-search-path`{.verbatim} to find
+-   `M-x projectile-discover-projects-in-search-path` to find
     projects in the folder defined by the
-    `projectile-project-search-path`{.verbatim} variable using
+    `projectile-project-search-path` variable using
     Projectile
 
 # Dired
 
 -   Dired (Directory Editor) is how you interfaces with a directory
--   Press `C-x d`{.verbatim} to open dired.
--   Use `RET`{.verbatim} to go to a folder or open a file.
--   Use `-`{.verbatim} for going one folder back
--   Use `+`{.verbatim} for creating a new directory
--   Use `d`{.verbatim} to mark the files for deletion, press
-    `x`{.verbatim} to delete.
--   Use `M`{.verbatim} to change permissions
--   Use `o`{.verbatim} to sort by modes.
--   Use `O`{.verbatim} to change the owner.
--   Use `m`{.verbatim} to mark and `u`{.verbatim} to unmark files or
+-   Press `C-x d` to open dired.
+-   Use `RET` to go to a folder or open a file.
+-   Use `-` for going one folder back
+-   Use `+` for creating a new directory
+-   Use `d` to mark the files for deletion, press
+    `x` to delete.
+-   Use `M` to change permissions
+-   Use `o` to sort by modes.
+-   Use `O` to change the owner.
+-   Use `m` to mark and `u` to unmark files or
     directories.
--   `U`{.verbatim} to unselect all
--   Use `t`{.verbatim} to invert the selection.
--   `t`{.verbatim} to switch between files and directories
--   Use `C`{.verbatim} to copy.
--   Use `R`{.verbatim} to move.
--   Move with `h`{.verbatim}, `j`{.verbatim}, `k`{.verbatim},
-    `l`{.verbatim}
--   Toggle `(`{.verbatim} for simple view
--   `SPC .`{.verbatim} to create or find a file
-    -   Use either arrow keys, or hold `C-`{.verbatim} with
-        `h`{.verbatim},=j=,=k=, and `l`{.verbatim} to choose between
+-   `U` to unselect all
+-   Use `t` to invert the selection.
+-   `t` to switch between files and directories
+-   Use `C` to copy.
+-   Use `R` to move.
+-   Move with `h`, `j`, `k`,
+    `l`
+-   Toggle `(` for simple view
+-   `SPC .` to create or find a file
+    -   Use either arrow keys, or hold `C-` with
+        `h`,=j=,=k=, and `l` to choose between
         options.
--   `*`{.verbatim} to select all directories.
--   `C`{.verbatim} copy to another window
--   `R`{.verbatim} move to another window
--   `dired-do-what-i-mean-target`{.verbatim} set to true
--   `i`{.verbatim} to edit file/dir name, `Esc Z Z`{.verbatim} to save
-    the modification, `Esc Z Q`{.verbatim} to discard.
+-   `*` to select all directories.
+-   `C` copy to another window
+-   `R` move to another window
+-   `dired-do-what-i-mean-target` set to true
+-   `i` to edit file/dir name, `Esc Z Z` to save
+    the modification, `Esc Z Q` to discard.
 
 # Buffers, Windows and Basic Navigation
 
@@ -122,135 +122,135 @@ Forked from [niyumard/Doom-Emacs-Cheat-Sheet](https://github.com/niyumard/Doom-E
 Buffers are a special concept in emacs they can be terminals, files,
 directories, etc.
 
--   `SPC b b`{.verbatim} to open/switch another buffer
+-   `SPC b b` to open/switch another buffer
     -   workspace buffer
--   `SPC b B`{.verbatim} list all the buffer
--   `SPC ,`{.verbatim} to switch buffers (it\'s an alias)
--   `SPC SHIFT ,`{.verbatim} to switch to all buffers
--   `SPC b n/]`{.verbatim} next buffer
--   `SPC b p/[`{.verbatim} previous buffer
--   `SPC b X`{.verbatim} You can create a scratch buffer.
--   `SPC SPC`{.verbatim} or `SPC f f`{.verbatim} Open a file from
+-   `SPC b B` list all the buffer
+-   `SPC ,` to switch buffers (it\'s an alias)
+-   `SPC SHIFT ,` to switch to all buffers
+-   `SPC b n/]` next buffer
+-   `SPC b p/[` previous buffer
+-   `SPC b X` You can create a scratch buffer.
+-   `SPC SPC` or `SPC f f` Open a file from
     project.
--   `SPC .`{.verbatim} Create of find a file.
--   `SPC b s`{.verbatim} to save and name the buffer
--   `SPC b S`{.verbatim} to save all buffers
--   `SPC b d/k`{.verbatim} to kill the current buffer
--   `SPC b K`{.verbatim} to kill all buffers
+-   `SPC .` Create of find a file.
+-   `SPC b s` to save and name the buffer
+-   `SPC b S` to save all buffers
+-   `SPC b d/k` to kill the current buffer
+-   `SPC b K` to kill all buffers
 
 ## Windows
 
 Windows are panes in your screen
 
--   `SPC w v`{.verbatim} window split vertically
--   `SPC w s`{.verbatim} window split horizontally
--   `SPC w w`{.verbatim} `C-x o`{.verbatim} to switch windows
--   `SPC w q`{.verbatim} `SPC w c`{.verbatim} `C-x 0`{.verbatim} to
+-   `SPC w v` window split vertically
+-   `SPC w s` window split horizontally
+-   `SPC w w` `C-x o` to switch windows
+-   `SPC w q` `SPC w c` `C-x 0` to
     close window, frame, quit EMACS if it\'s the last frame.
--   `C-x 1`{.verbatim} to close all other windows, this is Emacs
+-   `C-x 1` to close all other windows, this is Emacs
     command.
--   `SPC w +`{.verbatim} and `SPC w -`{.verbatim} to increase and
+-   `SPC w +` and `SPC w -` to increase and
     decrease window height
--   `SPC w >`{.verbatim} and `SPC w <`{.verbatim} to increase and
+-   `SPC w >` and `SPC w <` to increase and
     decrease window width
 -   You can use vim motion keys to navigate between open windows for
-    example `SPC w H`{.verbatim} moves the window to the left.
+    example `SPC w H` moves the window to the left.
 
 ## Workspaces
 
--   `SPC TAB TAB`{.verbatim} display tab bar
--   `SPC TAB n`{.verbatim} new workspace
--   `SPC TAB N`{.verbatim} new named workspace
--   `SPC TAB r`{.verbatim} rename current workspace
--   `SPC TAB [`{.verbatim} previous workspace
--   `SPC TAB ]`{.verbatim} next workspace
--   `SPC TAB d`{.verbatim} remove workspace
--   `SPC TAB R`{.verbatim} restore last session
--   `SPC TAB .`{.verbatim} switch to workspace (display list)
--   `SPC TAB {n}`{.verbatim} Switch to workspace {n}
--   `M-1`{.verbatim} Switch to workspace 1
--   `M-2`{.verbatim} Switch to workspace 2 and so forth.
--   `SPC TAB s`{.verbatim} Save workspace to a file.
--   `SPC TAB l`{.verbatim} Load workspace from a file.
+-   `SPC TAB TAB` display tab bar
+-   `SPC TAB n` new workspace
+-   `SPC TAB N` new named workspace
+-   `SPC TAB r` rename current workspace
+-   `SPC TAB [` previous workspace
+-   `SPC TAB ]` next workspace
+-   `SPC TAB d` remove workspace
+-   `SPC TAB R` restore last session
+-   `SPC TAB .` switch to workspace (display list)
+-   `SPC TAB {n}` Switch to workspace {n}
+-   `M-1` Switch to workspace 1
+-   `M-2` Switch to workspace 2 and so forth.
+-   `SPC TAB s` Save workspace to a file.
+-   `SPC TAB l` Load workspace from a file.
 
 # Installing Packages using org-super-agenda as an example
 
--   `SPC f p`{.verbatim} to open the config.
--   To add a package, add the package to `.doom.d/package.el`{.verbatim}
--   Then close and `doom refresh`{.verbatim}
--   Then go to `.doom.d/config.el`{.verbatim} to configure the package
--   `def-package!`{.verbatim} is a macro you can use to configure
+-   `SPC f p` to open the config.
+-   To add a package, add the package to `.doom.d/package.el`
+-   Then close and `doom refresh`
+-   Then go to `.doom.d/config.el` to configure the package
+-   `def-package!` is a macro you can use to configure
     packages
-    -   `space h help`{.verbatim} you can look up method man pages
-    -   `:init`{.verbatim} is used for setting the package up
-    -   `:config`{.verbatim} to set configuration after the package has
+    -   `space h help` you can look up method man pages
+    -   `:init` is used for setting the package up
+    -   `:config` to set configuration after the package has
         been initialized
-    -   `:after`{.verbatim} lets you set which package it should load
+    -   `:after` lets you set which package it should load
         after
--   You can use `:after!`{.verbatim} to configure packages that are
+-   You can use `:after!` to configure packages that are
     already there
 
 # Quick, horizontal movements with evil-snipe
 
 ## Inline navigation
 
--   `f`{.verbatim} and then the letter you want to navigate to.
-    -   `,`{.verbatim} will go backward
-    -   `;`{.verbatim} will go forward after that \"find\"
--   `t`{.verbatim} to find and move cursor to the character before what
+-   `f` and then the letter you want to navigate to.
+    -   `,` will go backward
+    -   `;` will go forward after that \"find\"
+-   `t` to find and move cursor to the character before what
     you\'ve searched.
--   `v`{.verbatim} puts you in visual mode. You can select text by with
-    `v t some-char-you-navigate-to`{.verbatim} or
-    `v f some-char-you-navigate-to`{.verbatim}
--   `;`{.verbatim} to jump to the next find
--   `,`{.verbatim} to jump to the previous one
--   `s`{.verbatim} to snipe
+-   `v` puts you in visual mode. You can select text by with
+    `v t some-char-you-navigate-to` or
+    `v f some-char-you-navigate-to`
+-   `;` to jump to the next find
+-   `,` to jump to the previous one
+-   `s` to snipe
 
 ## Long distance navigation inside the file
 
 -   Evil-snipe lets you go to all the occurrences in your document
--   `g s SPC`{.verbatim} to use avy and going to a certain word in file.
--   `t`{.verbatim} is the same thing except for a character you want to
+-   `g s SPC` to use avy and going to a certain word in file.
+-   `t` is the same thing except for a character you want to
     jump to before the one you insert
--   `s`{.verbatim} to do a double character search
--   Evil-snipe will remember your last search so `,`{.verbatim} and
-    `;`{.verbatim} will navigate
--   `F`{.verbatim} or `T`{.verbatim} to go backwards
--   `g s SPC`{.verbatim} and then select the letter that avy gives you
+-   `s` to do a double character search
+-   Evil-snipe will remember your last search so `,` and
+    `;` will navigate
+-   `F` or `T` to go backwards
+-   `g s SPC` and then select the letter that avy gives you
     to navigate to that spot
     -   These letters are on your home row so they are easy to click
--   `SPC h v`{.verbatim} for variable, to set the avy variable to search
+-   `SPC h v` for variable, to set the avy variable to search
     all open windows
-    -   `avy-all-windows`{.verbatim} lets you search in all windows
+    -   `avy-all-windows` lets you search in all windows
         open.
 -   You can remove a word with
-    `g s SPC select-one-letter x select-the-removal-spot`{.verbatim}
-    -   You can use `X`{.verbatim} to stay in your original spot of
+    `g s SPC select-one-letter x select-the-removal-spot`
+    -   You can use `X` to stay in your original spot of
         search
 -   You can go
-    `g s space select-one-letter i select-the-correction-spot`{.verbatim}
+    `g s space select-one-letter i select-the-correction-spot`
     to correct the spelling of the search
     -   Install ispell on your OS first
--   You can `yank`{.verbatim} a word from one place to another with
-    `g s SPC select-one-letter y select-the-correction-spot-to-paste`{.verbatim}
--   Use `t`{.verbatim} to \"teleport\" the word from one place to
+-   You can `yank` a word from one place to another with
+    `g s SPC select-one-letter y select-the-correction-spot-to-paste`
+-   Use `t` to \"teleport\" the word from one place to
     another
-    `g s SPC select-one-letter t select-the-correction-spot-to-teleport`{.verbatim}
+    `g s SPC select-one-letter t select-the-correction-spot-to-teleport`
 
 # Multiple cursor in Emacs with evil-multiedit
 
 -   Using evil-multiedit (known as multiple cursors in other IDEs) you
     can make selections and then edit those selections simultaneously.
-    To do this uncomment `multiple-cursors`{.verbatim} in your
-    `init.el`{.verbatim}.
--   `M-d`{.verbatim} will select the current word, press this again and
+    To do this uncomment `multiple-cursors` in your
+    `init.el`.
+-   `M-d` will select the current word, press this again and
     it will find another occurrence
--   `M-D`{.verbatim} will find an occurrence upward
+-   `M-D` will find an occurrence upward
 -   You can use a visual selection to select multiple words as well.
--   `R`{.verbatim} will select all occurrences.
--   `CTRL n`{.verbatim} for next selection `CTRL p`{.verbatim} for
+-   `R` will select all occurrences.
+-   `CTRL n` for next selection `CTRL p` for
     previous.
--   Exclude matches with `RET`{.verbatim}
+-   Exclude matches with `RET`
 -   You can make an edit and the changes will be reflected to all the
     selections.
 
@@ -258,17 +258,17 @@ Windows are panes in your screen
 
 ## Basics
 
--   `M-x hl-line-mode`{.verbatim} highlight current line on/off
+-   `M-x hl-line-mode` highlight current line on/off
 -   Org mode gives you structure to your document
--   `*`{.verbatim} for a h1 `**`{.verbatim} for an h2 and so on
--   You can `TAB`{.verbatim} a section to fold a subtree (hide it)
--   You can use `SHIFT TAB`{.verbatim} to cycle through folded states
--   `CTRL return`{.verbatim} to create a headline of the same type
--   `M return`{.verbatim} to create a headline at same level
--   `M-arrow up`{.verbatim} lets you shift the position of the section
--   `M-h`{.verbatim} promotes a headline to the next level
--   `M-l`{.verbatim} demotes
--   `M-left/right`{.verbatim} to promote or demote a headline
+-   `*` for a h1 `**` for an h2 and so on
+-   You can `TAB` a section to fold a subtree (hide it)
+-   You can use `SHIFT TAB` to cycle through folded states
+-   `CTRL return` to create a headline of the same type
+-   `M return` to create a headline at same level
+-   `M-arrow up` lets you shift the position of the section
+-   `M-h` promotes a headline to the next level
+-   `M-l` demotes
+-   `M-left/right` to promote or demote a headline
 -   You can create lists
     1.  one
     2.  2
@@ -277,16 +277,16 @@ Windows are panes in your screen
 
 ## Links, Hyperlinks and more
 
--   `C-x C-o`{.verbatim} open a link, same to RET while cursor in on the
+-   `C-x C-o` open a link, same to RET while cursor in on the
     link
--   `SPC m l t`{.verbatim} `M-x org-toggle-link-display`{.verbatim} to
+-   `SPC m l t` `M-x org-toggle-link-display` to
     show the link as plain text
--   `M-x font-lock-mode`{.verbatim} switch to normal text mode and
+-   `M-x font-lock-mode` switch to normal text mode and
     decorated form, sometimes rich mode messed up
--   `SPC m l`{.verbatim} to add a link to an org page
--   You can add `::`{.verbatim} to specify a heading or a line number
+-   `SPC m l` to add a link to an org page
+-   You can add `::` to specify a heading or a line number
 -   You can paste http links as well
--   You can \"link\" some text with specific code `SPC m l`{.verbatim}
+-   You can \"link\" some text with specific code `SPC m l`
     elisp: [(+ 2 2)](elisp:(+ 2 2)) when you click the link, emacs will
     evaluate the expression
 -   Show [My Agenda](elisp:org-agenda)
@@ -299,32 +299,32 @@ Windows are panes in your screen
 
 ## Linking to words & Bookmarks
 
--   `SPC n l`{.verbatim} stores a link to a particular headline
+-   `SPC n l` stores a link to a particular headline
 
 ## Code Snippets & Babel
 
--   `SPC i s`{.verbatim} for inserting code snippets
+-   `SPC i s` for inserting code snippets
     -   Example:
 
         ``` {.commonlisp org-language="emacs-lisp" tangle="yes"}
         (+ 2 3 4 5)
         ```
--   `C-c C-c`{.verbatim} to execute the code.
--   `SPC m '`{.verbatim} to edit inside the babel in another buffer.
--   Results will show up in a `##+RESULTS`{.verbatim} header
+-   `C-c C-c` to execute the code.
+-   `SPC m '` to edit inside the babel in another buffer.
+-   Results will show up in a `##+RESULTS` header
 -   This feature is called Babel
 -   One snippet can consume the output of another snippet
 -   You can create your own snippets in the following directory:
-    `~/.doom.d/snippets/`{.verbatim}
+    `~/.doom.d/snippets/`
 
 ## Task Management
 
--   Create a task by prefixing any heading with `TODO`{.verbatim}
--   `DONE`{.verbatim} means the task is done
+-   Create a task by prefixing any heading with `TODO`
+-   `DONE` means the task is done
 -   You can create your custom key words by changing this variable:
-    `org-todo-keywords`{.verbatim}
+    `org-todo-keywords`
     -   remember you can get to your variables through
-        `SPC h v`{.verbatim} (M-x counsel-describe-variable)
+        `SPC h v` (M-x counsel-describe-variable)
 
     -   These values are already set in Doom:
 
@@ -332,36 +332,36 @@ Windows are panes in your screen
            ((sequence "TODO(t)" "PROJ(p)" "STRT(s)" "WAIT(w)" "HOLD(h)" "|" "DONE(d)" "KILL(k)")
         (sequence "[ ](T)" "[-](S)" "[?](W)" "|" "[X](D)"))
         ```
--   `SPC m t`{.verbatim} to change a status of a todo
--   `SHIFT left`{.verbatim} and `SHIFT right`{.verbatim} can be used to
+-   `SPC m t` to change a status of a todo
+-   `SHIFT left` and `SHIFT right` can be used to
     change the status of a todo as well.
 -   If you finish a task with a command, org mode will add a date that
     you \"closed\" the task.
--   `SPC o a t`{.verbatim} to open the agenda -\> todo list
--   `q`{.verbatim} to quit
--   `org-agenda-files`{.verbatim} is a variable you can set to filter
+-   `SPC o a t` to open the agenda -\> todo list
+-   `q` to quit
+-   `org-agenda-files` is a variable you can set to filter
     which files agenda searches for todos in.
 
 ### Priorities for Tasks
 
--   `SHIFT up`{.verbatim} and `SHIFT down`{.verbatim} will toggle the
+-   `SHIFT up` and `SHIFT down` will toggle the
     priority of tasks
--   `org-fancy-priorities`{.verbatim} gives you fancy looking priorities
+-   `org-fancy-priorities` gives you fancy looking priorities
 
 ### Marking Tasks with Tags
 
 -   Tags can be attached to any headlines
--   `SPC m q`{.verbatim} to tag a headline
+-   `SPC m q` to tag a headline
 -   Example:
     -   TODO play more games :fun:
 -   Tags are hierarchical so nested headings will be tagged with the
     parent header tag
--   `org-tag-sparce-tree`{.verbatim} will search for headings that only
+-   `org-tag-sparce-tree` will search for headings that only
     have a specific tag
 
 ### Setting a property for a task/headline
 
--   `SPC m o`{.verbatim} is used for setting a property.
+-   `SPC m o` is used for setting a property.
 
 1.  Marking Headlines with Categories
 
@@ -373,16 +373,16 @@ Windows are panes in your screen
 
     -   If you want to [keep track of your
         habits](https://orgmode.org/manual/Tracking-your-habits.html)
-        using org mode, you can set the `STYLE`{.verbatim} property to
+        using org mode, you can set the `STYLE` property to
         habit.
 
 ## Lists
 
 -   Two types of lists, ordered and unordered lists
-    -   `SHIFT right`{.verbatim} and `SHIFT left`{.verbatim} can be used
+    -   `SHIFT right` and `SHIFT left` can be used
         to change the type of lists.
 -   You can also change an unordered list by changing the first item
-    to 1. and then typing `C-c C-c`{.verbatim} and vice versa.
+    to 1. and then typing `C-c C-c` and vice versa.
 
 ## Checkboxes
 
@@ -395,7 +395,7 @@ Windows are panes in your screen
 -   [ ] Task 1
 -   [x] Task 2
 -   You can do this by adding \[/\] to the heading and pressing
-    `C-c C-c`{.verbatim}
+    `C-c C-c`
 -   You can\'t assign a tag or a priority
 
 ## Pretty Bullets
@@ -423,140 +423,140 @@ Windows are panes in your screen
 # Magit
 
 -   Magit is enabled by default in Doom Emacs\'s init.el
--   `SPC g g`{.verbatim} shows Magit status page
+-   `SPC g g` shows Magit status page
     -   Most commands are done from the status page
     -   Use tab to expand headlines in the status page
--   `?`{.verbatim} in Magit\'s status page for a nice list of available
-    commands and help, `q`{.verbatim} to close this help page
--   Open diff view for a file with `TAB`{.verbatim}
--   Press `s`{.verbatim} under \"Unstaged changes\" to stage a change
-    -   `u`{.verbatim} to undo a change
-    -   `c`{.verbatim} to commit
--   `b s`{.verbatim} for branch and spinoff to create another branch,
+-   `?` in Magit\'s status page for a nice list of available
+    commands and help, `q` to close this help page
+-   Open diff view for a file with `TAB`
+-   Press `s` under \"Unstaged changes\" to stage a change
+    -   `u` to undo a change
+    -   `c` to commit
+-   `b s` for branch and spinoff to create another branch,
     rewinding the commits you made to master
--   `b b`{.verbatim} to switch branches
+-   `b b` to switch branches
 
 ## Git Commit Flow in More Detail
 
--   `t t`{.verbatim} to create a tag, default place is the commit you
+-   `t t` to create a tag, default place is the commit you
     are currently selecting
--   `V`{.verbatim} to select a change in a diff and `x`{.verbatim} to
+-   `V` to select a change in a diff and `x` to
     discard that change.
--   `s`{.verbatim} to stage
--   `c`{.verbatim} to commit, you can `q`{.verbatim} to quit the commit
+-   `s` to stage
+-   `c` to commit, you can `q` to quit the commit
     screen
--   `P`{.verbatim} to push and then `p`{.verbatim} to your remote or
-    `u`{.verbatim} to a another remote
+-   `P` to push and then `p` to your remote or
+    `u` to a another remote
 
 ## Magit with Forge for Issuing Pull Requests - Emacs
 
 -   Forge is installed in emacs doom
--   `@`{.verbatim} for forge
--   Set up forge with `M x forge-pull`{.verbatim}
+-   `@` for forge
+-   Set up forge with `M x forge-pull`
     -   the first time you will get a token from Github
--   `@ c p`{.verbatim} to create a pull request with forge
+-   `@ c p` to create a pull request with forge
     -   select the base branch
     -   then select the target branch
     -   then provide a short description
-    -   `CTRL c CTRL c`{.verbatim} to finish the pull request
--   Now there will be a `pull requests`{.verbatim} tab
+    -   `CTRL c CTRL c` to finish the pull request
+-   Now there will be a `pull requests` tab
 
 # LSP-Mode
 
 ## LSP related
 
--   `lsp-update-server`{.verbatim} select a language server to update.
--   `lsp-workspace-folders-add`{.verbatim} to interactively set a folder
+-   `lsp-update-server` select a language server to update.
+-   `lsp-workspace-folders-add` to interactively set a folder
     as an LSP workspace.
--   `lsp-workspace-folders-remove`{.verbatim} to interactively unset a
+-   `lsp-workspace-folders-remove` to interactively unset a
     folder as an LSP workspace.
--   `lsp-workspace-restart`{.verbatim} to restart your workspace.
+-   `lsp-workspace-restart` to restart your workspace.
     Especially useful after activating a virtual environment.
 
 ## While coding
 
--   `SPC c c`{.verbatim} to run a compile command (or a test, or any
+-   `SPC c c` to run a compile command (or a test, or any
     other command in the current directory)
--   `SPC c C`{.verbatim} to repeat the command above
--   `SPC c d`{.verbatim} jump to var/func/... definitions
-    -   `C o`{.verbatim} (`evil-jump-backward`{.verbatim}) Go back to
+-   `SPC c C` to repeat the command above
+-   `SPC c d` jump to var/func/... definitions
+    -   `C o` (`evil-jump-backward`) Go back to
         your last position in the jump list
-    -   `C i`{.verbatim} (`evil-jump-forward`{.verbatim}) Go forward in
+    -   `C i` (`evil-jump-forward`) Go forward in
         the jump list
--   `SPC c D`{.verbatim} see references to var/func/...
--   `SPC c e`{.verbatim} to evaluate the current buffer or region (when
-    nothing is selected, equivalent to running `SPC c c`{.verbatim} and
-    writing `go run`{.verbatim} + the file name.)
--   `SPC c f`{.verbatim} see references to var/func/...
--   `SPC c k`{.verbatim} jump to documentation
--   `SPC c r`{.verbatim} rename all references and definitions for the
+-   `SPC c D` see references to var/func/...
+-   `SPC c e` to evaluate the current buffer or region (when
+    nothing is selected, equivalent to running `SPC c c` and
+    writing `go run` + the file name.)
+-   `SPC c f` see references to var/func/...
+-   `SPC c k` jump to documentation
+-   `SPC c r` rename all references and definitions for the
     var/func at point in all project files
--   `SPC c s`{.verbatim} send to REPS
--   `SPC c x`{.verbatim} see all LSP diagnostics
--   `lsp-ui-imenu`{.verbatim} to navigate definitions in your code
--   `flycheck-list-errors`{.verbatim} to see the errors detected by LSP.
+-   `SPC c s` send to REPS
+-   `SPC c x` see all LSP diagnostics
+-   `lsp-ui-imenu` to navigate definitions in your code
+-   `flycheck-list-errors` to see the errors detected by LSP.
 
 # Spell
 
--   `z =`{.verbatim} Check word, choose suggestions or save to
+-   `z =` Check word, choose suggestions or save to
     dictionary
--   `M-x flyspell-mode/M-SPC t s`{.verbatim} Enable the flyzspell mode
--   `${HOME}/.ispell_default`{.verbatim} Edit the default user
+-   `M-x flyspell-mode/M-SPC t s` Enable the flyzspell mode
+-   `${HOME}/.ispell_default` Edit the default user
     dictionary file to remove unwanted entries.
 
 # Terminal
 
 -   Set up vterm in your init.el file.
--   `SPC o T`{.verbatim} for opening vterm
--   `SPC o t`{.verbatim} for opening vterm in a popup window
+-   `SPC o T` for opening vterm
+-   `SPC o t` for opening vterm in a popup window
 
 # File/Project Tree
 
 -   Set up neotree or treemacs in your init.el file.
--   `SPC o p`{.verbatim} for opening neotree or treemacs
--   `SPC w ->/<-`{.verbatim} Move to right window or treemacs pane
--   `>/<`{.verbatim} Increase/decrease treemacs width
+-   `SPC o p` for opening neotree or treemacs
+-   `SPC w ->/<-` Move to right window or treemacs pane
+-   `>/<` Increase/decrease treemacs width
 
 # Others
 
--   `C-c C-z`{.verbatim} to insert a note for a heading in org mode.
+-   `C-c C-z` to insert a note for a heading in org mode.
 
 <!-- -->
 
--   `C-c C-c`{.verbatim} to insert a tag for a heading in org mode.
+-   `C-c C-c` to insert a tag for a heading in org mode.
 
 # Capturing
 
--   `SPC X`{.verbatim} to capture (the new thing gets captured to a
+-   `SPC X` to capture (the new thing gets captured to a
     single file but that\'s fine since we can easily refile it.)
--   `SPC m r r`{.verbatim} to refile
+-   `SPC m r r` to refile
 
 # Org Roam
 
 These keybindings only work after installing org-roam. To install
-org-roam edit your `init.el`{.verbatim} file and add
-`(org +roam2)`{.verbatim} in its designated place. Watch [this
+org-roam edit your `init.el` file and add
+`(org +roam2)` in its designated place. Watch [this
 video](https://www.youtube.com/watch?v=AyhPmypHDEw) to understand what
 org-roam is.
 
--   `SPC n r f`{.verbatim} Find an existing node or create a new one.
--   `SPC n r i`{.verbatim} Insert a link to another node.
--   `SPC n r r`{.verbatim} Toggle backlinks pane
--   `SPC m m o t`{.verbatim} Add a roam tag.
--   `SPC m m o a`{.verbatim} Add a roam alias.
+-   `SPC n r f` Find an existing node or create a new one.
+-   `SPC n r i` Insert a link to another node.
+-   `SPC n r r` Toggle backlinks pane
+-   `SPC m m o t` Add a roam tag.
+-   `SPC m m o a` Add a roam alias.
 
 # Code Folding
 
 Code folding helps with code readability. First, make sure
-`fold`{.verbatim} is not commented in your `init.el`{.verbatim} file
+`fold` is not commented in your `init.el` file
 then move your cursor to the definition of a class or a function and try
 the following:
 
--   `z a`{.verbatim} Toggle the fold at point.
--   `z m`{.verbatim} Close all the folds.
--   `z r`{.verbatim} Open all the folds.
--   `z j`{.verbatim} Next folded region.
--   `z k`{.verbatim} Previous folded region.
+-   `z a` Toggle the fold at point.
+-   `z m` Close all the folds.
+-   `z r` Open all the folds.
+-   `z j` Next folded region.
+-   `z k` Previous folded region.
 
 # Resources
 
@@ -597,7 +597,7 @@ the following:
 
 # Known Issues
 
--   `hl-todo-mode`{.verbatim} Does not work.
+-   `hl-todo-mode` Does not work.
 -   Don\'t know how to paste content from Windows via Putty, it\'s not
     in \'doom run\', but with \'emacs file-name\'.
 
