@@ -16,10 +16,8 @@
 
 == NOTE
 
-* Sometime I set Keymap to Emacs, but not any more, tired when switching
-between different editors.
-* DO NOT use formatter on HTML code, the result is not expected, mainly
-the indentions.
+* Sometime I set Keymap to Emacs, but not any more, tired when switching between different editors.
+* DO NOT use formatter on HTML code, the result is not expected, mainly the indentions.
 
 == General
 
@@ -53,8 +51,7 @@ not the content of files.
 * `+Ctrl+Shift+z+`: Redo
 * `+Ctrl+B+`: Bold
 * `+Ctrl+I+`: Italic
-* `+Ctrl+Shit+U+`: Insert a link and paste content in clipboard into
-'[](xxx)'
+* `+Ctrl+Shit+U+`: Insert a link and paste content in clipboard into '[](xxx)'
 * `+TAB+`: Move selected block to right.
 * `+Shit TAB+`: Move the selected block to left.
 * `+Ctrl+Shift+U+`: Toggle upper/lower case.
