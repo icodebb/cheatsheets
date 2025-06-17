@@ -27,6 +27,10 @@
 - `Ctrl` + `Shift` + `Backspace` : Navigate to last edit location
 - `Ctrl` + `b,` : Go to declaration
 
+## Format
+
+- `Ctrl` + `Alt` + `L` (Windows) or `Cmd` + `Option` + `L` (macOS) : Format code
+
 ## Links
 
 - [GoLand Key Combinations](https://keycombiner.com/collections/goland/)
