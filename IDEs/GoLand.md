@@ -15,6 +15,12 @@
 - `F3` : Find next
 - `Shift` + `F3` : Find previous
 
+## Edit
+
+* `Ctrl` + `/` : Comment/uncomment a block of code with `//`
+  * `Cmd` + `/` : on Mac
+* `Ctrl` + `shift` + `/` : Block-style comment `/* ... */` 
+  * `Cmd` + `Shift` + `/` : On Mac 
 ## Navigation
 
 - `F12` : Go back to previous tool window/tab
