@@ -5,6 +5,7 @@
 - `Alt` + `1` for Windows/Linux, `Cmd` + `1` for Mac: Show/hide the Project panel.
 - `Ctrl` + `~` : Terminal console
 - `Ctrl` + `Shift` + `e` : Project panel
+- `Ctrl` + `F12` : list of all functions, types in a pop-up window
 
 ## Search & Replace
 
@@ -14,6 +15,8 @@
 - `Ctrl` + `r` : Replace
 - `F3` : Find next
 - `Shift` + `F3` : Find previous
+- `Ctrl` + `Alt` + `Shift` + `n` : Search all functions/types/etc across the whole project
+  - `Cmd` + `Alt` + `o` on Mac
 
 ## Edit
 
@@ -37,6 +40,9 @@
 
 - `Ctrl` + `Alt` + `L` (Windows) or `Cmd` + `Option` + `L` (macOS) : Format code
 
+## Mac
+
+* Use `Cmd` instead of `Ctrl`
 ## Links
 
 - [GoLand Key Combinations](https://keycombiner.com/collections/goland/)
