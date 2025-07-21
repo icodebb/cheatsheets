@@ -16,18 +16,18 @@
 
 ## Cheatsheet
 
-* [https://www.philipdaniels.com/blog/2019/ripgrep-cheatsheet/](Ripgrep Cheatsheet) - Phi'ls Blog
-* [https://cheatography.com/njones/cheat-sheets/ripgrep/](ripgrep Cheat Sheet) by njones (PDF downloaded)
-* [https://devpoga.org/post/2019-09-20_ripgrep_cheat_sheet/](Ripgrep Cheat Sheet) - Dev.Poga short list
+- [Ripgrep Cheatsheet](https://www.philipdaniels.com/blog/2019/ripgrep-cheatsheet/) - Phi'ls Blog
+- [ripgrep Cheat Sheet) by njones (PDF downloaded](https://cheatography.com/njones/cheat-sheets/ripgrep/)
+- [Ripgrep Cheat Sheet](https://devpoga.org/post/2019-09-20_ripgrep_cheat_sheet/) - Dev.Poga short list
 
 ## Links
 
-* [https://skerritt.blog/ripgrep-cheatsheet/](Ripgrep cheatsheet) - skerritt.blog
-* [https://earthly.dev/blog/ripgrep-for-efficient-search/](How to Use `ripgrep` to Improve Your Search Efficiency)
-* [https://linuxhandbook.com/ripgrep/?ref=itsfoss.com](Using ripgrep (rg) Command in Linux) - Linux Handbook
-* [https://mariusschulz.com/blog/fast-searching-with-ripgrep](Fast Searching with ripgrep)
-* [https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md](BurnSushi/ripgreg/Guide)
-* [https://earthly.dev/blog/ripgrep-for-efficient-search/](How to Use `ripgrep` to Improve Your Search Efficiency)
-* [https://codapi.org/try/ripgrep/](Try / ripgrep in Y minutes)
-  * With examples can be run in the web page.
-  * rg provides a limited ability to replace matched text
+- [Ripgrep cheatsheet](https://skerritt.blog/ripgrep-cheatsheet/) - skerritt.blog
+- [How to Use `ripgrep` to Improve Your Search Efficiency](https://earthly.dev/blog/ripgrep-for-efficient-search/)
+- [Using ripgrep (rg) Command in Linux](https://linuxhandbook.com/ripgrep/?ref=itsfoss.com) - Linux Handbook
+- [Fast Searching with ripgrep](https://mariusschulz.com/blog/fast-searching-with-ripgrep)
+- [BurnSushi/ripgreg/Guide](https://github.com/BurntSushi/ripgrep/blob/master/GUIDE.md)
+- [How to Use `ripgrep` to Improve Your Search Efficiency](https://earthly.dev/blog/ripgrep-for-efficient-search/)
+- [Try / ripgrep in Y minutes](https://codapi.org/try/ripgrep/)
+  - With examples can be run in the web page.
+  - rg provides a limited ability to replace matched text
