@@ -6,6 +6,7 @@
 - `Ctrl` + `~` : Terminal console
 - `Ctrl` + `Shift` + `e` : Project panel
 - `Ctrl` + `F12` : list of all functions, types in a pop-up window
+- `Ctrl` + `Shift` + `g` : Show/hide minimap, there is also a eye icon on top right to do so
 
 ## Search & Replace
 
