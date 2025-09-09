@@ -1,27 +1,12 @@
-= CodeBlocks
-:author: Ice Liu
-:toc: left
-:toclevels: 5
-:sectnums:
-:sectnumlevels: 5
-:sectlinks:
-:numbered:
-:doctype: article
-:encoding: utf-8
-:lang: en
-:imagesdir: ./images
-:icons: font
-:icon-set: fas
-:experimental:
-:keywords:
+# CodeBlocks
 
-== Shortcuts
+## Shortcuts
 
-View::
+### View
 * `F2` Show/hide the Messages panel, include Search results, Build log etc.
 * `Shift F2` Show/hide Management pane.
 
-Edit::
+### Edit
 * `Ctrl + Z` Undo last action
 * `Ctrl + Shift + Z` Redo last action
 * `F11` Swap header / source, interesting!
@@ -39,13 +24,13 @@ Edit::
 * `Tab` Move selection right
 * `Shift Tab` Move selection left
 
-Search::
+### Search
 * `Ctrl G` Goto line
 * `Ctrl Alt .` Open include file
 
-Motion::
-* `Jump back` Go to previous place using the left arrow from tools icon.
-* `Jump forward` Go to next with the right arrow.
+### Motion
+* **Jump back** Go to previous place using the left arrow from tools icon.
+* **Jump forward** Go to next with the right arrow.
 
-More::
-* https://wiki.codeblocks.org/index.php/Keyboard_Shortcuts[Keyboard Shortcuts]
+### More
+* [Keyboard Shortcuts](https://wiki.codeblocks.org/index.php/Keyboard_Shortcuts)

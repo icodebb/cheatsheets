@@ -21,7 +21,7 @@
 
 ## Edit
 
-* `Ctrl` + `/` : Comment/uncomment a block of code with `//`
+* `Ctrl` + `/` : Comment/uncomment a block of code with `//` for Go code, `#` for Shell code
   * `Cmd` + `/` : on Mac
 * `Ctrl` + `shift` + `/` : Block-style comment `/* ... */` 
   * `Cmd` + `Shift` + `/` : On Mac 
