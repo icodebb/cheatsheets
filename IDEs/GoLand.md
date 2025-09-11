@@ -21,10 +21,11 @@
 
 ## Edit
 
-* `Ctrl` + `/` : Comment/uncomment a block of code with `//` for Go code, `#` for Shell code
-  * `Cmd` + `/` : on Mac
-* `Ctrl` + `shift` + `/` : Block-style comment `/* ... */` 
-  * `Cmd` + `Shift` + `/` : On Mac 
+- `Ctrl` + `/` : Comment/uncomment a block of code with `//` for Go code, `#` for Shell code
+  - `Cmd` + `/` : on Mac
+- `Ctrl` + `shift` + `/` : Block-style comment `/* ... */` 
+  - `Cmd` + `Shift` + `/` : On Mac 
+
 ## Navigation
 
 - `F12` : Go back to previous tool window/tab
@@ -43,7 +44,8 @@
 
 ## Mac
 
-* Use `Cmd` instead of `Ctrl`
+- Use `Cmd` instead of `Ctrl`
+  
 ## Links
 
 - [GoLand Key Combinations](https://keycombiner.com/collections/goland/)

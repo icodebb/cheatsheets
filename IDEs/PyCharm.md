@@ -1,0 +1,62 @@
+# PyCharm IDE
+
+## NOTE
+
+- Sometime I set Keymap to Emacs, but not any more, tired when switching between different editors.
+- DO NOT use formatter on HTML code, the result is not expected, mainly the indentions.
+
+## General
+
+- `Ctrl+Shift+A`: Entry for all commands.
+- `Alt+F1`: Show/hide Project panel
+- `Alt+F12`: Show/hide Terminal (didn't work for me)
+
+## Spelling
+
+- `Alt-Enter` Save word to dictionary.
+
+## Files
+
+- `Shift+Shift`: Search Everywhere includes help, file names, etc, but
+not the content of files.
+- `Ctrl+Shift+N`: Go to File
+- `Ctrl+E`: Recent File
+- `Alt+Home`: Navigation Bar (?)
+
+## Find & Replace
+
+- `Ctrl+Shift+F`: Find in files
+- `Ctrl+Shift+R`: Replace in files
+- `Ctrl+F/R`: Find/Replace in file
+- `F3/Shift F3`: Next/Previous occurrence.
+- `Ctrl+s`: Emacs find in file.
+
+## Edit
+
+- `Ctrl+Shift+-`: Undo
+- `Ctrl+Shift+z`: Redo
+- `Ctrl+B`: Bold
+- `Ctrl+I`: Italic
+- `Ctrl+Shift+U`: Insert a link and paste content in clipboard into '[](xxx)'
+- `TAB`: Move selected block to right.
+- `Shift TAB`: Move the selected block to left.
+- `Ctrl+Shift+U`: Toggle upper/lower case.
+- `Ctrl+Shift+j`: Join line, get next line append to th end of current
+line.
+- `Alt+D` `Alt+Backspace`: Delete forward/backward in Emacs mode.
+- `Ctrl /`: For single line comments (//…)
+- `Ctrl+Shift+D`: For multi line comments (_*… *_)
+
+## Git
+
+- `Alt+'`: VCS operations popup
+- `Ctrl+K`: Toggle commit view.
+- `Ctrl+Shift+K`: Push.
+- `Ctrl+T`: Update project.
+
+## Motion
+
+- `Alt+->`: Move to right tab.
+- `Alt+<-`: Move to left tab.
+- `Ctrl+E`: Go to recent file.
+- `Ctrl+Shift+N`: Go to file, `Ctrl+x Ctrl+f` with Emacs keymap.

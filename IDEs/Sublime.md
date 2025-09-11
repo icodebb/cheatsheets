@@ -1,0 +1,77 @@
+# Sublime
+
+> **Note**  
+> Sublime Text 4 doesn't support Chinese characters.
+
+## Edit
+
+### Motion
+
+- `C-]` Move block to the right.
+- `C-[` Move block to the left.
+
+## Packages/Extensions
+
+- Package Control [Installation](https://packagecontrol.io/installation)
+- A File Icon
+- Alignment let's programmers quickly align their code(including PHP,Javascript, and CSS).
+- Asciidoctor
+- Emmet allows programmers to write HTML and CSS much faster via snippets.
+- HTMLBeautify
+- orgmode
+- org~agenda~
+- SublimeGit
+- Terminal allows developers to open terminals directly inside the current file.
+- GoSublime, a plugin collection with IDE-like features available.
+- Golang Build, the official package for Go build system integration.
+- LSP + gopls, didn't try yet.
+- [LSP for Sublime Text](https://lsp.sublimetext.io/language_servers/)
+- Install Package (Linux)
+  - Ctrl+Shift+P or Tools/Command Palette/Install Package
+
+## Settings
+
+- Terminal
+
+Terminal Package Settings - User
+
+```json
+{
+  "terminal": "C:/Program Files/Git/bin/bash.exe"
+}
+```
+
+- Font for Edit Panel "Fira Code", Size 12
+
+```json
+{
+    "ui_scale": 1.2,                                 // For left panel
+    "dpi_scale": 1,                                  // For main panel
+    "always_show_minimap_viewport": true,
+    "theme": "Material-Theme-Darker.sublime-theme",
+    "color_scheme": "Monokai.sublime-color-scheme",
+    "ignored_packages":
+    [
+      "Vintage",
+    ],
+    "font_face": "SpaceMono Nerd Font Mono",
+    "font_size": 10,                                // Since the ui_scale is not 1
+    "sidebar_font_size": 10,
+}
+```
+
+- Font for Folders Panel Via Preferences/Customize Theme
+
+```json
+{
+  "variables": {},
+  "rules":
+  [
+    {
+      //"font_face": "Deja Sans Mono", // Errors in log
+      "class": "sidebar_label",
+      "font.size": 16
+    },
+  ]
+}
+```

@@ -7,7 +7,9 @@
 - `Ctrl Shift p` Run command, e.g. `Preference: Open User Settings(JSON)`.
 - `Ctrl Home` Move to the begin of the file.
 - `Ctrl End` Move to the end of the file.
-- **Ctrl \`** Open/close terminal window.
+- `Ctrl` + **`** Open/close terminal window.
+- `Ctrl` + `Shift` + `Alt` + **`** Open a new separate terminal window.
+  - Bonus: The Markdown preview will be in the new opened window as well.
 - `Ctrl Tab` To view a list of all files open in an editor group, use Up/Down arrow to move.
 - `Ctrl ,` Search settings
 
