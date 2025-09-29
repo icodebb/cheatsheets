@@ -1,0 +1,33 @@
+# Emacs Vs Vi
+
+## Convention
+
+- `Alt` : `M-`
+- `Ctrl` : `C-`
+- `Shift` : `S-`
+- `Home` : `H-`
+- `Space` : `SPC`
+- `ESC` : `ESC`
+- `Enter` : `RET`
+
+## Shortcuts
+
+| Category | Command             | Emacs                 | Vi(Doom)          |
+| -------- | ------------------- | --------------------- | ----------------- |
+| Edit     |                     |                       |                   |
+|          | Insert Unicode Char | M-x insert-char       |                   |
+|          | Undo                | C-x u                 | u                 |
+|          | Switch case         | M-u M-l M-c           | ~                 |
+|          | Copy                |                       | C-SPC, A-w        |
+|          | Paste               |                       | p                 |
+| Display  |                     |                       |                   |
+|          | Line number         | M-x global-linum-mode | set nu(mber)/nonu |
+
+## Vi Plug-ins
+
+### Vim Voom
+
+- [vim-voom.github.io](https://vim-voom.github.io/)
+- Install on Linux
+  ```bash
+  sudo apt install vim-voom
