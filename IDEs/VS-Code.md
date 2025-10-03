@@ -12,6 +12,9 @@
   - Bonus: The Markdown preview will be in the new opened window as well.
 - `Ctrl Tab` To view a list of all files open in an editor group, use Up/Down arrow to move.
 - `Ctrl ,` Search settings
+- `Ctrl` + `B` Hide left panel
+- `Ctrl` + `Shift` + `E` Show left explorer panel
+- `Ctrl` + `Shift` + `F` Show left search panel
 
 ### Motion
 
