@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "stylelint": "^15.10.1",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-scss": "^5.0.1"
-  }
-}
