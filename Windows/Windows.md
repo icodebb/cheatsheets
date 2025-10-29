@@ -51,9 +51,9 @@
 
 ## Firefox
 
-**Application Menu/More tools/Customize toolbar**  
-Drag the icons to the toolbar, e.g. the Web developer tools icon.
-
+- **Application Menu/More tools/Customize toolbar**  
+  Drag the icons to the toolbar, e.g. the Web developer tools icon.
+- `Ctrl` + `Shift` + `B` Show/hide bookmark bar.
 ## Windows Terminal
 
 ### [Oh My Posh Change the Prompt](https://ohmyposh.dev/doc/installation/prompt)
