@@ -56,6 +56,7 @@ Replace - Highlight things that want to be replaced using Visual mode then
 ## Windows
 
 * `^W` then movement keys to focus / highlight different window
+* `^W w` to switch windows
 
 * `:sp` or `^W s` to open new window below (split horizontally)
 * `:vsplit` or `^W v` to open new window to the right (split vertically)
