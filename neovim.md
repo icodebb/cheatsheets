@@ -12,7 +12,7 @@ Thanks to the author of [original doc](https://gist.github.com/angeloanan/a3b8d2
 
 ## Basics
 
-Cursor movement: Arrow keys or `hjkl`, preferrably maximalize `hjkl`
+Cursor movement: Arrow keys or `hjkl`, preferably maximize `hjkl`
 
 ```text
 h     l
