@@ -43,11 +43,12 @@ down  up
 * `W` - jump to next word
 * `b` - jump to previous word before punctuation
 * `B` - jump to previous word
-
-----
-
 * `gg` - jump to start / beginning of file
 * `G` - jump to end of file (eof)
+* `+y` - copy a selection
+* `+yy` - copy a line
+* `+p` - paste from system
+* `Ctrl C/V` - with `vim.opt.clipboard = "unnamedplus"` in init.lua
 
 ----
 
