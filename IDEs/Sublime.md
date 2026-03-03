@@ -31,7 +31,7 @@
 
 ## Settings
 
-- Terminal
+### Terminal
 
 Terminal Package Settings - User
 
@@ -60,7 +60,7 @@ Terminal Package Settings - User
 }
 ```
 
-- Font for Folders Panel Via Preferences/Customize Theme
+### Font for Folders Panel Via Preferences/Customize Theme
 
 ```json
 {
@@ -75,3 +75,9 @@ Terminal Package Settings - User
   ]
 }
 ```
+
+### Markdown Color Theme
+
+I set global color theme to ayu-dark, but the Markdown file view is still light.  
+To make it also dark:  
+`Preferences` -> `Package Settings` -> `Markdown Editing` -> `Select Color Theme` -> `ayu-dark`
