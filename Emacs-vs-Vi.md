@@ -18,8 +18,8 @@
 |          | Insert Unicode Char | M-x insert-char       |                   |
 |          | Undo                | C-x u                 | u                 |
 |          | Switch case         | M-u M-l M-c           | ~                 |
-|          | Copy                |                       | C-SPC, A-w        |
-|          | Paste               |                       | p                 |
+|          | Copy                | C-SPC, A-w            | C-SPC, A-w        |
+|          | Paste               | C-y                   | p                 |
 | Display  |                     |                       |                   |
 |          | Line number         | M-x global-linum-mode | set nu(mber)/nonu |
 
@@ -237,3 +237,83 @@
   ```bash
   sudo apt install vim-voom
   ```
+
+## Emacs Files List
+
+Several ways to navigate the open files in separated panel.
+### ibuffer (built-in) 
+- `Ctrl 3` - split your window
+- `Ctrl x Ctrl b` or `Alt - x ibuffer` -  to list the open files/buffers (ibuffer commands show colorful outputs)
+- `Ctrl o` - open/switch to the file/buffer, instead of `Enter` it opens in left panel but not current one
+
+#### Key Commands inside Ibuffer
+
+Once your list is open on the right, use these keys to drive the left panel:
+- **`C-o`**: Display the file in the other window (keep focus on the list).
+- **`Enter`**: Open the file and move your cursor there.
+- **`g`**: Refresh the list (if you've opened new files since starting).
+- **`d`**: Mark a file for closing (deletion).
+- **`x`**: Execute the closing of all marked files.
+
+> [!TIP] If you find the default `ibuffer` look a bit cluttered, try the package **`ibuffer-vc`**. It automatically groups your open files by their Project/Git repository, which makes a sidebar much easier to read.
+### treemacs
+- `Alt x package-install RET treemacs` - install if not yet
+- `Alt x package-install RET treemacs-all-the-icons` - install if not yet
+- `Alt x treemacs RET` - run the treemacs
+  - `?` - show treemacs commands
+  - `TAB` or `l` - open/close folder in tree view
+  - `o o` or `RET` - open a file
+  - `o h` - open in a horizontal window
+  - `o v` - open in a vertical window
+  - `o c` or `q` - close treemacs tree view
+- `Ctrl o` - switch between panels
+#### Projects
+
+Treemacs operates on a "Workspace" and "Project" model. It doesn't automatically follow your cursor to a new folder unless you tell it to, as it assumes you might want to keep your project structure visible while wandering through system files.
+
+To sync Treemacs with your current file's directory, you have three main options:
+
+##### 1. The Manual Sync (Quickest)
+
+If you just want to jump to the current file once:
+
+* Press **`M-x treemacs-find-file`**.
+* **Default Keybinding:** Usually `C-c C-p f` or `M-0 f` (if using Treemacs keymap).
+* **Result:** Treemacs will expand the tree and highlight the file you are currently editing.
+
+##### 2. Follow Mode (Automatic)
+
+If you want the sidebar to always highlight whatever file you are currently looking at:
+
+* Run **`M-x treemacs-follow-mode`**.
+* This is a toggle. Once on, clicking a buffer will cause Treemacs to "scroll" to that file in the sidebar automatically.
+
+##### 3. Change the Root Project
+
+If you have moved to an entirely different project and Treemacs is still showing your "old" project folder:
+
+* **Add New Project:** `C-c C-p a` (or `M-x treemacs-add-project-to-workspace`). This adds your current folder to the sidebar.
+* **Remove Old Project:** Hover over the old folder in Treemacs and press `C-c C-p d` to remove it from the view.
+
+---
+
+##### Pro Tip: The "Projectile" Sync
+
+If you use **Projectile** (the standard for project management in Emacs), you can make Treemacs switch automatically whenever you switch projects:
+
+Add this to your `init.el`:
+
+```elisp
+(with-eval-after-load 'treemacs
+  (treemacs-project-follow-mode t))
+
+```
+
+##### How to Bind it to a Key
+
+Most users find themselves needing "Find File in Tree" constantly. You can bind it to a single key like `F8` for convenience:
+
+```elisp
+(global-set-key (kbd "<f8>") 'treemacs-find-file)
+
+```
