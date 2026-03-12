@@ -14,7 +14,6 @@
 - [Neorg](https://github.com/nvim-neorg/neorg) - It's .norg but not .org file.
 - [Vim-OrgMode](https://github.com/jceb/vim-orgmode) - No more maintain?
 
-
 ## Intro
 
 Thanks to the author of [original doc](https://gist.github.com/angeloanan/a3b8d2a1e5c14bae840f586a6b394ecb), copied and made modifications.
@@ -77,6 +76,9 @@ Replace - Highlight things that want to be replaced using Visual mode then
 * `:vsplit` or `^W v` to open new window to the right (split vertically)
 * `^W h` to the window on the left (the file list)
 * `^W l` to the window on the right (the file content)
+* Project tree view
+  * `:lua Snacks.explorer()` if closed by `:bd`
+  * `:Lexplore` Left sidebar explorer (best for project view), but above one is prettier
 
 ----
 
