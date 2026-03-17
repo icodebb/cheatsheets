@@ -142,7 +142,25 @@ See [Asciidoc file](Asciidoc.org).
 
 ## Tools
 
-* [rg](Tools/rg.adoc) - recursively search the current directory for lines matching a pattern
+### cmdline cheatsheets
+
+keywords: curl cheat.sh
+
+Usage:
+
+    $ curl cheat.sh/TOPIC       show cheat sheet on the TOPIC
+    $ curl cheat.sh/TOPIC/SUB   show cheat sheet on the SUB topic in TOPIC
+    $ curl cheat.sh/~KEYWORD    search cheat sheets for KEYWORD
+
+Examples:
+```Bash
+curl cheat.sh
+curl cheat.sh/:help
+curl cheat.sh/:list
+curl cheat.sh/:styles
+
+curl cheat.sh/git?style=vs
+```
 
 ## Links
 
