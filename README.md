@@ -27,7 +27,7 @@ Cheatsheet for development, writing, etc.
 * Plugins
   * .ignore
   * AsciiDoc
-  * Better HIghlights
+  * Better Highlights
   * Developer Tools
   * Docker
   * GitToolBox
