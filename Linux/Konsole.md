@@ -11,15 +11,19 @@ Here is your full Konsole cheatsheet, categorized for quick access.
 
 These are the most common shortcuts you'll use daily to keep your workflow organized.
 
-| Action                    | Shortcut                          |
-| :------------------------ | :-------------------------------- |
-| **New Tab**               | `Ctrl` + `Shift` + `T`            |
-| **New Window**            | `Ctrl` + `Shift` + `N`            |
-| **Close Tab**             | `Ctrl` + `Shift` + `W`            |
-| **Next / Previous Tab**   | `Shift` + `Right` / `Left`        |
-| **Move Tab Left / Right** | `Ctrl` + `Alt` + `Left` / `Right` |
-| **Detach Current Tab**    | `Ctrl` + `Shift` + `L`            |
-| **Toggle Full Screen**    | `F11`                             |
+| Action                      | Shortcut                                   |
+| :-------------------------- | :----------------------------------------- |
+| **New Tab**                 | `Ctrl` + `Shift` + `T`                     |
+| **New Window**              | `Ctrl` + `Shift` + `N`                     |
+| **Close Tab**               | `Ctrl` + `Shift` + `W`                     |
+| **Next / Previous Tab**     | `Shift` + `Right` / `Left`                 |
+| **Move Tab Left / Right**   | `Ctrl` + `Alt` + `Left` / `Right`          |
+| **Detach Current Tab**      | `Ctrl` + `Shift` + `L`                     |
+| **Toggle Full Screen**      | `F11`                                      |
+| **Move to another monitor** | `Super/Win` + `Shift` + `Left/Right Arrow` |
+| **Drag to another monitor** | `Super/Win` + mouse click and drag         |
+| **Maximize, left/right**    | `Super/Win` + `Up/Left/Right Arrow`        |
+| **Show/Hide Menu Bar**      | `Ctrl` + `Shit` + `M`                      |
 
 ---
 
@@ -63,6 +67,10 @@ Konsole can "watch" your terminal for you. This is perfect for long-running comp
 If the menu bar is hidden (common in some Ubuntu themes), use these to get back to your settings:
 
 * **Show/Hide Menu Bar:** `Ctrl` + `Shift` + `M`
+  * Or select/un-select Menu/Settings/Show Menubar
+  * From Menu/Settings/Toolbars Shown
+    * Main Toolbar
+    * Session Toolbar
 * **Open Settings/Profile Editor:** `Ctrl` + `Shift` + `,`
 * **Rename Current Tab:** `Ctrl` + `Alt` + `S`
 
