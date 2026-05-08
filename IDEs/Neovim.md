@@ -76,6 +76,10 @@ Replace - Highlight things that want to be replaced using Visual mode then
 * `:vsplit` or `^W v` to open new window to the right (split vertically)
 * `^W h` to the window on the left (the file list)
 * `^W l` to the window on the right (the file content)
+* `^W j` to the down window
+* `^W k` to the up window
+* `^W c` or `<Space> wd` to close the current window
+* `W >/<` or `:vertical resize +20/60` to resize window
 * Project tree view
   * `:lua Snacks.explorer()` if closed by `:bd`
   * `:Lexplore` Left sidebar explorer (best for project view), but above one is prettier
@@ -90,8 +94,21 @@ Note, you can prefix these with numbers
 
 ## File / Word Finder (Telescope)
 
-`:Telescope find_files` = `<Space> sf` Search files
-`:Telescope ` = `<Space> sg` Search grep
+* `:Telescope find_files` = `<Space> sf` Search files
+* `:Telescope ` or `<Space> sg` Search grep
+* `Enter` to view the file
+* `:Telescope resume` or `<Space> sr` to reopens the last/previous results (s=search, r=resume), this does not work for me
+* Send results to quickfix list (After selected a line, it show the file in a small split panel above the list)
+  * `Ctrl q` - Send all result to quickfix
+  * `Alt q` - Send select entries to quickfix
+  * `:copen` - Open quickfix
+  * `:cnext` and `cprev` To navigate
+  * `Ctrl o` - Jump back to previous file
+  * `Ctrl i` - Forward again
+  * `q` - To close the current window
+  * `:cclose` - Close the quickfix panel only
+  * `:lclose` - To close the location list (No effect)
+* `:Trouble quickfix` to send quickfix to Trouble, doesn't work for me.
 
 ## Embedded terminal
 
@@ -108,7 +125,7 @@ To make the terminal stop eating your input, switch to another window or `CTRL +
 * `<SPACE>q` - List all errors / diagnostic / warning / codelens on bottom | VSCode's Problems panel (`vim.diagnostic.setloclist`)
 * `gd` - Go to Definition (`vim.lsp.buf.definition`)
 * `gr` - Go to References (`require('telescope.builtin').lsp_references`)
-* `K` - Show hover information (`vim.lsp.buf.hover`) 
+* `K` - Show hover information (`vim.lsp.buf.hover`)
 * `gcc` - Go Comment Line
 * `gcb` - Go Comment Block - Try this if you're on React / Astro
 
