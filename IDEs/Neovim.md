@@ -94,6 +94,9 @@ Note, you can prefix these with numbers
 
 ## File / Word Finder (Telescope)
 
+* `g` to open the Telescope ✨
+  * `Esc`, `q` to exit the Telescope mode if nothing found ✨
+
 * `:Telescope find_files` = `<Space> sf` Search files
 * `:Telescope ` or `<Space> sg` Search grep
 * `Enter` to view the file
