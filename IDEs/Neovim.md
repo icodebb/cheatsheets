@@ -98,7 +98,8 @@ Note, you can prefix these with numbers
   * `Esc`, `q` to exit the Telescope mode if nothing found ✨
 
 * `:Telescope find_files` = `<Space> sf` Search files
-* `:Telescope ` or `<Space> sg` Search grep
+* `:Telescope ` or `<Space> sg` Search grep from Git/LSP root directory
+* `:Telescope live_grep cwd=.` or `<Space> sG` Search grep from current folder if started with `nvim .`
 * `Enter` to view the file
 * `:Telescope resume` or `<Space> sr` to reopens the last/previous results (s=search, r=resume), this does not work for me
 * Send results to quickfix list (After selected a line, it show the file in a small split panel above the list)
