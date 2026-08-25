@@ -31,18 +31,18 @@
 
 ## 1. File & Workspace
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-x ctrl-f` | Open file finder (fuzzy find) |
-| `ctrl-x ctrl-s` | Save current file |
-| `ctrl-x ctrl-w` | Save As |
-| `cmd-t` | New file (in workspace/terminal context) |
-| `ctrl-x p p` | Open recent projects |
-| `ctrl-x p f` | File finder (project scope) |
-| `ctrl-x p i` | Project symbols |
-| `ctrl-x p s` | New project-wide search |
-| `ctrl-x p m` | Show diagnostics panel |
-| `cmd-shift-t` | Reopen last closed tab |
+| Keybinding      | Action                                   |
+|-----------------|------------------------------------------|
+| `ctrl-x ctrl-f` | Open file finder (fuzzy find)            |
+| `ctrl-x ctrl-s` | Save current file                        |
+| `ctrl-x ctrl-w` | Save As                                  |
+| `cmd-t`         | New file (in workspace/terminal context) |
+| `ctrl-x p p`    | Open recent projects                     |
+| `ctrl-x p f`    | File finder (project scope)              |
+| `ctrl-x p i`    | Project symbols                          |
+| `ctrl-x p s`    | New project-wide search                  |
+| `ctrl-x p m`    | Show diagnostics panel                   |
+| `cmd-shift-t`   | Reopen last closed tab                   |
 
 ---
 
@@ -50,42 +50,42 @@
 
 ### Line & Document
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-a` / `cmd-a` | Move to beginning of line |
-| `ctrl-e` / `cmd-e` | Move to end of line |
-| `cmd-<` | Move to beginning of file |
-| `cmd->` | Move to end of file |
-| `cmd-[` | Move to start of paragraph |
-| `cmd-]` | Move to end of paragraph |
+| Keybinding         | Action                     |
+|--------------------|----------------------------|
+| `ctrl-a` / `cmd-a` | Move to beginning of line  |
+| `ctrl-e` / `cmd-e` | Move to end of line        |
+| `cmd-<`            | Move to beginning of file  |
+| `cmd->`            | Move to end of file        |
+| `cmd-[`            | Move to start of paragraph |
+| `cmd-]`            | Move to end of paragraph   |
 
 ### Character & Word
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-b` | Move left (one character) |
-| `ctrl-f` | Move right (one character) |
-| `cmd-b` | Move to previous word start |
-| `cmd-f` | Move to next word end |
-| `ctrl-v` | Page down (centers cursor) |
-| `ctrl-shift-v` | Page up (centers cursor) |
+| Keybinding     | Action                      |
+|----------------|-----------------------------|
+| `ctrl-b`       | Move left (one character)   |
+| `ctrl-f`       | Move right (one character)  |
+| `cmd-b`        | Move to previous word start |
+| `cmd-f`        | Move to next word end       |
+| `ctrl-v`       | Page down (centers cursor)  |
+| `ctrl-shift-v` | Page up (centers cursor)    |
 
 ### Line Transposition
 
-| Keybinding | Action |
-|---|---|
-| `cmd-up` | Move current line up |
+| Keybinding | Action                 |
+|------------|------------------------|
+| `cmd-up`   | Move current line up   |
 | `cmd-down` | Move current line down |
 
 ### Jump Navigation
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-c g` | Go to line number |
-| `ctrl-m` | Move to enclosing bracket |
-| `cmd-,` | Go back (navigation history) |
-| `ctrl--` | Go back (pane history) |
-| `ctrl-_` | Go forward (pane history) |
+| Keybinding | Action                       |
+|------------|------------------------------|
+| `ctrl-c g` | Go to line number            |
+| `ctrl-m`   | Move to enclosing bracket    |
+| `cmd-,`    | Go back (navigation history) |
+| `ctrl--`   | Go back (pane history)       |
+| `ctrl-_`   | Go forward (pane history)    |
 
 ---
 
@@ -93,38 +93,38 @@
 
 ### Basic Selection
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-x h` | Select all |
-| `cmd-l` | Select current line |
+| Keybinding     | Action                      |
+|----------------|-----------------------------|
+| `ctrl-x h`     | Select all                  |
+| `cmd-l`        | Select current line         |
 | `ctrl-shift-a` | Select to beginning of line |
-| `ctrl-shift-e` | Select to end of line |
-| `ctrl-cmd-<` | Select to beginning of file |
-| `ctrl-cmd->` | Select to end of file |
+| `ctrl-shift-e` | Select to end of line       |
+| `ctrl-cmd-<`   | Select to beginning of file |
+| `ctrl-cmd->`   | Select to end of file       |
 
 ### Word & Paragraph Selection
 
-| Keybinding | Action |
-|---|---|
+| Keybinding    | Action                        |
+|---------------|-------------------------------|
 | `cmd-shift-b` | Select to previous word start |
-| `cmd-shift-f` | Select to next word end |
-| `cmd-{` | Select to start of paragraph |
-| `cmd-}` | Select to end of paragraph |
+| `cmd-shift-f` | Select to next word end       |
+| `cmd-{`       | Select to start of paragraph  |
+| `cmd-}`       | Select to end of paragraph    |
 
 ### Direction Selection
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-shift-p` | Extend selection upward |
+| Keybinding     | Action                    |
+|----------------|---------------------------|
+| `ctrl-shift-p` | Extend selection upward   |
 | `ctrl-shift-n` | Extend selection downward |
-| `ctrl-shift-b` | Extend selection left |
-| `ctrl-shift-f` | Extend selection right |
+| `ctrl-shift-b` | Extend selection left     |
+| `ctrl-shift-f` | Extend selection right    |
 
 ### Syntax-Aware Selection
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-=` | Select larger syntax node |
+| Keybinding     | Action                     |
+|----------------|----------------------------|
+| `ctrl-=`       | Select larger syntax node  |
 | `ctrl-shift-=` | Select smaller syntax node |
 
 ### Multi-cursor Selection
@@ -237,10 +237,10 @@
 
 ## 7. Code Actions & Refactoring
 
-| Keybinding | Action |
-|---|---|
+| Keybinding      | Action                   |
+|-----------------|--------------------------|
 | `ctrl-c ctrl-a` | Toggle code actions menu |
-| `ctrl-;` | Rename symbol (iedit) |
+| `ctrl-;`        | Rename symbol (iedit)    |
 
 ---
 
@@ -257,15 +257,18 @@
 
 ## 9. Git & Diagnostics
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-c n` | Go to next hunk |
-| `ctrl-c p` | Go to previous hunk |
-| `ctrl-c r` | Reveal file in file manager |
-| `ctrl-c ctrl-l` | Open diagnostics panel |
-| `ctrl-c ctrl-n` | Go to next diagnostic |
-| `ctrl-c ctrl-p` | Go to previous diagnostic |
-| `ctrl-x p m` | Diagnostics panel (project scope) |
+| Keybinding                         | Action                            |
+|------------------------------------|-----------------------------------|
+| `ctrl-shift-p`, `git: **`          | Git commands                      |
+| `ctrl-shift-p`, `git graph:open`   | Toggle git history view           |
+| `ctrl-shift-p`, `git panel:toggle` | Toggle git panel                  |
+| `ctrl-c n`                         | Go to next hunk                   |
+| `ctrl-c p`                         | Go to previous hunk               |
+| `ctrl-c r`                         | Reveal file in file manager       |
+| `ctrl-c ctrl-l`                    | Open diagnostics panel            |
+| `ctrl-c ctrl-n`                    | Go to next diagnostic             |
+| `ctrl-c ctrl-p`                    | Go to previous diagnostic         |
+| `ctrl-x p m`                       | Diagnostics panel (project scope) |
 
 ---
 
@@ -273,25 +276,25 @@
 
 ### Pane Splitting
 
-| Keybinding | Action |
-|---|---|
+| Keybinding | Action                         |
+|------------|--------------------------------|
 | `ctrl-x 2` | Split pane horizontally (down) |
-| `ctrl-x 3` | Split pane vertically (right) |
-| `ctrl-x o` | Activate next pane |
-| `ctrl-x 0` | Close active pane item |
-| `ctrl-x 1` | Maximize / toggle zoom |
+| `ctrl-x 3` | Split pane vertically (right)  |
+| `ctrl-x o` | Activate next pane             |
+| `ctrl-x 0` | Close active pane item         |
+| `ctrl-x 1` | Maximize / toggle zoom         |
 
 ### Tab Switching
 
-| Keybinding | Action |
-|---|---|
-| `ctrl-x b` | Previous tab |
-| `ctrl-x f` | Next tab |
-| `ctrl-x k` | Close active tab |
-| `ctrl-tab` | Tab switcher |
-| `ctrl-shift-tab` | Tab switcher (select last) |
-| `cmd-1` … `cmd-9` | Switch to tab 1–9 |
-| `cmd-0` | Switch to last tab |
+| Keybinding        | Action                     |
+|-------------------|----------------------------|
+| `ctrl-x b`        | Previous tab               |
+| `ctrl-x f`        | Next tab                   |
+| `ctrl-x k`        | Close active tab           |
+| `ctrl-tab`        | Tab switcher               |
+| `ctrl-shift-tab`  | Tab switcher (select last) |
+| `cmd-1` … `cmd-9` | Switch to tab 1–9          |
+| `cmd-0`           | Switch to last tab         |
 
 ---
 
