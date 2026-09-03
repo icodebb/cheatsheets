@@ -286,15 +286,18 @@
 
 ### Tab Switching
 
-| Keybinding        | Action                     |
-|-------------------|----------------------------|
-| `ctrl-x b`        | Previous tab               |
-| `ctrl-x f`        | Next tab                   |
-| `ctrl-x k`        | Close active tab           |
-| `ctrl-tab`        | Tab switcher               |
-| `ctrl-shift-tab`  | Tab switcher (select last) |
-| `cmd-1` … `cmd-9` | Switch to tab 1–9          |
-| `cmd-0`           | Switch to last tab         |
+| Keybinding        | Action                              |
+|-------------------|-------------------------------------|
+| `ctrl-x b`        | Previous tab                        |
+| `ctrl-x f`        | Next tab                            |
+| `ctrl-x k`        | Close active tab                    |
+| `ctrl-tab`        | Tab switcher                        |
+| `ctrl-shift-tab`  | Tab switcher (select last)          |
+| `alt -1...9`      | Switch to tab 1-9                   |
+| `cmd-1` … `cmd-9` | Switch to tab 1–9 (Maybe for Mac OS |
+| `cmd-0`           | Switch to last tab                  |
+| `ctrl PageDown`   | Next tab                            |
+| `ctrl PageUp`     | Previous tab                        |
 
 ---
 
