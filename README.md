@@ -85,6 +85,8 @@ Community version is free.
 
 * [My Emacs vs Vi Shortcuts](Emacs-vs-Vi.org)
 * [59 Shortcuts for Emacs 23.2.1](https://shortcutworld.com/Emacs/linux/Emacs_23.2.1_Shortcuts)
+* [cheatsheets.zip/emacs](https://cheatsheets.zip/emacs)
+* [cheatsheets.zip/vim](https://cheatsheets.zip/vim)
 
 ### Doom Emacs
 
@@ -170,3 +172,4 @@ curl cheat.sh/git?style=vs
 * [PrateekKumarSingh/CheatSheets(PDFs)](https://github.com/PrateekKumarSingh/CheatSheets)
 * [Explore Cheatography](https://cheatography.com/explore/)
 * [Rico's cheatsheets](https://devhints.io/)
+* [cheatsheets.zip](https://cheatsheets.zip)
