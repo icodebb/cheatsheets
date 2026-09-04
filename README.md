@@ -144,7 +144,7 @@ See [Asciidoc file](Asciidoc.org).
 
 ## Tools
 
-### cmdline cheatsheets
+### cmdline cheatsheets 💯
 
 keywords: curl cheat.sh
 
@@ -161,7 +161,14 @@ curl cheat.sh/:help
 curl cheat.sh/:list
 curl cheat.sh/:styles
 
-curl cheat.sh/git?style=vs
+curl cheat.sh/bash?style=nord
+curl cheat.sh/docker?style=nord
+curl cheat.sh/emacs?style=nord
+curl cheat.sh/git?style=nord
+curl cheat.sh/ip?style=nord
+curl cheat.sh/nmap?style=nord
+curl cheat.sh/ss?style=nord
+curl cheat.sh/systemctl?style=nord
 ```
 
 ## Links
